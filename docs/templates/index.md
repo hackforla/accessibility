@@ -33,7 +33,7 @@ WCAG: [REPLACE WITH WAVE CATEGORY]-[REPLACE WITH WAVE ERROR NAME]
 ## Page Content Status
 - [ ] WAVE Error guidance text
 - [ ] Example of a DOM Snippet Generated From WAVE Tool
-- [ ] Project Team Error guidance
+- Project Team Error guidance
    - [ ] Project Team Page Details
    - [ ] Project Team Issue and PR details
    - [ ] Project Team Solution
