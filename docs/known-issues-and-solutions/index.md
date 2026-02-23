@@ -4,7 +4,7 @@
 
 ##### Related Pages
 - [Wiki Page Template](https://github.com/hackforla/tdm-calculator/wiki/WCAG:-Known-Issues-and-Solutions#wiki-page-template)
-- [Accessibility Known Issues Index](solutions-index/index.md)
+- [Accessibility Known Issues Index](solutions-index)
 
 ---
 
