@@ -3,7 +3,7 @@
 - If a known issue cannot be found, then the auditor should use the WAVE: Known Accessibility Issue template specified on this page to create a new corresponding page
 
 ##### Related Pages
-- [Wiki and Issue Templates](templates/index.md)
+- [Wiki and Issue Templates](../templates/index.md)
 - [Accessibility Known Issues Index](solutions-index/index.md)
 
 
