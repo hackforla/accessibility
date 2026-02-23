@@ -47,20 +47,55 @@ WAVE Tool's Reference material on Skipped heading level may not specifically add
 > [HTML snippet showing the problematic code structure that WAVE detected]
 > ```
 
-
 ## Project Team Error guidance
 
 The following material covers how the Project Team has provided a solution to the [Error] WAVE error.
 
 ### Project Page Details
-- Project Page name: [INSERT PAGE NAME or "ALL"]
-- Project Staging URL: [INSERT URL or "N/A"]
-- Required User Role: [INSERT ONE OF: Visitor, Logged in user, Admin, Security Admin]
+- Project Page name: Privacy Policy
+- Project Staging URL: http://tdm-dev.azurewebsites.net/privacypolicy
+- Requires sign in: FALSE
+   - Required User Role: Visitor
+   - Can access page directly from URL: TRUE
+   - Accepts URL parameters: FALSE
+
 ### Project Team Issue and PR details
 - Related GitHub Issue(s):
-  - [INSERT ISSUE URL]
+  - https://github.com/hackforla/tdm-calculator/issues/2716
 - Related Pull Request(s):
-  - [INSERT PR URL]
+  - PR: https://github.com/hackforla/tdm-calculator/pull/2760
+- React Component(s)
+  - [INSERT PATH: e.g. path/to/Component.jsx]
+ 
+### Project Page Details
+- Project Page name: Forgot Password
+- Project Staging URL: https://tdm-dev.azurewebsites.net/forgotpassword
+- Requires sign in: FALSE
+   - Required User Role: All Users
+   - Can access page directly from URL: TRUE
+   - Accepts URL parameters: FALSE
+ 
+### Project Team Issue and PR details
+- Related GitHub Issue(s):
+  - https://github.com/hackforla/tdm-calculator/issues/2701
+- Related Pull Request(s):
+  - https://github.com/hackforla/tdm-calculator/pull/2779
+- React Component(s)
+  - [INSERT PATH: e.g. path/to/Component.jsx]
+ 
+### Project Page Details
+- Project Page name: Manage Submissions
+- Project Staging URL: https://tdm-dev.azurewebsites.net/managesubmissions
+- Requires sign in: TRUE
+   - Required User Role: Admin
+   - Can access page directly from URL: FALSE
+   - Accepts URL parameters: FALSE
+
+### Project Team Issue and PR details
+- Related GitHub Issue(s):
+  - https://github.com/hackforla/tdm-calculator/issues/2705
+- Related Pull Request(s):
+  - https://github.com/hackforla/tdm-calculator/pull/2799
 - React Component(s)
   - [INSERT PATH: e.g. path/to/Component.jsx]
 
