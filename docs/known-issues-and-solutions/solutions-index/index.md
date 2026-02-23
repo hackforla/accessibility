@@ -1,6 +1,6 @@
 ## Accessibility Known Issues Index
 
-### Solutions Index completed
+### Know Issues and Solutions COMPLETED
 - Errors
   - 🟥 [Error Empty Table Header](error-empty-table-header.md)
   - 🟥 [Error Broken ARIA reference](error-broken-aria-reference.md)
@@ -10,15 +10,18 @@
 - Alerts
   - ⚠️ [Alert Orphaned form label](alert-orphaned-form-label.md)
 
-### Known Issues (Needs DOM snippit and Solution)
+### Known Issues and Solutions DRAFTS 
+
+| Category | Name | DOM snippit | Page Found on | Issue | PR | Solution
+| -- | -- | -- | -- | -- | -- | -- |
+Errors | Missing form label | missing | TRUE | TRUE | TRUE | missing |
+
+
+
 - Errors
-  - [Missing form label](error-missing-form-label.md)
-    - Issue: https://github.com/hackforla/tdm-calculator/issues/2709
-      - PR: https://github.com/hackforla/tdm-calculator/pull/2803
-    - Issue: https://github.com/hackforla/tdm-calculator/issues/2697
-      - PR: https://github.com/hackforla/tdm-calculator/pull/2784
+  - 🟥 [Missing form label](error-missing-form-label.md)
 - Alerts
-  - Skipped heading level
+  - ⚠️ Skipped heading level
     - Issue: https://github.com/hackforla/tdm-calculator/issues/2716
       - PR: https://github.com/hackforla/tdm-calculator/pull/2760
     - Issue: https://github.com/hackforla/tdm-calculator/issues/2701
@@ -28,4 +31,6 @@
   - Broken Aria Reference
     - no issue
       - PR: https://github.com/hackforla/tdm-calculator/pull/2786
+     
+
 
