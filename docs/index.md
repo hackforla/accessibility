@@ -10,7 +10,7 @@
 - [TDM WAVE Audits](https://github.com/hackforla/tdm-calculator/wiki/Accessibility-Audits#tdm-wave-audits)
 
 ## Related page
-- [WCAG: Known Issues and Solutions](https://github.com/hackforla/tdm-calculator/wiki/WCAG%3A-Known-Issues-and-Solutions)
+- [WCAG: Known Issues and Solutions](known-issues-and-solutions/solutions-index/index.md)
 
 ### Motivation for Accessibility Compliance
 
