@@ -6,8 +6,8 @@
 - [X] WAVE Error guidance text
 - [ ] Example of a DOM Snippet Generated From WAVE Tool
 - Project Team Error guidance
-   - [ ] Project Team Page Details
-   - [ ] Project Team Issue and PR details
+   - [X] Project Team Page Details
+   - [X] Project Team Issue and PR details
    - [ ] Project Team Solution
 - [ ] Credits/Authors
 
@@ -165,6 +165,6 @@ The following material covers how the Project Team has provided a solution to th
 
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
-- [INCLUDE Contributor 1]
+- @experimentsinhonesty
 - [INCLUDE Contributor 2]
 - [INCLUDE Contributor N]
