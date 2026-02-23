@@ -4,7 +4,7 @@ Follow these steps to get started
 2. [Perform WAVE audit](perform-wave-audit.md)
 
 
-## Known Issues and Solutions
+### Known Issues and Solutions
 There's an index of all known issues and as these issues are encountered on Hack for LA websites, we are adding known solutions to them.
 
-All teams will need to apply the [screen reader only class solution](../known-issues-and-solutions/screen-reader-only-class.md)
+All teams will need to apply the [screen reader only class solution](../known-issues-and-solutions/solution-index/screen-reader-only-class.md)
