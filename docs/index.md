@@ -11,6 +11,7 @@
 
 ## Related page
 - [Known Issues and Solutions](known-issues-and-solutions/solutions-index/index.md)
+- [Wiki and Issue Templates](templates/index.md)
 
 ### Motivation for Accessibility Compliance
 
