@@ -3,12 +3,12 @@
 ### Solutions Index
 - Errors
   - 🟥 [Error Empty Table Header](error-empty-table-header.md)
-  - 🟥 [WCAG: Error‐Broken ARIA reference](https://github.com/hackforla/tdm-calculator/wiki/WCAG:-Error%E2%80%90Broken-ARIA-reference)
-  - 🟥 [WCAG: Error‐Empty Button](https://github.com/hackforla/tdm-calculator/wiki/WCAG:-Error%E2%80%90Empty-Button)
+  - 🟥 [Error Broken ARIA reference](error-broken-aria-reference.md)
+  - 🟥 [Error Empty Button](error-empty-button.md)
 - Contrast Errors
   - 🚨 todo - add issues here
 - Alerts
-  - ⚠️ [WCAG: Alert‐Orphaned form label](https://github.com/hackforla/tdm-calculator/wiki/WCAG:-Alert%E2%80%90Orphaned-form-label)
+  - ⚠️ [Alert Orphaned form label](alert-orphaned-form-label.md)
 
 ### Known Issues (Needs drafting and Wiki Pages)
 - Errors
