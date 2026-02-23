@@ -2,7 +2,7 @@
 
 ### Solutions Index
 - Errors
-  - 🟥 [WCAG: Error‐Empty Table Header](https://github.com/hackforla/tdm-calculator/wiki/WCAG:-Error%E2%80%90Empty-Table-Header)
+  - 🟥 [[Error Empty Table Header]]
   - 🟥 [WCAG: Error‐Broken ARIA reference](https://github.com/hackforla/tdm-calculator/wiki/WCAG:-Error%E2%80%90Broken-ARIA-reference)
   - 🟥 [WCAG: Error‐Empty Button](https://github.com/hackforla/tdm-calculator/wiki/WCAG:-Error%E2%80%90Empty-Button)
 - Contrast Errors
