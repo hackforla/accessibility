@@ -83,7 +83,7 @@ WAVE Tool's Reference material on [REPLACE WITH WAVE ERROR NAME] may not specifi
 
 The following material covers how the Project Team has provided a solution to the [Error] WAVE error.
 
-### Project Team Calculator Page Details
+### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
 - Project Staging URL: [INSERT URL or "N/A"]
 - Required User Role: [INSERT ONE OF: Visitor, Logged in user, Admin, Security Admin]
