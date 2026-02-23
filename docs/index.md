@@ -1,18 +1,5 @@
 # Accessibility (WIP)
 
-- Page Status: In Progress
-- Current Authors: 
-   - Ryan Chase
-   - Bonnie Wolfe
----
-## Table of Contents
-- [Motivation for Accessibility Compliance](https://github.com/hackforla/tdm-calculator/wiki/Accessibility-Audits#motivation-for-accessibility-compliance)
-- [TDM WAVE Audits](https://github.com/hackforla/tdm-calculator/wiki/Accessibility-Audits#tdm-wave-audits)
-
-## Related page
-- [Getting Started](getting-started/index.md)
-- [Known Issues and Solutions](known-issues-and-solutions/solutions-index/index.md)
-- [Wiki and Issue Templates](templates/index.md)
 
 ### Motivation for Accessibility Compliance
 
@@ -56,6 +43,18 @@ This is the same solution that libraries like `Bootstrap`
 - There is a table header that's empty but the column still has functionality to convey
   - https://github.com/hackforla/tdm-calculator/blob/40cfb727672fd749980c7ff65d9272ba4f579cc7/client/src/components/Projects/ProjectsPage.jsx#L1046
 
+---
+
+- Page Status: In Progress
+- Current Authors: 
+   - Ryan Chase
+   - Bonnie Wolfe
+---
+
+## Related pages
+- [Getting Started](getting-started/index.md)
+- [Known Issues and Solutions](known-issues-and-solutions/solutions-index/index.md)
+- [Wiki and Issue Templates](templates/index.md)
 
 
 
