@@ -2,6 +2,15 @@
 - WAVE Category: Alert
 - WAVE Error: Orphaned form label
 
+# Page Content Status
+- [x] WAVE Error guidance text
+- [x] Example of a DOM Snippet Generated From WAVE Tool
+- Project Team Error guidance
+   - [x] Project Team Page Details
+   - [x] Project Team Issue and PR details
+   - [x] Project Team Solution
+- [x] Credits/Authors
+
 ## WAVE Error guidance
 
 WAVE Tool's Reference material on Orphaned form label may not specifically address your problem.  We provide it here for optional reading.
@@ -43,16 +52,16 @@ A `<label>` element does not have a properly associated form control. A label mu
 ```
 (where the input element lacks an `id` attribute matching the label's `for="APN"` attribute)
 
-## TDM Error guidance
+## Project Team Error guidance
 
 The following material covers how the TDM team has provided a solution to the [Error] WAVE error.
 
-### TDM Calculator Page Details
+### Project Page Details
 - TDM Page name: Create Project
 - TDM Staging URL: https://tdm-dev.azurewebsites.net/calculation/1/0
 - Required User Role: Logged in user
 
-### TDM Calculator Issue and PR details
+### Project Team Issue and PR details
 Related GitHub Issue(s):
 https://github.com/hackforla/tdm-calculator/issues/2572
 Related Pull Request(s):
@@ -67,7 +76,7 @@ client/src/components/ProjectWizard/RuleInput/MultiInput.jsx
 - React Component(s)
   - `client/src/components/ProjectWizard/RuleInput/MultiInput.jsx`
 
-### TDM Solution
+### Project Team Solution
 
 #### What is the specific problem that was occurring?
 <!-- Author Instructions: Add a detailed explanation of the specific accessibility problem, including context about when/where it occurs, what elements are involved, and why it's problematic for assistive technology users -->
