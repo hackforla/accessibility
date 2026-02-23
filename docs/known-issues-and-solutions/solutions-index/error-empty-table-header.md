@@ -2,6 +2,15 @@
 - WAVE Category: Error
 - WAVE Error: Empty Table Header
 
+## Page Content Status
+- [x] WAVE Error guidance text
+- [x] Example of a DOM Snippet Generated From WAVE Tool
+- Project Team Error guidance
+   - [x] Project Team Page Details
+   - [x] Project Team Issue and PR details
+   - [x] Project Team Solution
+- [x] Credits/Authors
+
 ## WAVE's Error Guidance
 
 WAVE Tool's Reference material on Empty Table Header may not specifically address your problem.  We provide it here for optional reading.
