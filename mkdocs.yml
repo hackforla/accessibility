@@ -1,5 +1,5 @@
 site_name: My MKDocs Material Documentation
-site_url: https://sitename.example
+site_url: https://hackforla.github.io/accessibility/
 theme:
   name: material
   palette:
