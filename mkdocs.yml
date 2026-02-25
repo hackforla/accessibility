@@ -6,3 +6,8 @@ theme:
     scheme: default
     primary: blue
     accent: black
+
+# Repository
+repo_name: hackforla/accessibility
+repo_url: https://github.com/hackforla/accessibility
+
