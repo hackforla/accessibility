@@ -39,11 +39,11 @@ Click to see the WAVE Tool's Reference material on Broken ARIA reference. These 
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
-```html
-<span aria-describedby="popup-1" style="cursor: pointer;">
-  <a id="cy-login-menu-item" class="link-0-1-13 lastItem-0-1-18" href="/login">Login</a>
-</span>
-```
+> ```html
+> <span aria-describedby="popup-1" style="cursor: pointer;">
+  > <a id="cy-login-menu-item" class="link-0-1-13 lastItem-0-1-18" href="/login">Login</a>
+> </span>
+> ```
 ## Project Team Error guidance
 
 The following material covers how the TDM team has provided a solution to the Broken Aria reference WAVE error.
@@ -53,13 +53,14 @@ The following material covers how the TDM team has provided a solution to the Br
 - TDM Staging URL: N/A
 - Required User Role: ALL
 ### Project Team Issue and PR details
-- Related GitHub Issue(s):
-  - https://github.com/hackforla/tdm-calculator/issues/2531
-- Related Pull Request(s):
-  - https://github.com/hackforla/tdm-calculator/pull/2786
-    - follow-up commit: https://github.com/hackforla/tdm-calculator/commit/16072c43a7aa7d18656d133c302190d5a1e53ee9
-- React Component(s)
-  - `client/src/components/Layout/NavBarLogin.jsx`
+#### Related GitHub Issue, PR and React Component 1
+- Related GitHub Issue 1:
+    - https://github.com/hackforla/tdm-calculator/issues/2531
+- Related Pull Request:
+    - https://github.com/hackforla/tdm-calculator/pull/2786
+        - follow-up commit: https://github.com/hackforla/tdm-calculator/commit/16072c43a7aa7d18656d133c302190d5a1e53ee9
+- React Component:
+    - `client/src/components/Layout/NavBarLogin.jsx`
 
 ### Project Team Solution
 
@@ -80,8 +81,7 @@ This hook-based approach exists specifically because `reactjs-popup` may clone t
 #### Step-By-Step Guide
 <!-- Author Instructions: Replace details dropdown with N/A if this does not apply -->
 
-<details><summary>Click to see step-by-step guide</summary>
-<p>
+??? Info "Click to see step-by-step guide"
 
 ## Option A: Component-specific fix (simple + local)
 
@@ -135,14 +135,10 @@ Include in `deps` anything that could change whether:
 - the element id changes
 - the popup structure changes
 
-</p>
-</details>
-
 #### Other Technical Details
 <!-- Author Instructions: Write N/A if this does not apply -->
 
-<details><summary>Click to see other technical details</summary>
-<p>
+??? Info "Click to see other technical details"
 
 - `reactjs-popup` clones the trigger element and strips any attributes, which can prevent setting ARIA attributes or refs directly on the trigger.
 - Ad-hoc DOM manipulation can be subject to timing/race issues if you do it in many components.
@@ -150,12 +146,9 @@ Include in `deps` anything that could change whether:
 
 Reference (discussion): https://github.com/hackforla/tdm-calculator/issues/2410#issuecomment-3561030939
 
-</p>
-</details> 
-
 
 #### Code Snippet With Solution
-<details><summary>Click to see code snippets...</summary>
+??? Info "Click to see code snippets"
 
 Component: `NavBarLogin.jsx`
 
@@ -214,8 +207,6 @@ function MyComponent({ project }) {
   );
 }
 ```
-
-</details>
 
 #### Why the Fix Works
 By deleting (or replacing) the `aria-describedby` attribute when the modal is closed or when the trigger is rendered, assistive tech will no longer associate the trigger with a non-existent tooltip/popup element. This prevents the “broken ARIA reference” error and avoids confusing behavior in screen readers.
