@@ -49,8 +49,9 @@ WAVE Tool's Reference material on Orphaned form label may not specifically addre
 > ```html
 > <label for="APN">Assessor Parcel Number</label>
 > <input type="checkbox" value="true">
-> (where the input element lacks an `id` attribute matching the label's `for="APN"` attribute)
 > ```
+
+(where the input element lacks an `id` attribute matching the label's `for="APN"` attribute)
 
 ## Project Team Error guidance
 
@@ -62,19 +63,21 @@ The following material covers how the TDM team has provided a solution to the [E
 - Required User Role: Logged in user
 
 ### Project Team Issue and PR details
+#### Related GitHub Issue, PR and React Component 1
 - Related GitHub Issue 1:
-  - https://github.com/hackforla/tdm-calculator/issues/2572
+    - https://github.com/hackforla/tdm-calculator/issues/2572
 - Related Pull Request:
-  - https://github.com/hackforla/tdm-calculator/pull/2611
+    - https://github.com/hackforla/tdm-calculator/pull/2611
 - React Component:
-  - `client/src/components/ProjectWizard/RuleInput/MultiInput.jsx`
+    - `client/src/components/ProjectWizard/RuleInput/MultiInput.jsx`
 
+#### Related GitHub Issue, PR and React Component 2
 - Related GitHub Issue 2:
-  - https://github.com/hackforla/tdm-calculator/issues/2572
+    - https://github.com/hackforla/tdm-calculator/issues/2572
 - Related Pull Request:
-  - https://github.com/hackforla/tdm-calculator/pull/2611
+    - https://github.com/hackforla/tdm-calculator/pull/2611
 - React Component:
-  - `client/src/components/ProjectWizard/RuleInput/MultiInput.jsx`
+    - `client/src/components/ProjectWizard/RuleInput/MultiInput.jsx`
 
 ### Project Team Solution
 
