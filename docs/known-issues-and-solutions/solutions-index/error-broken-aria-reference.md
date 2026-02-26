@@ -218,45 +218,39 @@ By deleting (or replacing) the `aria-describedby` attribute when the modal is cl
 
 #### Screenshots of WAVE Error
 
-1.01 Login Popup
+??? Info "1.01 Login Popup"
 
 
-## 1.A Login Popup, Screenshot
-> ![Image](https://github.com/user-attachments/assets/2b60b5a1-e88e-4558-a7af-7d02321d411b)
+    ## 1.A Login Popup, Screenshot
+    > ![Image](https://github.com/user-attachments/assets/2b60b5a1-e88e-4558-a7af-7d02321d411b)
 
-## 1.B Login Popup, Screenshot of WAVE Annotations
-- this signifies that this HTML node contains an attribute, `role="tooltip"` (unrelated to the WAVE error in the Action Items)
+    ## 1.B Login Popup, Screenshot of WAVE Annotations
+    - this signifies that this HTML node contains an attribute, `role="tooltip"` (unrelated to the WAVE error in the Action Items)
 
-> ![Image](https://github.com/user-attachments/assets/ed8ee92f-44f7-4507-9158-317032ed4f1b)
+    > ![Image](https://github.com/user-attachments/assets/ed8ee92f-44f7-4507-9158-317032ed4f1b)
 
-## 1.C Login Popup, Screenshot of HTML
-- note the attribute, `id="popup-1"`
+    ## 1.C Login Popup, Screenshot of HTML
+    - note the attribute, `id="popup-1"`
 
-> ![Image](https://github.com/user-attachments/assets/67f6a6bb-21b4-41dc-8995-d88c5ce41908)
-
----
+    > ![Image](https://github.com/user-attachments/assets/67f6a6bb-21b4-41dc-8995-d88c5ce41908)
 
 
-<details><summary>2. Login Link</summary>
-<p>
+??? Info "2. Login Link"
 
-## 2.A Login Link, Screenshot
+    ## 2.A Login Link, Screenshot
 
-![Image](https://github.com/user-attachments/assets/dbf6a9ba-b8c4-4d31-a6e2-7c304cca48ea)
+    ![Image](https://github.com/user-attachments/assets/dbf6a9ba-b8c4-4d31-a6e2-7c304cca48ea)
 
-## 2.B Login Link, Screenshot of WAVE Annotations
-- Styles were removed to adequately show the WAVE annotation for the Login link
-- the WAVE Tool can disrupt styles in order to display the info sidebar, which effectively hid the Login link
+    ## 2.B Login Link, Screenshot of WAVE Annotations
+    - Styles were removed to adequately show the WAVE annotation for the Login link
+    - the WAVE Tool can disrupt styles in order to display the info sidebar, which effectively hid the Login link
 
-![Image](https://github.com/user-attachments/assets/badefdca-387c-436a-b347-ec35c56bfe90)
+    ![Image](https://github.com/user-attachments/assets/badefdca-387c-436a-b347-ec35c56bfe90)
 
-## 2.C Login Link, Screenshot of HTML
-- note the attribute, `aria-describedby="popup-1"`
+    ## 2.C Login Link, Screenshot of HTML
+    - note the attribute, `aria-describedby="popup-1"`
 
-![Image](https://github.com/user-attachments/assets/14472348-665a-4ec9-acb6-b25eb70ad98f)
-
-</p>
-</details> 
+    ![Image](https://github.com/user-attachments/assets/14472348-665a-4ec9-acb6-b25eb70ad98f)
 
 ## Credits/Authors
 All HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page.
