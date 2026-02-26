@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: Alert - Skipped heading level
+# Alert - Skipped heading level
 - WAVE Category: Alert
 - WAVE Error: Skipped heading level
 

@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: ARIA - ARIA label
+# ARIA - ARIA label
 - WAVE Category: ARIA
 - WAVE Error: ARIA label
 

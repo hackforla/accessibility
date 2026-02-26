@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: Error - Empty Button
+# Error - Empty Button
 - WAVE Category: Error
 - WAVE Error: Empty Button
 

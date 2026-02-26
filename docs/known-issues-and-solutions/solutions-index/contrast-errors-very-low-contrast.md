@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: Contrast Errors - Very low contrast
+# Contrast Errors - Very low contrast
 - WAVE Category: Contrast Errors
 - WAVE Error: Very low contrast
 

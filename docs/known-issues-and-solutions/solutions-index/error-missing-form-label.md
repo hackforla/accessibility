@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: Error - Missing Form Label
+# Error - Missing Form Label
 - WAVE Category: Error
 - WAVE Error: Missing Form Label
 

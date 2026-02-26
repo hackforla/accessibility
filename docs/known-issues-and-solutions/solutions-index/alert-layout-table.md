@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: Alert - Layout table
+# Alert - Layout table
 
 - WAVE Category: Alert
 - WAVE Error: Layout table

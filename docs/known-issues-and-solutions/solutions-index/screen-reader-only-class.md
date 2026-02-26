@@ -1,4 +1,4 @@
-#### Custom Screen Reader Only Class
+# Custom Screen Reader Only Class
 
 We have created an `sr-only` class that will hide an element from the display for users that are not using a screen reader.
 This is the same solution that libraries like `Bootstrap`

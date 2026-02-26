@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: Alert - Link to PDF document
+# Alert - Link to PDF document
 - WAVE Category: Alert
 - WAVE Error: Link to PDF document
 

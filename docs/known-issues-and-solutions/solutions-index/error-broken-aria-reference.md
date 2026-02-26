@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: Error - Broken ARIA reference
+# Error - Broken ARIA reference
 - WAVE Category: Error
 - WAVE Error: Broken ARIA reference
 
