@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: Alert - Orphaned form label
+# Alert - Orphaned form label
 - WAVE Category: Alert
 - WAVE Error: Orphaned form label
 
