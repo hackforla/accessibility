@@ -47,8 +47,6 @@ WAVE Tool's Reference material on Orphaned form label may not specifically addre
 ## Example of a DOM Snippet Generated From WAVE Tool
 
 > ```html
-> <label for="APN">Assessor Parcel Number</label>
-> <input type="checkbox" value="true">
 > (where the input element lacks an `id` attribute matching the label's `for="APN"` attribute)
 > ```
 
