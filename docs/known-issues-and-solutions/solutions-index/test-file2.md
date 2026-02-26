@@ -35,8 +35,8 @@ WAVE Tool's Reference material on Orphaned form label may not specifically addre
     > A `<label>` element
     > - does not surround a form control and the for attribute is missing/empty
     > - references an element that is not present in the page
-    > - references an element that is not an <input>, <select> or <textarea> element
-    > - references an <input> element with image, submit, reset, button, or hidden type
+    > - references an element that is not an `<input>`, `<select>` or `<textarea>` element
+    > - references an `<input>` element with image, submit, reset, button, or hidden type
     > ### Standards and Guidelines
     > - 1.1.1 Non-text Content (Level A)
     > - 1.3.1 Info and Relationships (Level A)
