@@ -15,31 +15,28 @@
 
 WAVE Tool's Reference material on Skipped heading level may not specifically address your problem.  We provide it here for optional reading.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
-<p>
+??? Info "Click to see WAVE Tool Reference"
 
-<!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#heading_skipped" target="_blank">https://wave.webaim.org/api/docs?format=html#heading_skipped</a>
 
-> ### WAVE Category
-> Alerts
-> ### WAVE Error
-> Skipped heading level
-> ### What It Means
-> A heading level is skipped.
-> ### Why It Matters
-> Headings provide document structure and facilitate keyboard navigation by users of assistive technology. These users may be confused or experience difficulty navigating when heading levels are skipped.
-> ### What To Do
-> Restructure the document headings to ensure that heading levels are not skipped.
-> ### The Algorithm... in English
-> A heading level is skipped (e.g., an `<h1>` is followed by an `<h3>`, with no intermediate `<h2>`). Note that an `<h1>` is not required to be the first heading within the document.
-> ### Standards and Guidelines
-> - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
-> -  [2.4.1 Bypass Blocks (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.1)
-> - [2.4.6 Headings and Labels (Level AA)](https://webaim.org/standards/wcag/checklist#sc2.4.6)
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-
-</p>
-</details> 
+    > ### WAVE Category
+    > Alerts
+    > ### WAVE Error
+    > Skipped heading level
+    > ### What It Means
+    > A heading level is skipped.
+    > ### Why It Matters
+    > Headings provide document structure and facilitate keyboard navigation by users of assistive technology. These users may be confused or experience difficulty navigating when heading levels are skipped.
+    > ### What To Do
+    > Restructure the document headings to ensure that heading levels are not skipped.
+    > ### The Algorithm... in English
+    > A heading level is skipped (e.g., an `<h1>` is followed by an `<h3>`, with no intermediate `<h2>`). Note that an `<h1>` is not required to be the first heading within the document.
+    > ### Standards and Guidelines
+    > - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
+    > -  [2.4.1 Bypass Blocks (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.1)
+    > - [2.4.6 Headings and Labels (Level AA)](https://webaim.org/standards/wcag/checklist#sc2.4.6)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
