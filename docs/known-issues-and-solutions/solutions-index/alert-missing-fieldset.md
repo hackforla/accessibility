@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: Alert - Missing fieldset
+# Alert - Missing fieldset
 - WAVE Category: Alert
 - WAVE Error: Missing fieldset
 
