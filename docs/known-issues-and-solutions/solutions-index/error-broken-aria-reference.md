@@ -17,7 +17,7 @@ Click to see the WAVE Tool's Reference material on Broken ARIA reference. These 
 
 ??? Info "Click to see WAVE Tool Reference"
 
-   This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#aria_reference_broken" target="_blank">https://wave.webaim.org/api/docs?format=html#aria_reference_broken</a>
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#aria_reference_broken" target="_blank">https://wave.webaim.org/api/docs?format=html#aria_reference_broken</a>
 
     <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
