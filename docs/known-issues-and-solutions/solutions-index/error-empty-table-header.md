@@ -15,32 +15,26 @@
 
 WAVE Tool's Reference material on Empty Table Header may not specifically address your problem.  We provide it here for optional reading.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
-<p>
+??? Info "Click to see WAVE Tool Reference"
 
-### WAVE Category
-Error
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#th_empty" target="_blank">https://wave.webaim.org/api/docs?format=html#th_empty</a>
 
-### WAVE Error
-Empty Table Header
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-### What it Means
-A `<th>` (table header) contains no text.
-
-### Why It Matters
-The `<th>` element helps associate table cells with the correct row/column headers. A `<th>` that contains no text may result in cells with missing or incorrect header information.
-
-### What To Do
-If the table cell is a header, provide text within the cell that describes the column or row. If the cell is not a header or must remain empty (such as the top-left cell in a data table), make the cell a `<td>` rather than a `<th>`.
-
-### The Algorithm In English
-A `<th>` element does not contain any text (or contains only spaces) and no images with alternative text.
-
-### Standards and Guidelines
-- [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
-
-</p>
-</details> 
+    > ### WAVE Category
+    > Error
+    > ### WAVE Error
+    > Empty Table Header
+    > ### What it Means
+    > A `<th>` (table header) contains no text.
+    > ### Why It Matters
+    > The `<th>` element helps associate table cells with the correct row/column headers. A `<th>` that contains no text may result in cells with missing or incorrect header information.
+    > ### What To Do
+    > If the table cell is a header, provide text within the cell that describes the column or row. If the cell is not a header or must remain empty (such as the top-left cell in a data table), make the cell a `<td>` rather than a `<th>`.
+    > ### The Algorithm In English
+    > A `<th>` element does not contain any text (or contains only spaces) and no images with alternative text.
+    > ### Standards and Guidelines
+    > - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 

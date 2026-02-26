@@ -15,28 +15,26 @@
 
 WAVE Tool's Reference material on Very low contrast may not specifically address your problem.  We provide it here for optional reading.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
-<p>
+??? Info "Click to see WAVE Tool Reference"
 
-<!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#contrast" target="_blank">https://wave.webaim.org/api/docs?format=html#contrast</a>
 
-> ### WAVE Category
-> Contrast Errors
-> ### WAVE Error
-> Very low contrast
-> ### What It Means
-> Very low contrast between text and background colors.
-> ### Why It Matters
-> Adequate contrast of text is necessary for all users, especially users with low vision.
-> ### What To Do
-> Increase the contrast between the foreground (text) color and the background color. Large text (larger than 18 point or 14 point bold) does not require as much contrast as smaller text.
-> ### The Algorithm... in English
-> Text is present that has a contrast ratio less than 4.5:1, or large text (larger than 18 point or 14 point bold) has a contrast ratio less than 3:1. WCAG requires that page elements have both foreground AND background colors defined (or inherited) that provide sufficient contrast. When text is presented over a background image, the text must have a background color defined (typically in CSS) that provides adequate text contrast when the background image is disabled or unavailable. WAVE does not identify contrast issues in text with CSS transparency, gradients, or filters. WCAG Level AAA requires a contrast ratio of at least 7:1 for normal text and 4.5:1 for large text.
-> ### Standards and Guidelines
-> - [1.4.3 Contrast (Minimum) (Level AA)](https://webaim.org/standards/wcag/checklist#sc1.4.3)
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-</p>
-</details> 
+    > ### WAVE Category
+    > Contrast Errors
+    > ### WAVE Error
+    > Very low contrast
+    > ### What It Means
+    > Very low contrast between text and background colors.
+    > ### Why It Matters
+    > Adequate contrast of text is necessary for all users, especially users with low vision.
+    > ### What To Do
+    > Increase the contrast between the foreground (text) color and the background color. Large text (larger than 18 point or 14 point bold) does not require as much contrast as smaller text.
+    > ### The Algorithm... in English
+    > Text is present that has a contrast ratio less than 4.5:1, or large text (larger than 18 point or 14 point bold) has a contrast ratio less than 3:1. WCAG requires that page elements have both foreground AND background colors defined (or inherited) that provide sufficient contrast. When text is presented over a background image, the text must have a background color defined (typically in CSS) that provides adequate text contrast when the background image is disabled or unavailable. WAVE does not identify contrast issues in text with CSS transparency, gradients, or filters. WCAG Level AAA requires a contrast ratio of at least 7:1 for normal text and 4.5:1 for large text.
+    > ### Standards and Guidelines
+    > - [1.4.3 Contrast (Minimum) (Level AA)](https://webaim.org/standards/wcag/checklist#sc1.4.3)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 

@@ -15,32 +15,30 @@
 
 WAVE Tool's Reference material on Possible heading may not specifically address your problem.  We provide it here for optional reading.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
-<p>
+??? Info "Click to see WAVE Tool Reference"
 
-<!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#heading_possible" target="_blank">https://wave.webaim.org/api/docs?format=html#heading_possible</a>
 
-> ### WAVE Category
-> Alerts
-> ### WAVE Error
-> Possible heading
-> ### What It Means
-> Text appears to be a heading but is not a heading element.
-> ### Why It Matters
-> Heading elements (`<h1>-<h6>`) provide important document structure, outlines, and navigation functionality to assistive technology users. If heading text is not a true heading, this information and functionality will not be available for that text.
-> ### What To Do
-> If the paragraph is a section heading, use a heading element instead (`<h1>-<h6>`).
-> ### The Algorithm... in English
-> A `<p>` element contains less than 50 characters and is either:
-> - 20 pixels or bigger
-> - 16 pixels or bigger and bold and/or italicized
-> ### Standards and Guidelines
-> - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
-> - [2.4.1 Bypass Blocks (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.1)
-> - [2.4.6 Headings and Labels (Level AA)](https://webaim.org/standards/wcag/checklist#sc2.4.6)
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-</p>
-</details> 
+    > ### WAVE Category
+    > Alerts
+    > ### WAVE Error
+    > Possible heading
+    > ### What It Means
+    > Text appears to be a heading but is not a heading element.
+    > ### Why It Matters
+    > Heading elements (`<h1>-<h6>`) provide important document structure, outlines, and navigation functionality to assistive technology users. If heading text is not a true heading, this information and functionality will not be available for that text.
+    > ### What To Do
+    > If the paragraph is a section heading, use a heading element instead (`<h1>-<h6>`).
+    > ### The Algorithm... in English
+    > A `<p>` element contains less than 50 characters and is either:
+    > - 20 pixels or bigger
+    > - 16 pixels or bigger and bold and/or italicized
+    > ### Standards and Guidelines
+    > - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
+    > - [2.4.1 Bypass Blocks (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.1)
+    > - [2.4.6 Headings and Labels (Level AA)](https://webaim.org/standards/wcag/checklist#sc2.4.6)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 

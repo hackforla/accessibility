@@ -15,31 +15,30 @@
 
 WAVE Tool's Reference material on Missing fieldset may not specifically address your problem.  We provide it here for optional reading.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
-<p>
+??? Info "Click to see WAVE Tool Reference"
 
-<!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#fieldset_missing" target="_blank">https://wave.webaim.org/api/docs?format=html#fieldset_missing</a>
 
-> ### WAVE Category
-> Alerts
-> ### WAVE Error
-> Missing fieldset
-> ### What It Means
-> A group of check boxes or radio buttons is not enclosed in a fieldset.
-> ### Why It Matters
-> A fieldset provides a visual and structural grouping of related form elements. It is typically necessary for groups of check boxes or radio buttons where a higher level description (called a legend) is necessary to understand the function of the check boxes or radio buttons. The description will be identified by a screen reader only if provided in a fieldset legend.
-> ### What To Do
-> Determine whether the grouping of check boxes or radio buttons has or needs text that explains the purpose of the check boxes or radio button grouping. If so, mark up the group within a fieldset and put the group description in a legend element.
-> ### The Algorithm... in English
-> Two or more checkbox or radio input elements within a form have the same name value, but are not enclosed in a fieldset.
-> ### Standards and Guidelines
-> - [1.1.1 Non-text Content (Level A)](https://webaim.org/standards/wcag/checklist#sc1.1.1)
-> - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
-> - [2.4.6 Headings and Labels (Level AA)](https://webaim.org/standards/wcag/checklist#sc2.4.6)
-> - [3.3.2 Labels or Instructions (Level A)](https://webaim.org/standards/wcag/checklist#sc3.3.2)
 
-</p>
-</details> 
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+
+    > ### WAVE Category
+    > Alerts
+    > ### WAVE Error
+    > Missing fieldset
+    > ### What It Means
+    > A group of check boxes or radio buttons is not enclosed in a fieldset.
+    > ### Why It Matters
+    > A fieldset provides a visual and structural grouping of related form elements. It is typically necessary for groups of check boxes or radio buttons where a higher level description (called a legend) is necessary to understand the function of the check boxes or radio buttons. The description will be identified by a screen reader only if provided in a fieldset legend.
+    > ### What To Do
+    > Determine whether the grouping of check boxes or radio buttons has or needs text that explains the purpose of the check boxes or radio button grouping. If so, mark up the group within a fieldset and put the group description in a legend element.
+    > ### The Algorithm... in English
+    > Two or more checkbox or radio input elements within a form have the same name value, but are not enclosed in a fieldset.
+    > ### Standards and Guidelines
+    > - [1.1.1 Non-text Content (Level A)](https://webaim.org/standards/wcag/checklist#sc1.1.1)
+    > - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
+    > - [2.4.6 Headings and Labels (Level AA)](https://webaim.org/standards/wcag/checklist#sc2.4.6)
+    > - [3.3.2 Labels or Instructions (Level A)](https://webaim.org/standards/wcag/checklist#sc3.3.2)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 

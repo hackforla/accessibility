@@ -15,32 +15,30 @@
 
 WAVE Tool's Reference material on ARIA label may not specifically address your problem.  We provide it here for optional reading.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
-<p>
+??? Info "Click to see WAVE Tool Reference"
 
-<!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#aria_label" target="_blank">https://wave.webaim.org/api/docs?format=html#aria_label</a>
 
-> ### WAVE Category
-> ARIA
-> ### WAVE Error
-> ARIA label
-> ### What It Means
->An aria-label or aria-labelledby attribute is present.
-> ### Why It Matters
-> ARIA labels define accessible names to be read by screen readers for interface elements. They may be used when HTML associations (label, alternative text, etc.) are not sufficient.
-> ### What To Do
-> Ensure the aria-label value or element referenced by aria-labelledby provides a descriptive, accurate label. When possible, use standard HTML `<label>` or other markup to make the association.
-> ### The Algorithm... in English
-> An aria-label or aria-labelledby attribute is present.
-> ### Standards and Guidelines
-> - [1.1.1 Non-text Content (Level A)](https://webaim.org/standards/wcag/checklist#sc1.1.1)
-> - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
-> - [2.4.6 Headings and Labels (Level AA)](https://webaim.org/standards/wcag/checklist#sc2.4.6)
-> - [4.1.2 Name, Role, Value (Level A)](https://webaim.org/standards/wcag/checklist#sc4.1.2)
-> - [2.5.3 Label in Name (Level A)](https://webaim.org/standards/wcag/checklist#sc2.5.3)
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-</p>
-</details> 
+    > ### WAVE Category
+    > ARIA
+    > ### WAVE Error
+    > ARIA label
+    > ### What It Means
+    >An aria-label or aria-labelledby attribute is present.
+    > ### Why It Matters
+    > ARIA labels define accessible names to be read by screen readers for interface elements. They may be used when HTML associations (label, alternative text, etc.) are not sufficient.
+    > ### What To Do
+    > Ensure the aria-label value or element referenced by aria-labelledby provides a descriptive, accurate label. When possible, use standard HTML `<label>` or other markup to make the association.
+    > ### The Algorithm... in English
+    > An aria-label or aria-labelledby attribute is present.
+    > ### Standards and Guidelines
+    > - [1.1.1 Non-text Content (Level A)](https://webaim.org/standards/wcag/checklist#sc1.1.1)
+    > - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
+    > - [2.4.6 Headings and Labels (Level AA)](https://webaim.org/standards/wcag/checklist#sc2.4.6)
+    > - [4.1.2 Name, Role, Value (Level A)](https://webaim.org/standards/wcag/checklist#sc4.1.2)
+    > - [2.5.3 Label in Name (Level A)](https://webaim.org/standards/wcag/checklist#sc2.5.3)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
