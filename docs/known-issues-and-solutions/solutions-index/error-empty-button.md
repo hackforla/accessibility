@@ -39,14 +39,14 @@ WAVE Tool's Reference material on Empty Button may not specifically address your
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
-```html
-<button class="button-0-1-47 outlined-0-1-54 controlButton-0-1-416" type="button" id="edit-about-title-134">
-  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="#0F2940" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(15, 41, 64);">
-    <path fill="none" d="M0 0h24v24H0z"></path>
-    <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a.996.996 0 0 0 0-1.41l-2.34-2.34a.996.996 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path>
-  </svg>
-</button>
-```
+> ```html
+> <button class="button-0-1-47 outlined-0-1-54 controlButton-0-1-416" type="button" id="edit-about-title-134">
+>   <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="#0F2940" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(15, 41, 64);">
+>     <path fill="none" d="M0 0h24v24H0z"></path>
+>     <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a.996.996 0 0 0 0-1.41l-2.34-2.34a.996.996 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path>
+>   </svg>
+> </button>
+> ```
 
 
 ## TDM Error guidance
@@ -58,13 +58,14 @@ The following material covers how the TDM team has provided a solution to the Em
 - TDM Staging URL: https://tdm-dev.azurewebsites.net/calculation/1/0
 - Required User Role: Logged in user
 ### TDM Calculator Issue and PR details
-- Related GitHub Issue(s):
-  - https://github.com/hackforla/tdm-calculator/issues/2571
-- Related Pull Request(s):
-  - https://github.com/hackforla/tdm-calculator/pull/2602
-- React Component(s)
-  - `client/src/components/Button/NavButton.jsx`
-  - `client/src/components/Button/Button.jsx`
+#### Related GitHub Issue, PR and React Component 1
+- Related GitHub Issue 1:
+    - https://github.com/hackforla/tdm-calculator/issues/2571
+- Related Pull Request:
+    - https://github.com/hackforla/tdm-calculator/pull/2602
+- React Component:
+    - `client/src/components/Button/NavButton.jsx`
+    - `client/src/components/Button/Button.jsx`
 
 ### TDM Solution
 
@@ -79,65 +80,53 @@ The fix adds an `aria-label` attribute to each icon-only navigation button. This
 #### Step-By-Step Guide
 <!-- Author Instructions: Replace details dropdown with N/A if this does not apply -->
 
-<details><summary>Click to see step-by-step guide</summary>
-<p>
+??? Info "Click to see step-by-step guide"
 
-1. Open `client/src/components/Button/Button.jsx`.  
-2. Ensure the component accepts an `ariaLabel` prop and applies it to the underlying `<button>` element.  
-3. Open `client/src/components/Button/NavButton.jsx`.  
-4. Pass a descriptive `aria-label` value based on navigation direction:
-   - `"project creation previous page"` for the left/previous button  
-   - `"project creation next page"` for the right/next button  
-5. Confirm through WAVE and screen readers (NVDA/VoiceOver) that each button is now announced correctly.
-
-
-</p>
-</details> 
+    1. Open `client/src/components/Button/Button.jsx`.  
+    2. Ensure the component accepts an `ariaLabel` prop and applies it to the underlying `<button>` element.  
+    3. Open `client/src/components/Button/NavButton.jsx`.  
+    4. Pass a descriptive `aria-label` value based on navigation direction:
+       - `"project creation previous page"` for the left/previous button  
+       - `"project creation next page"` for the right/next button  
+    5. Confirm through WAVE and screen readers (NVDA/VoiceOver) that each button is now announced correctly.
 
 #### Other Technical Details
 <!-- Author Instructions: Write N/A if this does not apply -->
 
-<details><summary>Click to see other technical details</summary>
-<p>
+??? Info "Click to see other technical details"
 
 [ INSERT OTHER DETAILS e.g. Prop References, Return Value ]
 
-</p>
-</details> 
-
 #### Code Snippet With Solution
 
-<details><summary>Click to see code snippets...</summary>
+??? Info "Click to see code snippets"
 
+    ```jsx
+    // client/src/components/Button/Button.jsx
+    const Button = ({
+      ariaLabel = undefined,
+      children
+    }) => {
+      return (
+        <button aria-label={ariaLabel}>
+          {children}
+        </button>
+      );
+    };
 
-```jsx
-// client/src/components/Button/Button.jsx
-const Button = ({
-  ariaLabel = undefined,
-  children
-}) => {
-  return (
-    <button aria-label={ariaLabel}>
-      {children}
-    </button>
-  );
-};
-
-// client/src/components/Button/NavButton.jsx
-return (
-  <Button
-    aria-label={
-      navDirection === "previous"
-        ? "project creation previous page"
-        : "project creation next page"
-    }
-  >
-    {/* SVG icon for left/right navigation */}
-  </Button>
-);
-```
-
-</details>
+    // client/src/components/Button/NavButton.jsx
+    return (
+      <Button
+        aria-label={
+          navDirection === "previous"
+            ? "project creation previous page"
+            : "project creation next page"
+        }
+      >
+        {/* SVG icon for left/right navigation */}
+      </Button>
+    );
+    ```
 
 #### Why the Fix Works
 <!-- Author Instruction: Add an explanation of how the code changes resolve the accessibility issue and why this approach was chosen -->
@@ -158,40 +147,33 @@ By providing an `aria-label` attribute, the button remains visually unchanged bu
 <!-- Author Instructions: when including markdown images, ensure they are responsive by specifying EITHER width OR height. Do not provide both. -->
 
 
-<details><summary>1. Create Project, Page 1: Empty Button</summary>
-<p>
+??? Info "1. Create Project, Page 1: Empty Button"
 
-WAVE Error modal on Create Projects Page
+    WAVE Error modal on Create Projects Page
 
-> ![Image](https://github.com/user-attachments/assets/941a2b01-f902-414a-a227-927a34217f53)
+    > ![Image](https://github.com/user-attachments/assets/941a2b01-f902-414a-a227-927a34217f53)
 
-WAVE Error modal on Create Projects Page (styles turned off)
+    WAVE Error modal on Create Projects Page (styles turned off)
 
-> ![Image](https://github.com/user-attachments/assets/83fd0eea-7106-4a85-b438-e72a4d17189b)
+    > ![Image](https://github.com/user-attachments/assets/83fd0eea-7106-4a85-b438-e72a4d17189b)
+ 
 
-</p>
-</details> 
+??? Info "2. Create Project, Page 1 and Page 4: Empty Button (No Action Required)"
 
-<details><summary>2. Create Project, Page 1 and Page 4: Empty Button (No Action Required)</summary>
-<p>
+    Hidden Navigation Buttons
+    - Note: These buttons have `display: none` and are hidden from assistive technologies. No action required for these instances.
 
-Hidden Navigation Buttons
-- Note: These buttons have `display: none` and are hidden from assistive technologies. No action required for these instances.
+    > ![Image](https://github.com/user-attachments/assets/71bd3cfa-22d9-4c99-89a9-fe6a0a9b8f68)
 
-> ![Image](https://github.com/user-attachments/assets/71bd3cfa-22d9-4c99-89a9-fe6a0a9b8f68)
+    Same WAVE Icon but also showing Dev Tools Inspector
 
-Same WAVE Icon but also showing Dev Tools Inspector
+    > ![Image](https://github.com/user-attachments/assets/7e93fc43-4f18-4efd-86e4-cddda94941ca)
 
-> ![Image](https://github.com/user-attachments/assets/7e93fc43-4f18-4efd-86e4-cddda94941ca)
 
-</p>
-</details> 
-
-<details><summary>3. Visuals After PR changes Were Applied</summary>
+??? Info "3. Visuals After PR changes Were Applied"
   
-> <img width="611" height="256" alt="after-label" src="https://github.com/user-attachments/assets/176da5c1-7b48-47db-983b-4cd74dc98fbd" />
+    > <img width="611" height="256" alt="after-label" src="https://github.com/user-attachments/assets/176da5c1-7b48-47db-983b-4cd74dc98fbd" />
 
-</details>
 
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
