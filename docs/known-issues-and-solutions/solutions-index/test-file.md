@@ -19,7 +19,7 @@ WAVE Tool's Reference material on Layout table may not specifically address your
 <details><summary>Click to see WAVE Tool Reference</summary>
 
 
-### WAVE Category
+<h3>WAVE Category</h3>
 Alerts
 
 </details> 
