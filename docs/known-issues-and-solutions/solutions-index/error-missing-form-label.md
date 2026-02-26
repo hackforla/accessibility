@@ -15,42 +15,33 @@
 
 WAVE Tool's Reference material on Missing Form Label may not specifically address your problem.  We provide it here for optional reading.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
-<p>
+??? Info "Click to see WAVE Tool Reference"
 
-<!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#label_missing" target="_blank">https://wave.webaim.org/api/docs?format=html#label_missing</a>
 
-> ### WAVE Category
-> Error
-> 
-> ### WAVE Error
-> Missing form label
-> 
-> ### What It Means
-> A form control does not have a corresponding label.
-> 
-> ### Why It Matters
-> If a form control does not have a properly associated text label, the function or purpose of that form control may not be presented to screen reader users. Form labels also provide visible descriptions and larger clickable targets for form controls.
-> 
-> ### What To Do
-> If a text label for a form control is visible, use the `<label>` element to associate it with its respective form control. If there is no visible label, either provide an associated label, add a descriptive title attribute to the form control, or reference the label(s) using aria-labelledby. Labels are not required for image, submit, reset, button, or hidden form controls.
-> 
-> ### The Algorithm... in English
-> An `<input>` (except types of image, submit, reset, button, or hidden), `<select>`, or `<textarea>` does not have a properly associated label. A properly associated label is:
-> 
-> - a non-hidden `<label>` element with a for attribute value that is equal to the id of a unique form control
-> - a `<label>` element that surrounds the form control, does not surround any other form controls, and does not reference another element with its for attribute
-> - a non-empty title attribute, or
-> - a non-empty aria-labelledby attribute
-> 
-> ### Standards and Guidelines
-> - 1.1.1 Non-text Content (Level A)
-> - 1.3.1 Info and Relationships (Level A)
-> - 2.4.6 Headings and Labels (Level AA)
-> - 3.3.2 Labels or Instructions (Level A)
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-</p>
-</details> 
+    > ### WAVE Category
+    > Error
+    > ### WAVE Error
+    > Missing form label
+    > ### What It Means
+    > A form control does not have a corresponding label.
+    > ### Why It Matters
+    > If a form control does not have a properly associated text label, the function or purpose of that form control may not be presented to screen reader users. Form labels also provide visible descriptions and larger clickable targets for form controls.
+    > ### What To Do
+    > If a text label for a form control is visible, use the `<label>` element to associate it with its respective form control. If there is no visible label, either provide an associated label, add a descriptive title attribute to the form control, or reference the label(s) using aria-labelledby. Labels are not required for image, submit, reset, button, or hidden form controls.
+    > ### The Algorithm... in English
+    > An `<input>` (except types of image, submit, reset, button, or hidden), `<select>`, or `<textarea>` does not have a properly associated label. A properly associated label is:
+    > - a non-hidden `<label>` element with a for attribute value that is equal to the id of a unique form control
+    > - a `<label>` element that surrounds the form control, does not surround any other form controls, and does not reference another element with its for attribute
+    > - a non-empty title attribute, or
+    > - a non-empty aria-labelledby attribute
+    > ### Standards and Guidelines
+    > - 1.1.1 Non-text Content (Level A)
+    > - 1.3.1 Info and Relationships (Level A)
+    > - 2.4.6 Headings and Labels (Level AA)
+    > - 3.3.2 Labels or Instructions (Level A)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
