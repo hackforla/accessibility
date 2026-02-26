@@ -7,6 +7,10 @@ theme:
     - navigation.sections
     - navigation.tabs
 
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 # Repository
 repo_name: hackforla/accessibility
 repo_url: https://github.com/hackforla/accessibility
