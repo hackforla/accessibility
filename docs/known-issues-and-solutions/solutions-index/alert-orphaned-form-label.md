@@ -15,34 +15,31 @@
 
 WAVE Tool's Reference material on Orphaned form label may not specifically address your problem.  We provide it here for optional reading.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
-<p>
+??? Info "Click to see WAVE Tool Reference"
 
-<!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-### WAVE Category
-Alert
-
-### WAVE Error
-Orphaned form label
-
-### What It Means
-A form label is present, but it is not correctly associated with a form control.
-
-### Why It Matters
-If a label is not associated with a control, screen reader users may not know the function or purpose of the form control.
-
-### What To Do
-If the label is for a form control that is present on the page, ensure that the for attribute of the label references the id value of the associated form control. If no form control is present, either remove the label or add the missing control.
-
-### The Algorithm... in English
-[REPLACE WITH WAVE CONTENT FOR The Algorithm... In English]
-
-### Standards and Guidelines
-A `<label>` element does not have a properly associated form control. A label must have a for attribute value that matches the id value of a form control, or it must surround the form control itself.
-
-</p>
-</details> 
+    > ### WAVE Category
+    > Alert
+    > ### WAVE Error
+    > Orphaned form label
+    > ### What It Means
+    > A form label is present, but it is not correctly associated with a form control.
+    > ### Why It Matters
+    > An incorrectly associated label does not provide functionality or information about the form control to the user. It usually indicates a coding or other form labeling issues.
+    > ### What To Do
+    > Properly associate the label with its corresponding form control. If there is no corresponding form control, remove the label. Labels are not appropriate for image, submit, reset, button, or hidden form controls.
+    > ### The Algorithm... in English
+    > A `<label>` element
+    > - does not surround a form control and the for attribute is missing/empty
+    > - references an element that is not present in the page
+    > - references an element that is not an <input>, <select> or <textarea> element
+    > - references an <input> element with image, submit, reset, button, or hidden type
+    > ### Standards and Guidelines
+    > - 1.1.1 Non-text Content (Level A)
+    > - 1.3.1 Info and Relationships (Level A)
+    > - 2.4.6 Headings and Labels (Level AA)
+    > - 3.3.2 Labels or Instructions (Level A)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
