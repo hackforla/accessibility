@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: Error - Empty Table Header
+# Error - Empty Table Header
 - WAVE Category: Error
 - WAVE Error: Empty Table Header
 
