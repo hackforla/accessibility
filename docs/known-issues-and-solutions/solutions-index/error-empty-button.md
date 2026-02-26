@@ -15,35 +15,27 @@
 
 WAVE Tool's Reference material on Empty Button may not specifically address your problem.  We provide it here for optional reading.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
-<p>
+??? Info "Click to see WAVE Tool Reference"
 
-<!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#button_empty" target="_blank">https://wave.webaim.org/api/docs?format=html#button_empty</a>
 
-### WAVE Category
-Error
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-### WAVE Error
-Empty Button
-
-### What It Means
-A button is empty or has no value text.
-
-### Why It Matters
-When navigating to a button, descriptive text must be presented to screen reader users to indicate the function of the button.
-
-### What To Do
-Place text content within the `<button>` element or give the `<input>` element a value attribute.
-
-### The Algorithm... in English
-A `<button>` element is present that contains no text content (or alternative text), or an `<input type="submit">`, `<input type="button">`, or `<input type="reset">` has an empty or missing value attribute.
-
-### Standards and Guidelines
-- 1.1.1 Non-text Content (Level A)
-- 2.4.4 Link Purpose (In Context) (Level A)
-
-</p>
-</details> 
+    > ### WAVE Category
+    > Error
+    > ### WAVE Error
+    > Empty Button
+    > ### What It Means
+    > A button is empty or has no value text.
+    > ### Why It Matters
+    > When navigating to a button, descriptive text must be presented to screen reader users to indicate the function of the button.
+    > ### What To Do
+    > Place text content within the `<button>` element or give the `<input>` element a value attribute.
+    > ### The Algorithm... in English
+    > A `<button>` element is present that contains no text content (or alternative text), or an `<input type="submit">`, `<input type="button">`, or `<input type="reset">` has an empty or missing value attribute.
+    > ### Standards and Guidelines
+    > - 1.1.1 Non-text Content (Level A)
+    > - 2.4.4 Link Purpose (In Context) (Level A)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
