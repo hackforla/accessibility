@@ -83,130 +83,130 @@ This hook-based approach exists specifically because `reactjs-popup` may clone t
 
 ??? Info "Click to see step-by-step guide"
 
-## Option A: Component-specific fix (simple + local)
+    ## Option A: Component-specific fix (simple + local)
 
-1. Add a stable `id` to the trigger wrapper (the element that ends up receiving `aria-describedby`).
-2. In the popup `onClose` handler, call `removeAttribute("aria-describedby")` on that element before unmount completes.
+    1. Add a stable `id` to the trigger wrapper (the element that ends up receiving `aria-describedby`).
+    2. In the popup `onClose` handler, call `removeAttribute("aria-describedby")` on that element before unmount completes.
 
-## Option B: Reusable fix using `useReplaceAriaAttribute` (recommended)
+    ## Option B: Reusable fix using `useReplaceAriaAttribute` (recommended)
 
-### Step 1: Import the hook
-```js
-import { useReplaceAriaAttribute } from "hooks/useReplaceAriaAttribute";
-```
+    ### Step 1: Import the hook
+    ```js
+    import { useReplaceAriaAttribute } from "hooks/useReplaceAriaAttribute";
+    ```
 
-### Step 2: Add a unique `id` to your target element
-Recommended pattern (avoids mismatches):
-```js
-const elementId = `context-menu-button-${project.id}`;
-```
+    ### Step 2: Add a unique `id` to your target element
+    Recommended pattern (avoids mismatches):
+    ```js
+    const elementId = `context-menu-button-${project.id}`;
+    ```
 
-Use it on the element:
-```jsx
-<button id={elementId} aria-label="context menu button">
-  <MdMoreVert />
-</button>
-```
+    Use it on the element:
+    ```jsx
+    <button id={elementId} aria-label="context menu button">
+      <MdMoreVert />
+    </button>
+    ```
 
-### Step 3: Call the hook in your component
-```js
-useReplaceAriaAttribute({
-  elementId,
-  deps: [projectRules],
-  attrToRemove: "aria-describedby",
-  attrToAdd: "aria-controls",
-  value: `popup-content-${elementId}`,
-});
-```
+    ### Step 3: Call the hook in your component
+    ```js
+    useReplaceAriaAttribute({
+      elementId,
+      deps: [projectRules],
+      attrToRemove: "aria-describedby",
+      attrToAdd: "aria-controls",
+      value: `popup-content-${elementId}`,
+    });
+    ```
 
-### Step 4 (optional but common): Ensure the referenced element exists
-If you set `aria-controls` to some id, ensure the popup content uses that id:
-```jsx
-<Popup trigger={...}>
-  <div id={`popup-content-${elementId}`}>
-    {/* popup content */}
-  </div>
-</Popup>
-```
+    ### Step 4 (optional but common): Ensure the referenced element exists
+    If you set `aria-controls` to some id, ensure the popup content uses that id:
+    ```jsx
+    <Popup trigger={...}>
+      <div id={`popup-content-${elementId}`}>
+        {/* popup content */}
+      </div>
+    </Popup>
+    ```
 
-### Dependency array tips
-Include in `deps` anything that could change whether:
-- the trigger exists / is re-rendered
-- the element id changes
-- the popup structure changes
+    ### Dependency array tips
+    Include in `deps` anything that could change whether:
+    - the trigger exists / is re-rendered
+    - the element id changes
+    - the popup structure changes
 
 #### Other Technical Details
 <!-- Author Instructions: Write N/A if this does not apply -->
 
 ??? Info "Click to see other technical details"
 
-- `reactjs-popup` clones the trigger element and strips any attributes, which can prevent setting ARIA attributes or refs directly on the trigger.
-- Ad-hoc DOM manipulation can be subject to timing/race issues if you do it in many components.
-- A hook centralizes the workaround so components don’t each reinvent their own “removeAttribute” logic.
+    - `reactjs-popup` clones the trigger element and strips any attributes, which can prevent setting ARIA attributes or refs directly on the trigger.
+    - Ad-hoc DOM manipulation can be subject to timing/race issues if you do it in many components.
+    - A hook centralizes the workaround so components don’t each reinvent their own “removeAttribute” logic.
 
-Reference (discussion): https://github.com/hackforla/tdm-calculator/issues/2410#issuecomment-3561030939
+    Reference (discussion): https://github.com/hackforla/tdm-calculator/issues/2410#issuecomment-3561030939
 
 
 #### Code Snippet With Solution
 ??? Info "Click to see code snippets"
 
-Component: `NavBarLogin.jsx`
+    Component: `NavBarLogin.jsx`
 
-```jsx
-const NavBarLogin = ({ ... }) => {
-  const closeModal = () => { // 1. augment closeModal handler by removing `aria-describedby` attribute
-    const loginLink = document.getElementById("login-link");
-    loginLink.removeAttribute("aria-describedby");
-    setTooltipOpen(false);
-  };
-  return (
-    <Popup>
-      <!-- ... -->
-      onClose={closeModal}
-      trigger={(
-        <!-- 2. add a unique id, "login-link" to the span that will (eventually) receive the `aria-describedby` attribute
-        <span id="login-link" style={{ cursor: "pointer" }}>
-           {loginLink}
-        </span>
-      )}
-    /> <!-- end Popup -->
-  ) // end-return
-```
+    ```jsx
+    const NavBarLogin = ({ ... }) => {
+      const closeModal = () => { // 1. augment closeModal handler by removing `aria-describedby` attribute
+        const loginLink = document.getElementById("login-link");
+        loginLink.removeAttribute("aria-describedby");
+        setTooltipOpen(false);
+      };
+      return (
+        <Popup>
+          <!-- ... -->
+          onClose={closeModal}
+          trigger={(
+            <!-- 2. add a unique id, "login-link" to the span that will (eventually) receive the `aria-describedby` attribute
+            <span id="login-link" style={{ cursor: "pointer" }}>
+               {loginLink}
+            </span>
+          )}
+        /> <!-- end Popup -->
+      ) // end-return
+    ```
 
 
-Reusable hook approach (`useReplaceAriaAttribute`)
+    Reusable hook approach (`useReplaceAriaAttribute`)
 
-```jsx
-import { useReplaceAriaAttribute } from "hooks/useReplaceAriaAttribute";
-import Popup from "reactjs-popup";
+    ```jsx
+    import { useReplaceAriaAttribute } from "hooks/useReplaceAriaAttribute";
+    import Popup from "reactjs-popup";
 
-function MyComponent({ project }) {
-  const elementId = `context-menu-button-${project.id}`;
-  const popupContentId = `popup-content-${elementId}`;
+    function MyComponent({ project }) {
+      const elementId = `context-menu-button-${project.id}`;
+      const popupContentId = `popup-content-${elementId}`;
 
-  useReplaceAriaAttribute({
-    elementId,
-    deps: [projectRules],
-    attrToRemove: "aria-describedby",
-    attrToAdd: "aria-controls",
-    value: popupContentId,
-  });
+      useReplaceAriaAttribute({
+        elementId,
+        deps: [projectRules],
+        attrToRemove: "aria-describedby",
+        attrToAdd: "aria-controls",
+        value: popupContentId,
+      });
 
-  return (
-    <Popup
-      trigger={
-        <button id={elementId} aria-label="context menu button">
-          Menu
-        </button>
-      }
-    >
-      <div id={popupContentId}>
-        {/* Menu items */}
-      </div>
-    </Popup>
-  );
-}
-```
+      return (
+        <Popup
+          trigger={
+            <button id={elementId} aria-label="context menu button">
+              Menu
+            </button>
+          }
+        >
+          <div id={popupContentId}>
+            {/* Menu items */}
+          </div>
+        </Popup>
+      );
+    }
+    ```
 
 #### Why the Fix Works
 By deleting (or replacing) the `aria-describedby` attribute when the modal is closed or when the trigger is rendered, assistive tech will no longer associate the trigger with a non-existent tooltip/popup element. This prevents the “broken ARIA reference” error and avoids confusing behavior in screen readers.
@@ -218,8 +218,8 @@ By deleting (or replacing) the `aria-describedby` attribute when the modal is cl
 
 #### Screenshots of WAVE Error
 
-<details><summary>1.01 Login Popup</summary>
-<p>
+1.01 Login Popup
+
 
 ## 1.A Login Popup, Screenshot
 > ![Image](https://github.com/user-attachments/assets/2b60b5a1-e88e-4558-a7af-7d02321d411b)
@@ -236,8 +236,6 @@ By deleting (or replacing) the `aria-describedby` attribute when the modal is cl
 
 ---
 
-</p>
-</details> 
 
 <details><summary>2. Login Link</summary>
 <p>
