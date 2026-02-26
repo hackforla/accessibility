@@ -6,9 +6,9 @@
 - [X] WAVE Error guidance text
 - [X] Example of a DOM Snippet Generated From WAVE Tool
 - Project Team Error guidance
-   - [X] Project Team Page Details
-   - [X] Project Team Issue and PR details
-   - [X] Project Team Solution
+    - [X] Project Team Page Details
+    - [X] Project Team Issue and PR details
+    - [X] Project Team Solution
 - [X] Credits/Authors
 
 ## WAVE Error guidance
