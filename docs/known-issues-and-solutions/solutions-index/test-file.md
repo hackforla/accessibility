@@ -112,9 +112,8 @@ The following material covers how the Project Team has provided a solution to th
 
 <details><summary>1. [Descriptive Title for Screenshot Set 1]</summary>
 
-<img width="400" alt="Image" src="https://github.com/user-attachments/assets/123456789" />
+[INSERT IMAGE HERE]
 
-</p>
 </details> 
 
 ## Credits/Authors
