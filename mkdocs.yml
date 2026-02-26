@@ -6,6 +6,9 @@ theme:
     - navigation.indexes
     - navigation.sections
     - navigation.tabs
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
 
 markdown_extensions:
   - pymdownx.tasklist:
