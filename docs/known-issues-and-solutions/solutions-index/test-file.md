@@ -12,7 +12,7 @@
     - [ ] Project Team Solution
 - [ ] Credits/Authors
 
-??? Note "Click to see WAVE Tool Reference"
+??? Info "Click to see WAVE Tool Reference"
 
     <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
@@ -32,12 +32,6 @@
     > - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
     > - [1.3.2 Meaningful Sequence (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.2)
  
-----
-
-??? Note "Click to see WAVE Tool Reference"
-
-    > ### WAVE Category
-    > Alerts
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
