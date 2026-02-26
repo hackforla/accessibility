@@ -12,6 +12,8 @@
     - [ ] Project Team Solution
 - [ ] Credits/Authors
 
+## WAVE Error guidance
+
 ??? Info "Click to see WAVE Tool Reference"
 
     This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#label_orphaned" target="_blank">https://wave.webaim.org/api/docs?format=html#label_orphaned</a>
