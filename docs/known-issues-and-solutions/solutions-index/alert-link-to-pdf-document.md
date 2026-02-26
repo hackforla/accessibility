@@ -36,6 +36,7 @@ WAVE Tool's Reference material on Link to PDF document may not specifically addr
     > ### Standards and Guidelines
     > None
 
+
 ## Example of a DOM Snippet Generated From WAVE Tool
 
 > ```html
