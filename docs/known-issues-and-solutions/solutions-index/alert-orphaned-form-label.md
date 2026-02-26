@@ -43,6 +43,7 @@ WAVE Tool's Reference material on Orphaned form label may not specifically addre
     > - 2.4.6 Headings and Labels (Level AA)
     > - 3.3.2 Labels or Instructions (Level A)
 
+
 ## Example of a DOM Snippet Generated From WAVE Tool
 
 > ```html
