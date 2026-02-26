@@ -24,6 +24,12 @@ Alerts
 
 </details> 
 
+
+??? note
+
+    > ### WAVE Category
+    > Alerts
+
 ## Example of a DOM Snippet Generated From WAVE Tool
 
 > ```html
