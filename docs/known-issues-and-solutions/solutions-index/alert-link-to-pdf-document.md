@@ -15,25 +15,24 @@
 
 WAVE Tool's Reference material on Link to PDF document may not specifically address your problem.  We provide it here for optional reading.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
+??? Info "Click to see WAVE Tool Reference"
 
-<!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-### WAVE Category
-Alerts
-### WAVE Error
-Link to PDF document
-### What It Means
-A link to a PDF document is present.
-### Why It Matters
-Unless authored with accessibility in mind, PDF documents often have accessibility issues. Additionally, PDF documents are typically viewed using a separate application or plug-in, and can thus cause confusion and navigation difficulties.
-### What To Do
-Ensure the PDF document is natively accessible. Additionally, inform the user that the link will open a PDF document. Because PDF documents may have limitations in accessibility (particularly for complex content) and require a separate program, HTML content should often be used in place of or in addition to the PDF document.
-### The Algorithm... in English
-A link to a .pdf file is present.
-### Standards and Guidelines
-None
-</details> 
+    > ### WAVE Category
+    > Alerts
+    > ### WAVE Error
+    > Link to PDF document
+    > ### What It Means
+    > A link to a PDF document is present.
+    > ### Why It Matters
+    > Unless authored with accessibility in mind, PDF documents often have accessibility     > issues. Additionally, PDF documents are typically viewed using a separate application or plug-  in, and can thus cause confusion and navigation difficulties.
+    > ### What To Do
+    > Ensure the PDF document is natively accessible. Additionally, inform the user that the link will open a PDF document. Because PDF documents may have limitations in accessibility (particularly for complex content) and require a separate program, HTML content should often be used in place of or in addition to the PDF document.
+    > ### The Algorithm... in English
+    > A link to a .pdf file is present.
+    > ### Standards and Guidelines
+    > None
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
