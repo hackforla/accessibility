@@ -17,6 +17,9 @@ WAVE Tool's Reference material on Missing fieldset may not specifically address 
 
 ??? Info "Click to see WAVE Tool Reference"
 
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#fieldset_missing" target="_blank">https://wave.webaim.org/api/docs?format=html#fieldset_missing</a>
+
+
     <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
     > ### WAVE Category
