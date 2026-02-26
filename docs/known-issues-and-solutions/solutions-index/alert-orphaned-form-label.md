@@ -62,18 +62,18 @@ The following material covers how the TDM team has provided a solution to the [E
 - Required User Role: Logged in user
 
 ### Project Team Issue and PR details
-Related GitHub Issue(s):
-https://github.com/hackforla/tdm-calculator/issues/2572
-Related Pull Request(s):
-https://github.com/hackforla/tdm-calculator/pull/2611
-React Component(s)
-client/src/components/ProjectWizard/RuleInput/MultiInput.jsx
-
-- Related GitHub Issue(s):
+- Related GitHub Issue 1:
   - https://github.com/hackforla/tdm-calculator/issues/2572
-- Related Pull Request(s):
+- Related Pull Request:
   - https://github.com/hackforla/tdm-calculator/pull/2611
-- React Component(s)
+- React Component:
+  - `client/src/components/ProjectWizard/RuleInput/MultiInput.jsx`
+
+- Related GitHub Issue 2:
+  - https://github.com/hackforla/tdm-calculator/issues/2572
+- Related Pull Request:
+  - https://github.com/hackforla/tdm-calculator/pull/2611
+- React Component:
   - `client/src/components/ProjectWizard/RuleInput/MultiInput.jsx`
 
 ### Project Team Solution
@@ -96,37 +96,35 @@ Add the `id` and `name` attributes to the input element with values matching the
 - n/a
 
 #### Code Snippet With Solution
-<details><summary>Click to see code snippets...</summary>
+??? Info "Click to see code snippets"
 
-```jsx
-// client/src/components/ProjectWizard/RuleInput/MultiInput.jsx
-
-const Input = props => {
- // ...
-
-  return (
-    <div {/* ... */}>
-      <InputMask
-        {/* ... */}
-        id={props.code} // Modified this so that we can reserve props.code for input.id below
-        {/* ... */}
-      >
-        {inputProps => (
-          <input
-            id={props.code} // Added id attribute to match the "paired" label.for attribute (value will be props.code, e.g., "APN")
-            name={props.code} // Added name attribute to match the "paired" label.for attribute
-            {...inputProps}
+    ```jsx
+    // client/src/components/ProjectWizard/RuleInput/MultiInput.jsx
+    
+    const Input = props => {
+     // ...
+    
+      return (
+        <div {/* ... */}>
+          <InputMask
             {/* ... */}
-          />
-        )}
-      </InputMask>
-    </div>
-  );
-};
+            id={props.code} // Modified this so that we can reserve props.code for input.id below
+            {/* ... */}
+          >
+            {inputProps => (
+              <input
+                id={props.code} // Added id attribute to match the "paired" label.for attribute (value will be props.code, e.g., "APN")
+                name={props.code} // Added name attribute to match the "paired" label.for attribute
+                {...inputProps}
+                {/* ... */}
+              />
+            )}
+          </InputMask>
+        </div>
+      );
+    };
 
-```
-
-</details>
+    ```
 
 #### Why the Fix Works
 <!-- Author Instruction: Add an explanation of how the code changes resolve the accessibility issue and why this approach was chosen -->
@@ -145,11 +143,9 @@ By adding the `id` and `name` attributes to the input element with values matchi
 <!-- Author Instructions: when including markdown images, ensure they are responsive by specifying EITHER width OR height. Do not provide both. -->
 
 <details><summary>Screenshot #1</summary>
-<p>
+    
+[INSERT IMAGE HERE]
 
-<img width="526" height="284" alt="Image" src="https://github.com/user-attachments/assets/1da59f40-6dfa-4276-888d-f9d29cdf412d" />
-
-</p>
 </details> 
 
 ## Credits/Authors
