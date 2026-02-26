@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: Alert - Possible heading
+# Alert - Possible heading
 - WAVE Category: Alert
 - WAVE Error: Possible heading
 
