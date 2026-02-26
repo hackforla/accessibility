@@ -1,4 +1,4 @@
-## Accessibility Known Issues Index
+## Solutions Index for Known Accessibility Issues
 
 ### Know Issues and Solutions COMPLETED
 - Errors
