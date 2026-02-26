@@ -14,7 +14,7 @@
 
 ??? Info "Click to see WAVE Tool Reference"
 
-    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#label_orphaned">https://wave.webaim.org/api/docs?format=html#label_orphaned</a>
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#label_orphaned" target="_blank">https://wave.webaim.org/api/docs?format=html#label_orphaned</a>
 
     <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
