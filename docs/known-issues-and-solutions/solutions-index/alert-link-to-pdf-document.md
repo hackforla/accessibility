@@ -17,6 +17,8 @@ WAVE Tool's Reference material on Link to PDF document may not specifically addr
 
 ??? Info "Click to see WAVE Tool Reference"
 
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#link_pdf" target="_blank">https://wave.webaim.org/api/docs?format=html#link_pdf</a>
+
     <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
     > ### WAVE Category
