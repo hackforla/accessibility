@@ -15,33 +15,27 @@
 
 Click to see the WAVE Tool's Reference material on Broken ARIA reference. These guidelines may not specifically address your problem, but they might provide context for getting started.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
-<p>
+??? Info "Click to see WAVE Tool Reference"
 
-### WAVE Category
-Error
+   This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#aria_reference_broken" target="_blank">https://wave.webaim.org/api/docs?format=html#aria_reference_broken</a>
 
-### WAVE Error
-Broken ARIA reference
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-### What It Means
-An aria-labelledby or aria-describedby reference exists, but the target for the reference does not exist.
-
-### Why It Matters
-ARIA labels and descriptions will not be presented if the element referenced does not exist in the page.
-
-### What To Do
-Ensure the element referenced in the aria-labelledby or aria-describedby attribute value is present within the page and presents a proper label or description.
-
-### The Algorithm... in English
-An element has an aria-labelledby or aria-describedby value that does not match the id attribute value of another element in the page.
-
-### Standards and Guidelines
-- [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
-- [4.1.2 Name, Role, Value (Level A)](https://webaim.org/standards/wcag/checklist#sc4.1.2)
-
-</p>
-</details> 
+    > ### WAVE Category
+    > Error
+    > ### WAVE Error
+    > Broken ARIA reference
+    > ### What It Means
+    > An aria-labelledby or aria-describedby reference exists, but the target for the reference does not exist.
+    > ### Why It Matters
+    > ARIA labels and descriptions will not be presented if the element referenced does not exist in the page.
+    > ### What To Do
+    > Ensure the element referenced in the aria-labelledby or aria-describedby attribute value is present within the page and presents a proper label or description.
+    > ### The Algorithm... in English
+    > An element has an aria-labelledby or aria-describedby value that does not match the id attribute value of another element in the page.
+    > ### Standards and Guidelines
+    > - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
+    > - [4.1.2 Name, Role, Value (Level A)](https://webaim.org/standards/wcag/checklist#sc4.1.2)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
