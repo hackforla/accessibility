@@ -17,7 +17,7 @@ WAVE Tool's Reference material on Orphaned form label may not specifically addre
 
 ??? Info "Click to see WAVE Tool Reference"
 
-    This content added 2026-02-26. Check for updated guidance at: https://wave.webaim.org/api/docs?format=html#label_orphaned
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#label_orphaned" target="_blank">https://wave.webaim.org/api/docs?format=html#label_orphaned</a>
 
     <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
@@ -35,8 +35,8 @@ WAVE Tool's Reference material on Orphaned form label may not specifically addre
     > A `<label>` element
     > - does not surround a form control and the for attribute is missing/empty
     > - references an element that is not present in the page
-    > - references an element that is not an <input>, <select> or <textarea> element
-    > - references an <input> element with image, submit, reset, button, or hidden type
+    > - references an element that is not an `<input>`, `<select>` or `<textarea>` element
+    > - references an `<input>` element with image, submit, reset, button, or hidden type
     > ### Standards and Guidelines
     > - 1.1.1 Non-text Content (Level A)
     > - 1.3.1 Info and Relationships (Level A)
@@ -47,6 +47,8 @@ WAVE Tool's Reference material on Orphaned form label may not specifically addre
 ## Example of a DOM Snippet Generated From WAVE Tool
 
 > ```html
+> <label for="APN">Assessor Parcel Number</label>
+> <input type="checkbox" value="true">
 > (where the input element lacks an `id` attribute matching the label's `for="APN"` attribute)
 > ```
 
