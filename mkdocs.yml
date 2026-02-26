@@ -10,6 +10,7 @@ theme:
 markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.details
 
 # Repository
 repo_name: hackforla/accessibility
