@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: Alert - Redundant link
+# Alert - Redundant link
 - WAVE Category: Alert
 - WAVE Error: Redundant link
 
