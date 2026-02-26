@@ -15,28 +15,26 @@
 
 WAVE Tool's Reference material on Redundant link may not specifically address your problem.  We provide it here for optional reading.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
-<p>
+??? Info "Click to see WAVE Tool Reference"
 
-<!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#link_redundant" target="_blank">https://wave.webaim.org/api/docs?format=html#link_redundant</a>
 
-> ### WAVE Category
-> Alerts
-> ### WAVE Error
-> Redundant link
-> ### What It Means
-> Adjacent links go to the same URL.
-> ### Why It Matters
-> When adjacent links go to the same location (such as a linked product image and an adjacent linked product name that go to the same product page) this results in additional navigation and repetition for keyboard and screen reader users.
-> ### What To Do
-> If possible, combine the redundant links into one link and remove any redundant text or alternative text (for example, if a product image and product name are in the same link, the image can usually be given alt="").
-> ### The Algorithm... in English
-> Two adjacent links go to the same URL.
-> ### Standards and Guidelines
-> - [2.4.4 Link Purpose (In Context) (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.4)
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-</p>
-</details> 
+    > ### WAVE Category
+    > Alerts
+    > ### WAVE Error
+    > Redundant link
+    > ### What It Means
+    > Adjacent links go to the same URL.
+    > ### Why It Matters
+    > When adjacent links go to the same location (such as a linked product image and an adjacent linked product name that go to the same product page) this results in additional navigation and repetition for keyboard and screen reader users.
+    > ### What To Do
+    > If possible, combine the redundant links into one link and remove any redundant text or alternative text (for example, if a product image and product name are in the same link, the image can usually be given alt="").
+    > ### The Algorithm... in English
+    > Two adjacent links go to the same URL.
+    > ### Standards and Guidelines
+    > - [2.4.4 Link Purpose (In Context) (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.4)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
