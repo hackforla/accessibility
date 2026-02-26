@@ -31,7 +31,7 @@ Layout tables exist merely to position content visually - to create columns, ins
 ### What To Do
 In almost every case, layout tables can be replaced with other HTML elements and styled with CSS to achieve the desired visual presentation. If the table contains tabular data, provide appropriate header (`<th>`) cells. If the layout table remains, verify that the reading and navigation order of table content (based on underlying source code order) is logical and give it role="presentation" to ensure it is not identified as a table to screen reader users.
 ### The Algorithm... in English
-A `<table>` element is present that does not contain any header (`<th>`) cells.
+
 ### Standards and Guidelines
 - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
 - [1.3.2 Meaningful Sequence (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.2)
