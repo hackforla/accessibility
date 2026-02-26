@@ -25,7 +25,7 @@ Alerts
 </details> 
 
 
-??? note Click to see WAVE Tool Reference
+??? Click to see WAVE Tool Reference
 
     > ### WAVE Category
     > Alerts
