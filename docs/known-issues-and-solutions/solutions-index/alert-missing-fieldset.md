@@ -114,12 +114,21 @@ The following material covers how the Project Team has provided a solution to th
 
 <!-- Author Instructions: when including markdown images, ensure they are responsive by specifying EITHER width OR height. Do not provide both. -->
 
-<details><summary>1. [Descriptive Title for Screenshot Set 1]</summary>
+??? Info "1. Descriptive Title for Screenshot Set 1"
 
-[INSERT IMAGE HERE]
+    Description/text for image
 
-</details> 
+    > [INSERT IMAGE HERE]
+    
+    Description/text for image
 
+    > [INSERT IMAGE HERE]
+
+??? Info "1. Descriptive Title for Screenshot Set 2"
+
+    Descriptoin/text for image
+
+    > [INSERT IMAGE HERE]
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
 - @Rabia2219
