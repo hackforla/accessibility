@@ -145,11 +145,21 @@ By adding the `id` and `name` attributes to the input element with values matchi
 
 <!-- Author Instructions: when including markdown images, ensure they are responsive by specifying EITHER width OR height. Do not provide both. -->
 
-<details><summary>Screenshot #1</summary>
-    
-[INSERT IMAGE HERE]
+??? Info "1. Descriptive Title for Screenshot Set 1"
 
-</details> 
+    Description/text for image
+
+    > [INSERT IMAGE HERE]
+    
+    Description/text for image
+
+    > [INSERT IMAGE HERE]
+
+??? Info "1. Descriptive Title for Screenshot Set 2"
+
+    Descriptoin/text for image
+
+    > [INSERT IMAGE HERE] 
 
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
