@@ -122,7 +122,6 @@ The following material covers how the Project Team has provided a solution to th
 
     ![Image](https://github.com/user-attachments/assets/321c1c3d-7fe0-461b-9075-6d7d67fdbd8a)
 
-
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
 - @Rabia2219
