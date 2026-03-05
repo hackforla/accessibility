@@ -81,42 +81,40 @@ Any tables that does not provide text in the column header column as a control, 
 - n/a
 
 #### Code Snippet With Solution
-<details><summary>Click to see code snippets...</summary>
+??? Info "Click to see code snippets"
 
-Example of `.sr-only` in source code...
-```jsx
-/* client/src/components/Projects/ProjectsPage.jsx */
-        <>
-          <label htmlFor="SelectAllProject" className="sr-only">
-            Select All Projects on Page
-          </label>
-          <input
-            style={{
-              height: "15px"
-            }}
-            id="SelectAllProject"
-            type="checkbox"
-            checked={selectAllChecked}
-            onChange={handleHeaderCheckbox}
-          />
-        </>
-```
+   Example of `.sr-only` in source code...
+   ```jsx
+   /* client/src/components/Projects/ProjectsPage.jsx */
+           <>
+             <label htmlFor="SelectAllProject" className="sr-only">
+               Select All Projects on Page
+             </label>
+             <input
+               style={{
+                 height: "15px"
+               }}
+               id="SelectAllProject"
+               type="checkbox"
+               checked={selectAllChecked}
+               onChange={handleHeaderCheckbox}
+             />
+           </>
+   ```
 
-```scss
-/* client/src/styles/App.scss */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-```
-
-</details>
+   ```scss
+   /* client/src/styles/App.scss */
+   .sr-only {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     padding: 0;
+     margin: -1px;
+     overflow: hidden;
+     clip: rect(0, 0, 0, 0);
+     border: 0;
+   }
+   ```
 
 #### Why the Fix Works
 When applying this class to a span or div, the inner text will not render onto the screen, yet it remains accessible to AT for screen reader capability.
@@ -130,21 +128,13 @@ When applying this class to a span or div, the inner text will not render onto t
 
 #### Screenshots of WAVE Error
 
-<details><summary>Screenshot 1: Projects Page with Empty Table Header highlighted</summary>
-<p>
+??? Info "Screenshot 1: Projects Page with Empty Table Header highlighted"
 
-<img width="3379" alt="Image" src="https://github.com/user-attachments/assets/91adfff5-6942-436a-99be-d3a1b9d7b319" />
+    > ![Image](https://github.com/user-attachments/assets/91adfff5-6942-436a-99be-d3a1b9d7b319)
 
-</p>
-</details> 
+??? Info "Screenshot 2: My Projects page with WAVE annotations on"
 
-<details><summary>Screenshot 2: My Projects page with WAVE annotations on</summary>
-<p>
-
-<img width="3387" alt="Image" src="https://github.com/user-attachments/assets/7d4b76c5-177d-4951-89d5-6372f85bcf38" />
-
-</p>
-</details> 
+    > ![Image](https://github.com/user-attachments/assets/7d4b76c5-177d-4951-89d5-6372f85bcf38)
 
 ## Credits / Authors
 All HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page.
@@ -155,3 +145,4 @@ All HfLA members who contributed to this wiki page and/or contributed to Pull Re
 - @geolunalg 
 - @JRParryY 
 - @experimentsinhonesty
+- @Rabia2219
