@@ -116,7 +116,7 @@ The following material covers how the Project Team has provided a solution to th
 
 <!-- Author Instructions: when including markdown images, ensure they are responsive by specifying EITHER width OR height. Do not provide both. -->
 
-??? Info "1. [Descriptive Title for Screenshot Set 1]"
+??? Info "1. Descriptive Title for Screenshot Set 1"
 
     Description/text for image
 
