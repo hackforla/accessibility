@@ -120,10 +120,7 @@ The following material covers how the Project Team has provided a solution to th
 
     Description/text for image
 
-<img width="536" height="354" alt="image" src="https://github.com/user-attachments/assets/71bd3cfa-22d9-4c99-89a9-fe6a0a9b8f68" />
-
-
-    > ![Image](https://github.com/user-attachments/assets/71bd3cfa-22d9-4c99-89a9-fe6a0a9b8f68)
+    [INSERT IMAGE HERE]
 
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
