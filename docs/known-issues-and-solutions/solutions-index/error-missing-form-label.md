@@ -134,7 +134,7 @@ The following material covers how the Project Team has provided a solution to th
 
 ??? Info "1. [Descriptive Title for Screenshot Set 1]"
 
-    > ![Image](https://github.com/user-attachments/assets/123456789)
+    > [INSERT IMAGE HERE]
 
 
 ## Credits/Authors
