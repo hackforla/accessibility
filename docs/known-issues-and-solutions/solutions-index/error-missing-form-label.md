@@ -96,35 +96,27 @@ The following material covers how the Project Team has provided a solution to th
 #### Step-By-Step Guide
 <!-- Author Instructions: Replace details dropdown with N/A if this does not apply -->
 
-<details><summary>Click to see step-by-step guide</summary>
-<p>
+??? Info "Click to see step-by-step guide"
 
-[ADD DETAILED INSTRUCTIONS HERE]
+    [ADD DETAILED INSTRUCTIONS HERE]
 
-</p>
-</details> 
 
 #### Other Technical Details
 <!-- Author Instructions: Write N/A if this does not apply -->
 
-<details><summary>Click to see other technical details</summary>
-<p>
+??? Info "Click to see other technical details"
 
-[ INSERT OTHER DETAILS e.g. Prop References, Return Value ]
+    [ INSERT OTHER DETAILS e.g. Prop References, Return Value ]
 
-</p>
-</details> 
 
 #### Code Snippet With Solution
-<details><summary>Click to see code snippets...</summary>
+??? Info "Click to see code snippets"
 
-[INSERT PATH file/path/to/Snippet.jsx]
+    [INSERT PATH file/path/to/Snippet.jsx]
 
-```jsx
-[Code example showing the fix/solution]
-```
-
-</details>
+    ```jsx
+    [Code example showing the fix/solution]
+    ```
 
 #### Why the Fix Works
 <!-- Author Instruction: Add an explanation of how the code changes resolve the accessibility issue and why this approach was chosen -->
@@ -140,13 +132,12 @@ The following material covers how the Project Team has provided a solution to th
 
 <!-- Author Instructions: when including markdown images, ensure they are responsive by specifying EITHER width OR height. Do not provide both. -->
 
-<details><summary>1. [Descriptive Title for Screenshot Set 1]</summary>
+??? Info "1. [Descriptive Title for Screenshot Set 1]"
 
-<img width="400" alt="Image" src="https://github.com/user-attachments/assets/123456789" />
+    > ![Image](https://github.com/user-attachments/assets/123456789)
 
-</p>
-</details> 
 
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
 - @experiementsinhonesty
+- @Rabia2219
