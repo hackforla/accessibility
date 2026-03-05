@@ -130,7 +130,7 @@ When applying this class to a span or div, the inner text will not render onto t
 
 ??? Info "Screenshot 1: Projects Page with Empty Table Header highlighted"
 
-    > ![Image](https://github.com/user-attachments/assets/91adfff5-6942-436a-99be-d3a1b9d7b319)
+    ![Image](https://github.com/user-attachments/assets/91adfff5-6942-436a-99be-d3a1b9d7b319)
 
 ??? Info "Screenshot 2: My Projects page with WAVE annotations on"
 
