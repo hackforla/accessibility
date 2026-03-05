@@ -1,4 +1,4 @@
-This page is the home for issue and wiki templates
+This page is the home for issue and wiki templates.
 
 ## Known Issues Wiki Page Template
 The wiki pages created from this template will be used for future audits (across many teams) so that volunteers can easily identify and refer to technical solutions to WAVE accessibility errors.
