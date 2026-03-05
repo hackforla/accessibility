@@ -16,32 +16,34 @@
 
 WAVE Tool's Reference material on Layout table may not specifically address your problem.  We provide it here for optional reading.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
+??? Info "Click to see WAVE Tool Reference"
 
-<!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-> ### WAVE Category
-> Alerts
-> ### WAVE Error
-> Layout table
-> ### What It Means
-> A layout table is present.
-> ### Why It Matters
-> Layout tables exist merely to position content visually - to create columns, insert spacing, or align content neatly for sighted users. Their content is not at all tabular in nature. Layout tables should not be used in HTML5. They can introduce reading and navigation order issues. Screen readers may interpret them as data tables (i.e., announcing column and row numbers), especially if they contain table header (`<th>`) cells. This introduces significant overhead on screen reader users.
-> ### What To Do
-> In almost every case, layout tables can be replaced with other HTML elements and styled with CSS to achieve the desired visual presentation. If the table contains tabular data, provide appropriate header (`<th>`) cells. If the layout table remains, verify that the reading and navigation order of table content (based on underlying source code order) is logical and give it role="presentation" to ensure it is not identified as a table to screen reader users.
-> ### The Algorithm... in English
-> A `<table>` element is present that does not contain any header (`<th>`) cells.
-> ### Standards and Guidelines
-> - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
-> - [1.3.2 Meaningful Sequence (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.2)
+    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#table_layout" target="_blank">https://wave.webaim.org/api/docs?format=html#table_layout</a>
+
+    > ### WAVE Category
+    > Alerts
+    > ### WAVE Error
+    > Layout table
+    > ### What It Means
+    > A layout table is present.
+    > ### Why It Matters
+    > Layout tables exist merely to position content visually - to create columns, insert spacing, or align content neatly for sighted users. Their content is not at all tabular in nature. Layout tables should not be used in HTML5. They can introduce reading and navigation order issues. Screen readers may interpret them as data tables (i.e., announcing column and row numbers), especially if they contain table header (`<th>`) cells. This introduces significant overhead on screen reader users.
+    > ### What To Do
+    > In almost every case, layout tables can be replaced with other HTML elements and styled with CSS to achieve the desired visual presentation. If the table contains tabular data, provide appropriate header (`<th>`) cells. If the layout table remains, verify that the reading and navigation order of table content (based on underlying source code order) is logical and give it role="presentation" to ensure it is not identified as a table to screen reader users.
+    > ### The Algorithm... in English
+    > A `<table>` element is present that does not contain any header (`<th>`) cells.
+    > ### Standards and Guidelines
+    > - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
+    > - [1.3.2 Meaningful Sequence (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.2)
 </details> 
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
-> ```html
-> [HTML snippet showing the problematic code structure that WAVE detected]
-> ```
+    > ```html
+    > [HTML snippet showing the problematic code structure that WAVE detected]
+    > ```
 
 
 ## Project Team Error guidance
@@ -77,35 +79,26 @@ The following material covers how the Project Team has provided a solution to th
 #### Step-By-Step Guide
 <!-- Author Instructions: Replace details dropdown with N/A if this does not apply -->
 
-<details><summary>Click to see step-by-step guide</summary>
-<p>
+??? Info "Click to see step-by-step guide"
 
-[ADD DETAILED INSTRUCTIONS HERE]
+    [ADD DETAILED INSTRUCTIONS HERE]
 
-</p>
-</details> 
 
 #### Other Technical Details
 <!-- Author Instructions: Write N/A if this does not apply -->
 
-<details><summary>Click to see other technical details</summary>
-<p>
+??? Info "Click to see other technical details"
 
-[ INSERT OTHER DETAILS e.g. Prop References, Return Value ]
-
-</p>
-</details> 
-
+    [ INSERT OTHER DETAILS e.g. Prop References, Return Value ]
+ 
 #### Code Snippet With Solution
-<details><summary>Click to see code snippets...</summary>
+??? Info "Click to see code snippets"
 
-[INSERT PATH file/path/to/Snippet.jsx]
+    [INSERT PATH file/path/to/Snippet.jsx]
 
-```jsx
-[Code example showing the fix/solution]
-```
-
-</details>
+    ```jsx
+    [Code example showing the fix/solution]
+    ```
 
 #### Why the Fix Works
 <!-- Author Instruction: Add an explanation of how the code changes resolve the accessibility issue and why this approach was chosen -->
@@ -121,12 +114,21 @@ The following material covers how the Project Team has provided a solution to th
 
 <!-- Author Instructions: when including markdown images, ensure they are responsive by specifying EITHER width OR height. Do not provide both. -->
 
-<details><summary>1. [Descriptive Title for Screenshot Set 1]</summary>
+??? Info "1. Descriptive Title for Screenshot Set 1"
 
-<img width="400" alt="Image" src="https://github.com/user-attachments/assets/123456789" />
+    Description/text for image
 
-</p>
-</details> 
+    > [INSERT IMAGE HERE]
+    
+    Description/text for image
+
+    > [INSERT IMAGE HERE]
+
+??? Info "1. Descriptive Title for Screenshot Set 2"
+
+    Descriptoin/text for image
+
+    > [INSERT IMAGE HERE]
 
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
