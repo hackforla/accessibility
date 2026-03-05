@@ -120,7 +120,7 @@ The following material covers how the Project Team has provided a solution to th
 
     Description/text for image
 
-    ![Image](https://github.com/user-attachments/assets/a61292ba-4212-403f-9583-212e0f4314e1)
+    ![Image](https://github.com/user-attachments/assets/321c1c3d-7fe0-461b-9075-6d7d67fdbd8a)
 
 
 ## Credits/Authors
