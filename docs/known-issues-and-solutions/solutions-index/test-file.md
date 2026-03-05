@@ -22,28 +22,28 @@ WAVE Tool's Reference material on Orphaned form label may not specifically addre
 
     <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-    > ### WAVE Category
-    > Alerts
-    > ### WAVE Error
-    > Layout table
-    > ### What It Means
-    > A layout table is present.
-    > ### Why It Matters
-    > Layout tables exist merely to position content visually - to create columns, insert spacing, or align content neatly for sighted users. Their content is not at all tabular in nature. Layout tables should not be used in HTML5. They can introduce reading and navigation order issues. Screen readers may interpret them as data tables (i.e., announcing column and row numbers), especially if they contain table header (`<th>`) cells. This introduces significant overhead on screen reader users.
-    > ### What To Do
-    > In almost every case, layout tables can be replaced with other HTML elements and styled with CSS to achieve the desired visual presentation. If the table contains tabular data, provide appropriate header (`<th>`) cells. If the layout table remains, verify that the reading and navigation order of table content (based on underlying source code order) is logical and give it role="presentation" to ensure it is not identified as a table to screen reader users.
-    > ### The Algorithm... in English
-    > A `<table>` element is present that does not contain any header (`<th>`) cells.
-    > ### Standards and Guidelines
-    > - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
-    > - [1.3.2 Meaningful Sequence (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.2)
+    ### WAVE Category
+    Alerts
+    ### WAVE Error
+    Layout table
+    ### What It Means
+    A layout table is present.
+    ### Why It Matters
+    Layout tables exist merely to position content visually - to create columns, insert spacing, or align content neatly for sighted users. Their content is not at all tabular in nature. Layout tables should not be used in HTML5. They can introduce reading and navigation order issues. Screen readers may interpret them as data tables (i.e., announcing column and row numbers), especially if they contain table header (`<th>`) cells. This introduces significant overhead on screen reader users.
+    ### What To Do
+    In almost every case, layout tables can be replaced with other HTML elements and styled with CSS to achieve the desired visual presentation. If the table contains tabular data, provide appropriate header (`<th>`) cells. If the layout table remains, verify that the reading and navigation order of table content (based on underlying source code order) is logical and give it role="presentation" to ensure it is not identified as a table to screen reader users.
+    ### The Algorithm... in English
+    A `<table>` element is present that does not contain any header (`<th>`) cells.
+    ### Standards and Guidelines
+    - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
+    - [1.3.2 Meaningful Sequence (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.2)
  
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
-> ```html
-> [HTML snippet showing the problematic code structure that WAVE detected]
-> ```
+```html
+[HTML snippet showing the problematic code structure that WAVE detected]
+```
 
 
 ## Project Team Error guidance
@@ -116,11 +116,16 @@ The following material covers how the Project Team has provided a solution to th
 
 <!-- Author Instructions: when including markdown images, ensure they are responsive by specifying EITHER width OR height. Do not provide both. -->
 
-<details><summary>1. [Descriptive Title for Screenshot Set 1]</summary>
+??? Info "1. [Descriptive Title for Screenshot Set 1]"
 
-[INSERT IMAGE HERE]
+    Description/text for image
 
-</details> 
+    ![Image](https://github.com/user-attachments/assets/a61292ba-4212-403f-9583-212e0f4314e1)
+
+    Description/text for image
+
+    <img width="240" height="240" alt="image" src="https://github.com/user-attachments/assets/6470b47a-199d-4075-9cee-5337cd8af11d" />
+
 
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
