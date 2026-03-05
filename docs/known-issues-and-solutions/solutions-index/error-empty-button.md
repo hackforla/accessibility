@@ -95,7 +95,7 @@ The fix adds an `aria-label` attribute to each icon-only navigation button. This
 
 ??? Info "Click to see other technical details"
 
-[ INSERT OTHER DETAILS e.g. Prop References, Return Value ]
+    [ INSERT OTHER DETAILS e.g. Prop References, Return Value ]
 
 #### Code Snippet With Solution
 
