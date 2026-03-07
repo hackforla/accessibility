@@ -1,6 +1,6 @@
 # Alert - Missing fieldset
 - WAVE Category: Alert
-- WAVE Error: Missing fieldset
+- WAVE Alert: Missing fieldset
 
 ## Page Content Status
 - [X] WAVE Error guidance text
