@@ -15,3 +15,9 @@ You can use this solution's directions and previous issues, to solve the issue o
 - Review the WAVE guidance
 - Solve the problem on the page you are working on
 - Update the page with your issue, PR and solution for future developers who encounter this issue
+
+---
+
+- Page Status: Complete
+- Author(s): 
+   - Bonnie Wolfe
