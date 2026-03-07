@@ -1,6 +1,6 @@
 # Alert - Skipped heading level
 - WAVE Category: Alert
-- WAVE Error: Skipped heading level
+- WAVE Alert: Skipped heading level
 
 ## Page Content Status
 - [X] WAVE Error guidance text
@@ -46,55 +46,55 @@ WAVE Tool's Reference material on Skipped heading level may not specifically add
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the [Error] WAVE error.
+The following material covers how the Project Team has provided a solution to the Skippped heading level WAVE alert.
 
 ### Project Page Details 1
 - Project Page name: Privacy Policy
 - Project Staging URL: http://tdm-dev.azurewebsites.net/privacypolicy
 - Requires sign in: FALSE
-   - Required User Role: Visitor
-   - Can access page directly from URL: TRUE
-   - Accepts URL parameters: FALSE
+    - Required User Role: Visitor
+    - Can access page directly from URL: TRUE
+    - Accepts URL parameters: FALSE
 
 ### Project Team Issue and PR details 1
 - Related GitHub Issue(s):
-  - https://github.com/hackforla/tdm-calculator/issues/2716
+    - https://github.com/hackforla/tdm-calculator/issues/2716
 - Related Pull Request(s):
-  - PR: https://github.com/hackforla/tdm-calculator/pull/2760
+   - PR: https://github.com/hackforla/tdm-calculator/pull/2760
 - React Component(s)
-  - [INSERT PATH: e.g. path/to/Component.jsx]
+   - [INSERT PATH: e.g. path/to/Component.jsx]
  
 ### Project Page Details 2
 - Project Page name: Forgot Password
 - Project Staging URL: https://tdm-dev.azurewebsites.net/forgotpassword
 - Requires sign in: FALSE
-   - Required User Role: All Users
-   - Can access page directly from URL: TRUE
-   - Accepts URL parameters: FALSE
+    - Required User Role: All Users
+    - Can access page directly from URL: TRUE
+    - Accepts URL parameters: FALSE
  
 ### Project Team Issue and PR details 2
 - Related GitHub Issue(s):
-  - https://github.com/hackforla/tdm-calculator/issues/2701
+    - https://github.com/hackforla/tdm-calculator/issues/2701
 - Related Pull Request(s):
-  - https://github.com/hackforla/tdm-calculator/pull/2779
+   - https://github.com/hackforla/tdm-calculator/pull/2779
 - React Component(s)
-  - [INSERT PATH: e.g. path/to/Component.jsx]
+   - [INSERT PATH: e.g. path/to/Component.jsx]
  
 ### Project Page Details 3
 - Project Page name: Manage Submissions
 - Project Staging URL: https://tdm-dev.azurewebsites.net/managesubmissions
 - Requires sign in: TRUE
-   - Required User Role: Admin
-   - Can access page directly from URL: FALSE
-   - Accepts URL parameters: FALSE
+    - Required User Role: Admin
+    - Can access page directly from URL: FALSE
+    - Accepts URL parameters: FALSE
 
 ### Project Team Issue and PR details 3
 - Related GitHub Issue(s):
-  - https://github.com/hackforla/tdm-calculator/issues/2705
+    - https://github.com/hackforla/tdm-calculator/issues/2705
 - Related Pull Request(s):
-  - https://github.com/hackforla/tdm-calculator/pull/2799
+    - https://github.com/hackforla/tdm-calculator/pull/2799
 - React Component(s)
-  - [INSERT PATH: e.g. path/to/Component.jsx]
+    - [INSERT PATH: e.g. path/to/Component.jsx]
 
 ### Project Team Solution
 
