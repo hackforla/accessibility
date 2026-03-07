@@ -33,7 +33,7 @@ Contrast Errors | [Very low contrast](contrast-errors-very-low-contrast.md) | mi
 
 ---
 
-- Page Status: Complete
+- Page Status: In Progress
 - Authors: 
    - Ryan Chase
    - Bonnie Wolfe
