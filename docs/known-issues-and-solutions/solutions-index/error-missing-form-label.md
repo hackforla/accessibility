@@ -52,36 +52,36 @@ WAVE Tool's Reference material on Missing Form Label may not specifically addres
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the [Error] WAVE error.
+The following material covers how the Project Team has provided a solution to the Missing Form Label WAVE error.
 
 ### Project Page Details
 - Project Page name: Security
 - Project Staging URL: http://tdm-dev.azurewebsites.net/roles
 - Requires sign in: true
-   - Required User Role: Security Admin
-   - Can access page directly from URL: false
+    - Required User Role: Security Admin
+    - Can access page directly from URL: false
 
 ### Project Team Issue and PR details
 - Related GitHub Issue:
-  - https://github.com/hackforla/tdm-calculator/issues/2709
+    - https://github.com/hackforla/tdm-calculator/issues/2709
 - Related Pull Request:
-  - https://github.com/hackforla/tdm-calculator/pull/2803
+    - https://github.com/hackforla/tdm-calculator/pull/2803
 
 ### Project Page Details
 - Project Page name: Update Account
 - Project Staging URL: https://tdm-dev.azurewebsites.net/updateaccount
 - Requires sign in: true
-   - Required User Role: Logged in user
-   - Can access page directly from URL: TRUE (But should be FALSE See issue https://github.com/hackforla/tdm-calculator/issues/2857)
-   - Accepts URL parameters? TRUE (but should be false.  See issue https://github.com/hackforla/tdm-calculator/issues/2857)
+    - Required User Role: Logged in user
+    - Can access page directly from URL: TRUE (But should be FALSE See issue https://github.com/hackforla/tdm-calculator/issues/2857)
+    - Accepts URL parameters? TRUE (but should be false.  See issue https://github.com/hackforla/tdm-calculator/issues/2857)
      e.g. /updateaccount/example@hfla.com pre-populates email form field
 
 - Related GitHub Issue:
-  - https://github.com/hackforla/tdm-calculator/issues/2697
+    - https://github.com/hackforla/tdm-calculator/issues/2697
 - Related Pull Request:
-  - https://github.com/hackforla/tdm-calculator/pull/2784
+    - https://github.com/hackforla/tdm-calculator/pull/2784
 - React Component(s)
-  - [INSERT PATH: e.g. path/to/Component.jsx]
+    - [INSERT PATH: e.g. path/to/Component.jsx]
 
 ### Project Team Solution
 
