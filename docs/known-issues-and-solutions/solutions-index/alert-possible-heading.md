@@ -1,6 +1,6 @@
 # Alert - Possible heading
 - WAVE Category: Alert
-- WAVE Error: Possible heading
+- WAVE Alert: Possible heading
 
 ## Page Content Status
 - [X] WAVE Error guidance text
