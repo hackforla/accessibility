@@ -3,6 +3,7 @@
 ## Consult the Index to determine how much we know about your issue
 While conducting accessability audits on your project, auditors should refer to the [Known Issues index](solutions-index/index.md) to confirm if we have encountered a specific WAVE Error.
 
+## Next steps
 Three possible results will come from consulting the index
          
 ### 1. WIKI Page has details of the issue and a solution
