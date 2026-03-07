@@ -13,3 +13,9 @@ We are creating an [index of all known issues and solutions](../known-issues-and
 If you need to create new solutions wiki pages, see [Wiki and Issue Templates](../wiki-and-issue-templates/index.md)
 
 All teams will need to apply the [screen reader only class solution](../known-issues-and-solutions/solutions-index/screen-reader-only-class.md)
+
+---
+
+- Page Status:
+- Current Authors: 
+   - Bonnie Wolfe
