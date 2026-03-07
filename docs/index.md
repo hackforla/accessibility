@@ -22,6 +22,7 @@ The success criteria are what determine “conformance” to WCAG. That is, in o
 - Authors: 
    - Ryan Chase
    - Bonnie Wolfe
+   - Rabia Shaikh
 
 
 
