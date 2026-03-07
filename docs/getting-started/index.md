@@ -7,7 +7,7 @@ Follow these steps to get your computer setup and understand how to use the WAVE
 2. [Perform WAVE audit](perform-wave-audit.md)
 
 
-## See and Use Known Issues and Solutions
+## See and use Known Issues and Solutions
 Consult [Known issues and solutions](../known-issues-and-solutions/index.md).  To see how to use and contribute to the Known Issues and Solutions Index.
 
 ## All teams must apply this solution to their project
