@@ -15,7 +15,7 @@ You can use this solution's directions and previous issues/PRs, to solve the iss
 
 ### 3. There is no WIKI page for the issue
 (unlikely, but possible)
-- Create a wiki page using the WAVE: Known Accessibility Issue template provided on [Wiki and Issue Templates](../wiki-and-issue-templates/index.md)
+- Create a WIKI page using the WAVE: Known Accessibility Issue template provided on [Wiki and Issue Templates](../wiki-and-issue-templates/index.md)
    - Populate it with the WAVE guidance
        - See template for link to All current WAVE guidance
        - See a finished issue in the index as an example for formatting and content.
