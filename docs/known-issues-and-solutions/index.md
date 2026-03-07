@@ -18,7 +18,7 @@ You can use this solution's directions and previous issues/PRs, to solve the iss
 - Create a WIKI page using the WAVE: Known Accessibility Issue template provided on [Wiki and Issue Templates](../wiki-and-issue-templates/index.md)
    - Populate it with the WAVE guidance
        - See template for link to All current WAVE guidance
-       - See a finished issue in the index as an example for formatting and content.
+       - See a finished WIKI issue page in the index as an example for formatting and content.
 - Review the WAVE guidance
 - Solve the problem on the website page you are working on
 - Update the wiki page with your issue, PR and solution for future developers who encounter this issue
