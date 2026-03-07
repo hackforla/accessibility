@@ -12,7 +12,7 @@ The wiki pages created from this template will be used for future audits (across
 6. Add all contributor GitHub handles in the Credits section (wiki page author, PR author and reviewers)
 7. Remove or add screenshot sections as needed
 
-### WIki Page Template:
+### WIki Page Template
 Copy/paste this template to create a wiki page in the folder: /known-issues-and-solutions/solutions-index
 
 <details><summary>File Name</summary>
