@@ -16,6 +16,6 @@ All teams will need to apply the [screen reader only class solution](../known-is
 
 ---
 
-- Page Status:
+- Page Status: Complete
 - Current Authors: 
    - Bonnie Wolfe
