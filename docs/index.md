@@ -1,10 +1,10 @@
 # Accessibility
 
-### Motivation for Accessibility Compliance
+## Motivation for Accessibility Compliance
 
 As a site that will be managed by the city, we are committed to delivering a site that is compliant with modern accessibility standards. We will be using the WAVE browser extension to perform accessibility audits in order to ensure we meet WCAG2.2 standards.
 
-#### WCAG 2.2 Accessibility Standards
+### WCAG 2.2 Accessibility Standards
 
 > The WCAG documents explain how to make web content more accessible to people with disabilities. Web “content” generally refers to the information in a web page or web application
 - https://www.w3.org/WAI/standards-guidelines/wcag/
