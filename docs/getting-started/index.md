@@ -3,7 +3,7 @@
 ## Setup
 Follow these steps to get your computer setup and understand how to use the WAVE browswer extension
 
-1. [Read about and install WAVE Browser extension](wave-browser-extension.md)
+1. Read about and install [WAVE Browser extension](wave-browser-extension.md)
 2. [Perform WAVE audit](perform-wave-audit.md)
 
 
