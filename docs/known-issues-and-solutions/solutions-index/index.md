@@ -30,6 +30,12 @@ Contrast Errors | [Very low contrast](contrast-errors-very-low-contrast.md) | mi
 - Unknown Issue (was called Broken Aria Reference but dosen't seem to be related to that).
    - no issue
       - PR: https://github.com/hackforla/tdm-calculator/pull/2786
-     
 
+---
+
+- Page Status: Complete
+- Authors: 
+   - Ryan Chase
+   - Bonnie Wolfe
+   - Rabia Shaikh
 
