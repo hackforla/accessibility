@@ -44,7 +44,6 @@ Copy/paste this template into the new wiki page editor:
 WAVE Tool's Reference material on [REPLACE WITH WAVE ERROR NAME] may not specifically address your problem.  We provide it here for optional reading.
 
 <details><summary>Click to see WAVE Tool Reference</summary>
-<p>
 
 <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
@@ -69,7 +68,6 @@ WAVE Tool's Reference material on [REPLACE WITH WAVE ERROR NAME] may not specifi
 ### Standards and Guidelines
 [REPLACE WITH WAVE CONTENT FOR Standards and Guidelines]
 
-</p>
 </details> 
 
 ## Example of a DOM Snippet Generated From WAVE Tool
@@ -113,22 +111,18 @@ The following material covers how the Project Team has provided a solution to th
 <!-- Author Instructions: Replace details dropdown with N/A if this does not apply -->
 
 <details><summary>Click to see step-by-step guide</summary>
-<p>
 
 [ADD DETAILED INSTRUCTIONS HERE]
 
-</p>
 </details> 
 
 #### Other Technical Details
 <!-- Author Instructions: Write N/A if this does not apply -->
 
 <details><summary>Click to see other technical details</summary>
-<p>
 
 [ INSERT OTHER DETAILS e.g. Prop References, Return Value ]
 
-</p>
 </details> 
 
 #### Code Snippet With Solution
@@ -160,7 +154,6 @@ The following material covers how the Project Team has provided a solution to th
 
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/123456789" />
 
-</p>
 </details> 
 
 ## Credits/Authors
