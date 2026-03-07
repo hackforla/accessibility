@@ -1,6 +1,6 @@
 # test-file2
 - WAVE Category: Alert
-- WAVE Error: Orphaned form label
+- WAVE Alert: Orphaned form label
 
 # Page Content Status
 - [x] WAVE Error guidance text
