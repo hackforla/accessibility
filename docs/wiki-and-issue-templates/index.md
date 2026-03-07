@@ -1,9 +1,11 @@
 # Wiki and Issue Templates
 
-## WIki Page Template Overview: Known Issue
+## WIKI page known issue template
+
+### Overview
 The wiki pages created from this template will be used for future audits (across many teams) so that volunteers can easily identify and refer to technical solutions to WAVE accessibility errors.
 
-### WIki Page Template Instructions: Known Issue 
+### Instructions
 1. Replace all bracketed `[placeholders]` with actual content
 2. Update the date in `YYYY-MM-DD` format
 3. Fill in the WAVE Tool Reference section with content from the official WAVE documentation
@@ -12,7 +14,7 @@ The wiki pages created from this template will be used for future audits (across
 6. Add all contributor GitHub handles in the Credits section (wiki page author, PR author and reviewers)
 7. Remove or add screenshot sections as needed
 
-### WIki Page Template
+### Template
 Copy/paste this template to create a wiki page in the folder: /known-issues-and-solutions/solutions-index
 
 <details><summary>File Name</summary>
