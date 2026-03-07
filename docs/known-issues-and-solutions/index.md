@@ -20,5 +20,5 @@ You can use this solution's directions and previous issues, to solve the issue o
 
 - Page Status: Complete
 - Author(s): 
-   - Bonnie Wolfe
-   - Rabia Shaikh
+    - Bonnie Wolfe
+    - Rabia Shaikh
