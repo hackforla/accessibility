@@ -28,7 +28,7 @@ The success criteria are what determine “conformance” to WCAG. That is, in o
 ## Related pages
 - [Getting Started](getting-started/index.md)
 - [Known Issues and Solutions](known-issues-and-solutions/solutions-index/index.md)
-- [Wiki and Issue Templates](issue-and-wiki-templates/index.md)
+- [Wiki and Issue Templates](wiki-and-issue-templates/index.md)
 
 
 
