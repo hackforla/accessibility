@@ -8,8 +8,9 @@ Follow these steps to get your computer setup and understand how to use the WAVE
 
 
 ## See and Use Known Issues and Solutions
-Consult [index of all known issues and solutions](../known-issues-and-solutions/solutions-index/index.md).  To see known issues, WAVE guidance, review applied solutions and add any missing solutions.
+Consult [Known issues and solutions](../known-issues-and-solutions/index.md).  To see how to use and contribute to the Known Issues and Solutions Index.
 
+## All teams must apply this solution to their project
 All teams will need to apply the [screen reader only class solution](../known-issues-and-solutions/solutions-index/screen-reader-only-class.md).
 
 ---
