@@ -1,6 +1,6 @@
-## Solutions Index for Known Accessibility Issues
+# Solutions Index for Known Accessibility Issues
 
-### Know Issues and Solutions COMPLETED
+## Know Issues and Solutions COMPLETED
 - Errors
   - 🟥 [Error Broken ARIA reference](error-broken-aria-reference.md)
   - 🟥 [Error Empty Button](error-empty-button.md)
@@ -10,7 +10,7 @@
   - ⚠️ [Alert Orphaned form label](alert-orphaned-form-label.md)
 
 
-### Known Issues and Solutions DRAFTS 
+## Known Issues and Solutions DRAFTS 
 
 Category | Name | DOM snippit | Page Found On | Issue | PR | Solution
 -- | -- | -- | -- | -- | -- | --
@@ -30,6 +30,12 @@ Contrast Errors | [Very low contrast](contrast-errors-very-low-contrast.md) | mi
 - Unknown Issue (was called Broken Aria Reference but dosen't seem to be related to that).
    - no issue
       - PR: https://github.com/hackforla/tdm-calculator/pull/2786
-     
 
+---
+
+- Page Status: In Progress
+- Authors: 
+   - Ryan Chase
+   - Bonnie Wolfe
+   - Rabia Shaikh
 
