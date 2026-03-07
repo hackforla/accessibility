@@ -2,9 +2,10 @@
 While conducting audits of the TDM Calculator, auditors should refer to the [Known Issues index](solutions-index/index.md) to confirm if we have encountered a specific WAVE Error.
 
 Three possible results will come from consulting the index
+
 1.  The problem is listed in the index and **the page has details of the issue and and a solution for it**
-2.  The problem is listed in the index and **the page has details of the issue and but _doesn't_ contain the solution for it**
-3.  **There is no page for the issue** (unlikely, but possible), and you will need to create a new page using the WAVE: Known Accessibility Issue template provided on [Wiki and Issue Templates](../wiki-and-issue-templates/index.md) to create a new corresponding page    
+1.  The problem is listed in the index and **the page has details of the issue and but _doesn't_ contain the solution for it**
+1.  **There is no page for the issue** (unlikely, but possible), and you will need to create a new page using the WAVE: Known Accessibility Issue template provided on [Wiki and Issue Templates](../wiki-and-issue-templates/index.md) to create a new corresponding page    
          
 ### If the solution is detailed on the page
 You can use this solution's directions and previous issues, to solve the issue on the page you are working on.
