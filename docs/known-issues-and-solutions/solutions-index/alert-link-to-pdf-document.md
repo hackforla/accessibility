@@ -1,6 +1,6 @@
 # Alert - Link to PDF document
 - WAVE Category: Alert
-- WAVE Error: Link to PDF document
+- WAVE Alert: Link to PDF document
 
 ## Page Content Status
 - [X] WAVE Error guidance text
@@ -46,7 +46,7 @@ WAVE Tool's Reference material on Link to PDF document may not specifically addr
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the Link to PDF document WAVE error.
+The following material covers how the Project Team has provided a solution to the Link to PDF document WAVE alert.
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]

@@ -51,7 +51,7 @@ WAVE Tool's Reference material on Empty Table Header may not specifically addres
 
 ## TDM Error guidance
 
-The following material covers how the TDM team has provided a solution to the [Error] WAVE error.
+The following material covers how the TDM team has provided a solution to the empty table head WAVE error.
 
 ### TDM Calculator Page Details
 - TDM Page name: Projects Page
@@ -60,11 +60,11 @@ The following material covers how the TDM team has provided a solution to the [E
 
 ### TDM Calculator Issue and PR details
 - Related GitHub Issue(s):
-  - n/a
+    - n/a
 - Related Pull Request(s):
-  - https://github.com/hackforla/tdm-calculator/pull/2723
+    - https://github.com/hackforla/tdm-calculator/pull/2723
 - React Component(s)
-  - `client/src/components/Projects/ColumnHeaderPopups/ProjectTableColumnHeader.jsx`
+    - `client/src/components/Projects/ColumnHeaderPopups/ProjectTableColumnHeader.jsx`
 
 ### TDM Solution
 
@@ -121,9 +121,9 @@ When applying this class to a span or div, the inner text will not render onto t
 - Source: https://webaim.org/techniques/css/invisiblecontent/
 
 #### Where this solution is applicable
-  - checkboxes with no text (e.g. a "select-all" checkbox in left-most column of table)
-  - columns whose cells provide on-hover option menus
-  - images with special on-click behavior
+- checkboxes with no text (e.g. a "select-all" checkbox in left-most column of table)
+- columns whose cells provide on-hover option menus
+- images with special on-click behavior
 
 
 #### Screenshots of WAVE Error

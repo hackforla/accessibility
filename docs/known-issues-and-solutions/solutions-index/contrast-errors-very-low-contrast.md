@@ -1,6 +1,6 @@
 # Contrast Errors - Very low contrast
 - WAVE Category: Contrast Errors
-- WAVE Error: Very low contrast
+- WAVE Contrast Error: Very low contrast
 
 ## Page Content Status
 - [X] WAVE Error guidance text
@@ -45,23 +45,23 @@ WAVE Tool's Reference material on Very low contrast may not specifically address
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the [Error] WAVE error.
+The following material covers how the Project Team has provided a solution to the Very low contrast WAVE contrast error.
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
 - Project Staging URL: [INSERT URL or "N/A"]
 - Requires sign in: [TRUE OR FALSE]
-   - Required User Role: [INSERT ONE OF: Visitor, Logged in user, Admin, Security Admin]
-   - Can access page directly from URL: [TRUE OR FALSE]
-   - Accepts URL parameters: [TRUE OR FALSE]
+    - Required User Role: [INSERT ONE OF: Visitor, Logged in user, Admin, Security Admin]
+    - Can access page directly from URL: [TRUE OR FALSE]
+    - Accepts URL parameters: [TRUE OR FALSE]
 
 ### Project Team Issue and PR details
 - Related GitHub Issue(s):
-  - [INSERT ISSUE URL]
+    - [INSERT ISSUE URL]
 - Related Pull Request(s):
-  - [INSERT PR URL]
+    - [INSERT PR URL]
 - React Component(s)
-  - [INSERT PATH: e.g. path/to/Component.jsx]
+    - [INSERT PATH: e.g. path/to/Component.jsx]
 
 ### Project Team Solution
 

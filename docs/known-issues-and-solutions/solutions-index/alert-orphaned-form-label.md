@@ -1,6 +1,6 @@
 # Alert - Orphaned form label
 - WAVE Category: Alert
-- WAVE Error: Orphaned form label
+- WAVE Alert: Orphaned form label
 
 # Page Content Status
 - [x] WAVE Error guidance text
@@ -55,7 +55,7 @@ WAVE Tool's Reference material on Orphaned form label may not specifically addre
 
 ## Project Team Error guidance
 
-The following material covers how the TDM team has provided a solution to the [Error] WAVE error.
+The following material covers how the TDM team has provided a solution to the Orphaned form label WAVE alert.
 
 ### Project Page Details
 - TDM Page name: Create Project

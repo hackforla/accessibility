@@ -1,6 +1,6 @@
 # Alert - Missing fieldset
 - WAVE Category: Alert
-- WAVE Error: Missing fieldset
+- WAVE Alert: Missing fieldset
 
 ## Page Content Status
 - [X] WAVE Error guidance text
@@ -49,7 +49,7 @@ WAVE Tool's Reference material on Missing fieldset may not specifically address 
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the [Error] WAVE error.
+The following material covers how the Project Team has provided a solution to the Missing Fieldset WAVE alert.
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
