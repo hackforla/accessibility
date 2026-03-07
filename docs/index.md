@@ -20,9 +20,9 @@ The success criteria are what determine “conformance” to WCAG. That is, in o
 
 - Page Status: Complete
 - Authors: 
-   - Ryan Chase
-   - Bonnie Wolfe
-   - Rabia Shaikh
+    - Ryan Chase
+    - Bonnie Wolfe
+    - Rabia Shaikh
 
 
 
