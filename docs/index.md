@@ -1,5 +1,4 @@
-# Accessibility (WIP)
-
+# Accessibility
 
 ### Motivation for Accessibility Compliance
 
@@ -19,7 +18,7 @@ The success criteria are what determine “conformance” to WCAG. That is, in o
 
 ---
 
-- Page Status: In Progress
+- Page Status:
 - Current Authors: 
    - Ryan Chase
    - Bonnie Wolfe
