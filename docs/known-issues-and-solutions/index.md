@@ -6,7 +6,7 @@ While conducting accessability audits on your project, auditors should refer to 
 Three possible results will come from consulting the index
          
 ### 1. WIKI Page has details of the issue and a solution
-You can use this solution's directions and previous issues/PRs, to solve the issue on the page you are working on.
+You can use this solution's directions and previous issues/PRs, to solve the issue on the website page you are working on.
 
 ### 2. WIKI Page has details of the issue and but _doesn't_ contain the solution
 - Review the WAVE guidance
