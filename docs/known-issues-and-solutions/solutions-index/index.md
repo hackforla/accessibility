@@ -26,10 +26,10 @@ Contrast Errors | [Very low contrast](contrast-errors-very-low-contrast.md) | mi
 
 
 - Contrast Errors
-  - 🚨 todo - add issues here
+   - 🚨 todo - add issues here
 - Unknown Issue (was called Broken Aria Reference but dosen't seem to be related to that).
-   - no issue
-      - PR: https://github.com/hackforla/tdm-calculator/pull/2786
+    - no issue
+        - PR: https://github.com/hackforla/tdm-calculator/pull/2786
 
 ---
 
