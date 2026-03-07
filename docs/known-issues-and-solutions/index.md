@@ -10,7 +10,7 @@ You can use this solution's directions and previous issues, to solve the issue o
 
 ### 2. Page has details of the issue and but _doesn't_ contain the solution
 - Review the WAVE guidance
-- Solve the problem on the page you are working on
+- Solve the problem on the website page you are working on
 - Update the page with your issue, PR and solution for future developers who encounter this issue
 
 ### 3. There is no page for the issue
