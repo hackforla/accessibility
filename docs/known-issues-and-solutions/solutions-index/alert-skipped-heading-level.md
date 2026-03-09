@@ -60,9 +60,9 @@ The following material covers how the Project Team has provided a solution to th
 - Related GitHub Issue(s):
     - https://github.com/hackforla/tdm-calculator/issues/2716
 - Related Pull Request(s):
-   - PR: https://github.com/hackforla/tdm-calculator/pull/2760
+    - PR: https://github.com/hackforla/tdm-calculator/pull/2760
 - React Component(s)
-   - [INSERT PATH: e.g. path/to/Component.jsx]
+    - [INSERT PATH: e.g. path/to/Component.jsx]
  
 ### Project Page Details 2
 - Project Page name: Forgot Password
