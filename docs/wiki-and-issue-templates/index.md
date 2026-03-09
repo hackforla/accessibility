@@ -47,7 +47,7 @@ WAVE Tool's Reference material on [REPLACE WITH WAVE ERROR NAME] may not specifi
 
 ??? Info "Click to see WAVE Tool Reference"
 
-    This content added [YYYY-MM-DD]. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#[REPLACE TAG NAME]" target="_blank">https://wave.webaim.org/api/docs?format=html#[REPLACE TAG NAME]</a>
+    This content added [YYYY-MM-DD]. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#[REPLACE ANCHOR NAME]" target="_blank">https://wave.webaim.org/api/docs?format=html#[REPLACE ANCHOR NAME]</a>
 
     <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
