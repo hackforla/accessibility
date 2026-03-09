@@ -91,7 +91,7 @@ The following material covers how the Project Team has provided a solution to th
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
-- Project Staging URL: [INSERT URL or "N/A"]
+- Project Dev URL: [INSERT URL or "N/A"]
 - Requires sign in: [TRUE OR FALSE]
     - Required User Role: [INSERT ONE OF: Visitor, Logged in user, Admin, Security Admin]
     - Can access page directly from URL: [TRUE OR FALSE]
