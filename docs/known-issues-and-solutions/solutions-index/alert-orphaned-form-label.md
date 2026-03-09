@@ -149,20 +149,21 @@ By adding the `id` and `name` attributes to the input element with values matchi
 
     Description/text for image
 
-    > [INSERT IMAGE HERE]
+    [INSERT IMAGE HERE]
     
     Description/text for image
 
-    > [INSERT IMAGE HERE]
+    [INSERT IMAGE HERE]
 
 ??? Info "1. Descriptive Title for Screenshot Set 2"
 
     Descriptoin/text for image
 
-    > [INSERT IMAGE HERE] 
+    [INSERT IMAGE HERE] 
 
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
 - @heejung-hong 
 - @eburdekin 
-- @geolunalg 
+- @geolunalg
+- @Rabia2219
