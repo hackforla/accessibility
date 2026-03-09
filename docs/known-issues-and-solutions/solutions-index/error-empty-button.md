@@ -151,11 +151,11 @@ By providing an `aria-label` attribute, the button remains visually unchanged bu
 
     WAVE Error modal on Create Projects Page
 
-    > ![Image](https://github.com/user-attachments/assets/941a2b01-f902-414a-a227-927a34217f53)
+    ![Image](https://github.com/user-attachments/assets/941a2b01-f902-414a-a227-927a34217f53)
 
     WAVE Error modal on Create Projects Page (styles turned off)
 
-    > ![Image](https://github.com/user-attachments/assets/83fd0eea-7106-4a85-b438-e72a4d17189b)
+    ![Image](https://github.com/user-attachments/assets/83fd0eea-7106-4a85-b438-e72a4d17189b)
  
 
 ??? Info "2. Create Project, Page 1 and Page 4: Empty Button (No Action Required)"
@@ -163,16 +163,16 @@ By providing an `aria-label` attribute, the button remains visually unchanged bu
     Hidden Navigation Buttons
     - Note: These buttons have `display: none` and are hidden from assistive technologies. No action required for these instances.
 
-    > ![Image](https://github.com/user-attachments/assets/71bd3cfa-22d9-4c99-89a9-fe6a0a9b8f68)
+    ![Image](https://github.com/user-attachments/assets/71bd3cfa-22d9-4c99-89a9-fe6a0a9b8f68)
 
     Same WAVE Icon but also showing Dev Tools Inspector
 
-    > ![Image](https://github.com/user-attachments/assets/7e93fc43-4f18-4efd-86e4-cddda94941ca)
+    ![Image](https://github.com/user-attachments/assets/7e93fc43-4f18-4efd-86e4-cddda94941ca)
 
 
 ??? Info "3. Visuals After PR changes Were Applied"
   
-    > <img width="611" height="256" alt="after-label" src="https://github.com/user-attachments/assets/176da5c1-7b48-47db-983b-4cd74dc98fbd" />
+    <img width="611" height="256" alt="after-label" src="https://github.com/user-attachments/assets/176da5c1-7b48-47db-983b-4cd74dc98fbd" />
 
 
 ## Credits/Authors
