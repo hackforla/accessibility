@@ -38,15 +38,15 @@ WAVE Tool's Reference material on Empty Table Header may not specifically addres
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
-```html
-<th>
-    <div style="width: 100%; height: 100%;">
-        <span>
-            <input type="checkbox" style="height: 15px;">
-        </span>
-    </div>
-</th>
-```
+> ```html
+> <th>
+    > <div style="width: 100%; height: 100%;">
+        > <span>
+            > <input type="checkbox" style="height: 15px;">
+        > </span>
+    > </div>
+> </th>
+> ```
 
 
 ## TDM Error guidance
@@ -86,35 +86,35 @@ Any tables that does not provide text in the column header column as a control, 
     Example of `.sr-only` in source code...
     ```jsx
     /* client/src/components/Projects/ProjectsPage.jsx */
-               <>
-                 <label htmlFor="SelectAllProject" className="sr-only">
-                   Select All Projects on Page
-                 </label>
-                 <input
-                   style={{
-                     height: "15px"
-                   }}
-                   id="SelectAllProject"
-                   type="checkbox"
-                   checked={selectAllChecked}
-                   onChange={handleHeaderCheckbox}
-                 />
-               </>
-       ```
+    <>
+      <label htmlFor="SelectAllProject" className="sr-only">
+        Select All Projects on Page
+      </label>
+      <input
+        style={{
+          height: "15px"
+        }}
+        id="SelectAllProject"
+        type="checkbox"
+        checked={selectAllChecked}
+        onChange={handleHeaderCheckbox}
+      />
+    </>
+    ```
 
-       ```scss
-       /* client/src/styles/App.scss */
-       .sr-only {
-         position: absolute;
-         width: 1px;
-         height: 1px;
-         padding: 0;
-         margin: -1px;
-         overflow: hidden;
-         clip: rect(0, 0, 0, 0);
-         border: 0;
-       }
-       ```
+    ```scss
+    /* client/src/styles/App.scss */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+    ```
 
 #### Why the Fix Works
 When applying this class to a span or div, the inner text will not render onto the screen, yet it remains accessible to AT for screen reader capability.
