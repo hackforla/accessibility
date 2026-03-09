@@ -41,9 +41,9 @@ WAVE Tool's Reference material on Layout table may not specifically address your
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
-    > ```html
-    > [HTML snippet showing the problematic code structure that WAVE detected]
-    > ```
+> ```html
+> [HTML snippet showing the problematic code structure that WAVE detected]
+> ```
 
 
 ## Project Team Error guidance
@@ -89,7 +89,7 @@ The following material covers how the Project Team has provided a solution to th
 
 ??? Info "Click to see other technical details"
 
-    [ INSERT OTHER DETAILS e.g. Prop References, Return Value ]
+    [INSERT OTHER DETAILS e.g. Prop References, Return Value]
  
 #### Code Snippet With Solution
 ??? Info "Click to see code snippets"
@@ -118,17 +118,17 @@ The following material covers how the Project Team has provided a solution to th
 
     Description/text for image
 
-    > [INSERT IMAGE HERE]
+    [INSERT IMAGE HERE]
     
     Description/text for image
 
-    > [INSERT IMAGE HERE]
+    [INSERT IMAGE HERE]
 
 ??? Info "1. Descriptive Title for Screenshot Set 2"
 
     Descriptoin/text for image
 
-    > [INSERT IMAGE HERE]
+    [INSERT IMAGE HERE]
 
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->

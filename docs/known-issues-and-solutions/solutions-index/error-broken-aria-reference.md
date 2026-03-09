@@ -222,17 +222,17 @@ By deleting (or replacing) the `aria-describedby` attribute when the modal is cl
 
 
     ## 1.A Login Popup, Screenshot
-    > ![Image](https://github.com/user-attachments/assets/2b60b5a1-e88e-4558-a7af-7d02321d411b)
+    ![Image](https://github.com/user-attachments/assets/2b60b5a1-e88e-4558-a7af-7d02321d411b)
 
     ## 1.B Login Popup, Screenshot of WAVE Annotations
     - this signifies that this HTML node contains an attribute, `role="tooltip"` (unrelated to the WAVE error in the Action Items)
 
-    > ![Image](https://github.com/user-attachments/assets/ed8ee92f-44f7-4507-9158-317032ed4f1b)
+    ![Image](https://github.com/user-attachments/assets/ed8ee92f-44f7-4507-9158-317032ed4f1b)
 
     ## 1.C Login Popup, Screenshot of HTML
     - note the attribute, `id="popup-1"`
 
-    > ![Image](https://github.com/user-attachments/assets/67f6a6bb-21b4-41dc-8995-d88c5ce41908)
+    ![Image](https://github.com/user-attachments/assets/67f6a6bb-21b4-41dc-8995-d88c5ce41908)
 
 
 ??? Info "2. Login Link"

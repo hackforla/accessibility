@@ -83,38 +83,38 @@ Any tables that does not provide text in the column header column as a control, 
 #### Code Snippet With Solution
 ??? Info "Click to see code snippets"
 
-   Example of `.sr-only` in source code...
-   ```jsx
-   /* client/src/components/Projects/ProjectsPage.jsx */
-           <>
-             <label htmlFor="SelectAllProject" className="sr-only">
-               Select All Projects on Page
-             </label>
-             <input
-               style={{
-                 height: "15px"
-               }}
-               id="SelectAllProject"
-               type="checkbox"
-               checked={selectAllChecked}
-               onChange={handleHeaderCheckbox}
-             />
-           </>
-   ```
+    Example of `.sr-only` in source code...
+    ```jsx
+    /* client/src/components/Projects/ProjectsPage.jsx */
+               <>
+                 <label htmlFor="SelectAllProject" className="sr-only">
+                   Select All Projects on Page
+                 </label>
+                 <input
+                   style={{
+                     height: "15px"
+                   }}
+                   id="SelectAllProject"
+                   type="checkbox"
+                   checked={selectAllChecked}
+                   onChange={handleHeaderCheckbox}
+                 />
+               </>
+       ```
 
-   ```scss
-   /* client/src/styles/App.scss */
-   .sr-only {
-     position: absolute;
-     width: 1px;
-     height: 1px;
-     padding: 0;
-     margin: -1px;
-     overflow: hidden;
-     clip: rect(0, 0, 0, 0);
-     border: 0;
-   }
-   ```
+       ```scss
+       /* client/src/styles/App.scss */
+       .sr-only {
+         position: absolute;
+         width: 1px;
+         height: 1px;
+         padding: 0;
+         margin: -1px;
+         overflow: hidden;
+         clip: rect(0, 0, 0, 0);
+         border: 0;
+       }
+       ```
 
 #### Why the Fix Works
 When applying this class to a span or div, the inner text will not render onto the screen, yet it remains accessible to AT for screen reader capability.
@@ -134,7 +134,7 @@ When applying this class to a span or div, the inner text will not render onto t
 
 ??? Info "Screenshot 2: My Projects page with WAVE annotations on"
 
-    > ![Image](https://github.com/user-attachments/assets/7d4b76c5-177d-4951-89d5-6372f85bcf38)
+    ![Image](https://github.com/user-attachments/assets/7d4b76c5-177d-4951-89d5-6372f85bcf38)
 
 ## Credits / Authors
 All HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page.
@@ -145,4 +145,5 @@ All HfLA members who contributed to this wiki page and/or contributed to Pull Re
 - @geolunalg 
 - @JRParryY 
 - @experimentsinhonesty
+- @Rabia2219
 - @Rabia2219

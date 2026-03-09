@@ -106,7 +106,7 @@ The following material covers how the Project Team has provided a solution to th
 
 ??? Info "Click to see other technical details"
 
-    [ INSERT OTHER DETAILS e.g. Prop References, Return Value ]
+    [INSERT OTHER DETAILS e.g. Prop References, Return Value]
 
 
 #### Code Snippet With Solution
@@ -134,7 +134,7 @@ The following material covers how the Project Team has provided a solution to th
 
 ??? Info "1. [Descriptive Title for Screenshot Set 1]"
 
-    > [INSERT IMAGE HERE]
+    [INSERT IMAGE HERE]
 
 
 ## Credits/Authors
