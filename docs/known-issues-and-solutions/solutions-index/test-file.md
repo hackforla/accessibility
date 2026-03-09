@@ -124,6 +124,5 @@ The following material covers how the Project Team has provided a solution to th
 
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
-- @Rabia2219
 - [INCLUDE Contributor 2]
 - [INCLUDE Contributor N]
