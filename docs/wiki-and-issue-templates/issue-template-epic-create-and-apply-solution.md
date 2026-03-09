@@ -1,18 +1,21 @@
 # Issue Template for Epic to create and apply solution
-- Only use this template if you don't have a solution.  If you have a solution use the: Issue Template for Epic to apply solution.
-- This issue template creates an epic issue and will direct the person working on the epic issue in how to create child issues (using a template that is customized during the epic creation).  
+- Only use this template if there is no solution in the index and there are two or more pages with the same error.  Check the [WIKI and Issue templates](index.md) list for the applicable issue template.
+    - There will likely be a page in the index for this issue, please consult the [Known issues and solutions index](../known-issues-and-solutions), and identify if the page is in the Completed or Drafts section.  If it is in the Drafts section, there is no solution yet.
+- This issue template creates an epic issue and will direct the person working on the epic issue in how to create child issues (using a template that is customized during the epic creation).
 
-
-Labels
+## Labels
+- Add the following labels and any missing labels that apply
+```
+feature: Accessibility
 ```
 ```
-for Epic where there is no solution yet and there are two pages where it appears
-
-Title
+p-feature: [REPLACE WITH PAGE NAME]
+```
+## Title
 ```
 Epic: WAVE: [[REPLACE WITH Alert/Aria/Contrast Error/Error]
 ```
-Body
+## Body
 ```
 <!-- Customize this epic issue by replacing all of the content in [ ] -->
 
