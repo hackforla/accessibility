@@ -40,11 +40,11 @@ WAVE Tool's Reference material on Empty Table Header may not specifically addres
 
 > ```html
 > <th>
-    > <div style="width: 100%; height: 100%;">
-        > <span>
-            > <input type="checkbox" style="height: 15px;">
-        > </span>
-    > </div>
+    <div style="width: 100%; height: 100%;">
+        <span>
+            <input type="checkbox" style="height: 15px;">
+        </span>
+    </div>
 > </th>
 > ```
 
