@@ -1,4 +1,12 @@
-Issue Template for Epic where there is no solution yet and there are two pages where it appears
+# Issue Template for Epic to create and apply solution
+- Only use this template if you don't have a solution.  If you have a solution use the: Issue Template for Epic to apply solution.
+- This issue template creates an epic issue and will direct the person working on the epic issue in how to create child issues (using a template that is customized during the epic creation).  
+
+
+Labels
+```
+```
+for Epic where there is no solution yet and there are two pages where it appears
 
 Title
 ```
@@ -6,6 +14,8 @@ Epic: WAVE: [[REPLACE WITH Alert/Aria/Contrast Error/Error]
 ```
 Body
 ```
+<!-- Customize this epic issue by replacing all of the content in [ ] -->
+
 ### Overview
 
 We want to identify all remaining development work for [REPLACE WITH Alert/Aria/Contrast Error/Error] so that we can create the issues to fix
