@@ -4,7 +4,7 @@
 - This issue template creates an epic issue and will direct the person working on the epic issue in how to create child issues (using a template that is customized during the epic creation).
 
 ## Labels
-- Add the following labels and any missing labels that apply
+Add the following labels and any missing labels that apply
 ```
 feature: Accessibility
 ```
