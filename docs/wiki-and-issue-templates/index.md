@@ -45,32 +45,32 @@ The filename should be all lowercase and without brackets
 
 WAVE Tool's Reference material on [REPLACE WITH WAVE ERROR NAME] may not specifically address your problem.  We provide it here for optional reading.
 
-<details><summary>Click to see WAVE Tool Reference</summary>
+??? Info "Click to see WAVE Tool Reference"
 
-<!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+    This content added [YYYY-MM-DD]. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#[REPLACE TAG NAME]" target="_blank">https://wave.webaim.org/api/docs?format=html#[REPLACE TAG NAME]</a>
 
-### WAVE Category
-[REPLACE WITH WAVE CATEGORY]
+    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-### WAVE Error
-[REPLACE WITH WAVE ERROR NAME]
+    > ### WAVE Category
+    > [REPLACE WITH WAVE CATEGORY]
 
-### What It Means
-[REPLACE WITH WAVE CONTENT FOR What It Means]
+    > ### WAVE Error
+    > [REPLACE WITH WAVE ERROR NAME]
 
-### Why It Matters
-[REPLACE WITH WAVE CONTENT FOR Why It Matters]
+    > ### What It Means
+    > [REPLACE WITH WAVE CONTENT FOR What It Means]
 
-### What To Do
-[REPLACE WITH WAVE CONTENT FOR What To Do]
+    > ### Why It Matters
+    > [REPLACE WITH WAVE CONTENT FOR Why It Matters]
 
-### The Algorithm... in English
-[REPLACE WITH WAVE CONTENT FOR The Algorithm... In English]
+    > ### What To Do
+    > [REPLACE WITH WAVE CONTENT FOR What To Do]
 
-### Standards and Guidelines
-[REPLACE WITH WAVE CONTENT FOR Standards and Guidelines]
+    > ### The Algorithm... in English
+    > [REPLACE WITH WAVE CONTENT FOR The Algorithm... In English]
 
-</details> 
+    > ### Standards and Guidelines
+    > [REPLACE WITH WAVE CONTENT FOR Standards and Guidelines]
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
@@ -112,31 +112,25 @@ The following material covers how the Project Team has provided a solution to th
 #### Step-By-Step Guide
 <!-- Author Instructions: Replace details dropdown with N/A if this does not apply -->
 
-<details><summary>Click to see step-by-step guide</summary>
+??? Info "Click to see step-by-step guide"
 
-[ADD DETAILED INSTRUCTIONS HERE]
-
-</details> 
+    [ADD DETAILED INSTRUCTIONS HERE]
 
 #### Other Technical Details
 <!-- Author Instructions: Write N/A if this does not apply -->
 
-<details><summary>Click to see other technical details</summary>
+??? Info "Click to see other technical details"
 
-[ INSERT OTHER DETAILS e.g. Prop References, Return Value ]
-
-</details> 
+    [INSERT OTHER DETAILS e.g. Prop References, Return Value ]
 
 #### Code Snippet With Solution
-<details><summary>Click to see code snippets...</summary>
+??? Info "Click to see code snippets"
 
-[INSERT PATH file/path/to/Snippet.jsx]
+    [INSERT PATH file/path/to/Snippet.jsx]
 
-```jsx
-[Code example showing the fix/solution]
-```
-
-</details>
+    ```jsx
+    [Code example showing the fix/solution]
+    ```
 
 #### Why the Fix Works
 <!-- Author Instruction: Add an explanation of how the code changes resolve the accessibility issue and why this approach was chosen -->
@@ -152,11 +146,11 @@ The following material covers how the Project Team has provided a solution to th
 
 <!-- Author Instructions: when including markdown images, ensure they are responsive by specifying EITHER width OR height. Do not provide both. -->
 
-<details><summary>1. [Descriptive Title for Screenshot Set 1]</summary>
+??? Info "1. Descriptive Title for Screenshot Set 1"
 
-<img width="400" alt="Image" src="https://github.com/user-attachments/assets/123456789" />
+    Description/text for image
 
-</details> 
+    [INSERT IMAGE HERE]
 
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
