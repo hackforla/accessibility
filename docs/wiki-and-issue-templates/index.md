@@ -87,7 +87,7 @@ WAVE Tool's Reference material on [REPLACE WITH WAVE ERROR NAME] may not specifi
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the [Error/Contrast Error/Alert/ARIA Name] WAVE [Error/Contrast Error/Alert/ARIA].
+The following material covers how the Project Team has provided a solution to the [Alert/ARIA/Contrast Error/Error Name] WAVE [Alert/ARIA/Contrast Error/Error].
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
