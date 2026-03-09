@@ -50,7 +50,7 @@ The following material covers how the Project Team has provided a solution to th
 
 ### Project Page Details 1
 - Project Page name: Privacy Policy
-- Project Staging URL: http://tdm-dev.azurewebsites.net/privacypolicy
+- Project Dev URL: http://tdm-dev.azurewebsites.net/privacypolicy
 - Requires sign in: FALSE
     - Required User Role: Visitor
     - Can access page directly from URL: TRUE
@@ -66,7 +66,7 @@ The following material covers how the Project Team has provided a solution to th
  
 ### Project Page Details 2
 - Project Page name: Forgot Password
-- Project Staging URL: https://tdm-dev.azurewebsites.net/forgotpassword
+- Project Dev URL: https://tdm-dev.azurewebsites.net/forgotpassword
 - Requires sign in: FALSE
     - Required User Role: All Users
     - Can access page directly from URL: TRUE
@@ -82,7 +82,7 @@ The following material covers how the Project Team has provided a solution to th
  
 ### Project Page Details 3
 - Project Page name: Manage Submissions
-- Project Staging URL: https://tdm-dev.azurewebsites.net/managesubmissions
+- Project Dev URL: https://tdm-dev.azurewebsites.net/managesubmissions
 - Requires sign in: TRUE
     - Required User Role: Admin
     - Can access page directly from URL: FALSE
