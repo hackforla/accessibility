@@ -16,7 +16,7 @@ p-feature: [REPLACE WITH PAGE NAME]
 Epic: WAVE: [[REPLACE WITH Alert/Aria/Contrast Error/Error]
 ```
 ## Body
-```
+`````
 <!-- Customize this epic issue by replacing all of the content in [ ] -->
 
 ### Overview
@@ -222,3 +222,4 @@ Additional reading (optional)
    - [Staging Deck, slide 2897] - N/A
 - Release deck
    - [2026-01-20 Release deck, slide 2897] - N/A
+`````
