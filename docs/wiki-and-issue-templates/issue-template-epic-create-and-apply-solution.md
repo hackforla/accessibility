@@ -1,6 +1,6 @@
 # Issue Template for Epic to create and apply solution
 - Only use this template if there is no solution in the index and there are two or more pages with the same error.  Check the [WIKI and Issue templates](index.md) list for the applicable issue template.
-    - There will likely be a page in the index for this issue, please consult the [Known issues and solutions index](../known-issues-and-solutions/solutions-index), and identify if the page is in the Completed or Drafts section.  If it is in the Drafts section, there is no solution yet.
+    - There will likely be a page in the index for this issue, please consult the [Known issues and solutions index](../../known-issues-and-solutions/solutions-index), and identify if the page is in the Completed or Drafts section.  If it is in the Drafts section, there is no solution yet.
 - This issue template creates an epic issue and will direct the person working on the epic issue in how to create child issues (using a template that is customized during the epic creation).
 
 ## Labels
