@@ -41,9 +41,9 @@ WAVE Tool's Reference material on Layout table may not specifically address your
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
-    > ```html
-    > [HTML snippet showing the problematic code structure that WAVE detected]
-    > ```
+> ```html
+> [HTML snippet showing the problematic code structure that WAVE detected]
+> ```
 
 
 ## Project Team Error guidance
