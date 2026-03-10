@@ -19,7 +19,7 @@ WAVE Tool's Reference material on Accesskey may not specifically address your pr
 
     <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
-    This content added [YYYY-MM-DD]. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#accesskey" target="_blank">https://wave.webaim.org/api/docs?format=html#accesskey</a>
+    This content added 2026-03-10. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#accesskey" target="_blank">https://wave.webaim.org/api/docs?format=html#accesskey</a>
 
     > ### WAVE Category
     > Alerts
