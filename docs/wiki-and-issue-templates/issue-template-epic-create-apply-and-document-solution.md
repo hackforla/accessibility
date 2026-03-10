@@ -5,6 +5,7 @@ This issue template creates an epic issue and will direct the person working on 
 
 ## When should this template be used?
 Only use this template if there is no solution in the index and there are two or more pages with the same error.
+
 - to confirm there is no solution, go to [Known issues and solutions index](../../known-issues-and-solutions/solutions-index), and identify if the page is in the Completed or Drafts section.  If it is in the Drafts section, there is no solution yet. 
 - If this is not the correct template, see [WIKI and Issue templates](index.md) for a list of other templates available.   
 
