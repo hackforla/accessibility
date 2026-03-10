@@ -17,9 +17,9 @@ WAVE Tool's Reference material on Accesskey may not specifically address your pr
 
 ??? Info "Click to see WAVE Tool Reference"
 
-    This content added 2026-03-10. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#accesskey" target="_blank">https://wave.webaim.org/api/docs?format=html#accesskey</a>
-
     <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+
+    This content added [YYYY-MM-DD]. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#accesskey" target="_blank">https://wave.webaim.org/api/docs?format=html#accesskey</a>
 
     > ### WAVE Category
     > Alerts
@@ -34,7 +34,7 @@ WAVE Tool's Reference material on Accesskey may not specifically address your pr
     > ### The Algorithm... in English
     > An element has an accesskey attribute.
     > ### Standards and Guidelines
-    > - [2.4.1 Bypass Blocks (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.1)
+    > - [2.4.1 Bypass Blocks (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.1)> - [2.4.1 Bypass Blocks (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.1)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
