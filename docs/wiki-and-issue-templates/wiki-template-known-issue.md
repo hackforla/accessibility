@@ -1,6 +1,11 @@
 # WIKI page template: known issue
 The wiki pages created from this template will be used for future audits (across many teams) so that volunteers can easily identify and refer to technical solutions to WAVE accessibility errors.
 
+## What does this template do?
+It 
+
+## When should this template be used?
+
 ## Instructions
 1. Replace all bracketed `[placeholders]` with actual content
 1. Update the date in `YYYY-MM-DD` format
