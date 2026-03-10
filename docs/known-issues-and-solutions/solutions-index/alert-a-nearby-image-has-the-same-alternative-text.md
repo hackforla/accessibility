@@ -23,24 +23,18 @@ WAVE Tool's Reference material on A nearby image has the same alternative text m
 
     > ### WAVE Category
     > Alerts
-
     > ### WAVE Error
     > A nearby image has the same alternative text
-
     > ### What It Means
     > Two images near each other have the same alternative text.
-
     > ### Why It Matters
     > When two images have the same alternative text, this often causes redundancy or indicates incorrect alternative text.
-
     > ### What To Do
     > Ensure that the alternative text for each image or image button is appropriate while removing unnecessary redundancy. If the content of the image is already conveyed elsewhere (through text or the alternative text of a nearby image) or if the image does not convey content, the image may generally be given empty/null alternative text (alt=""). Image buttons always convey a specific function, and thus cannot be given null alternative text.
-
     > ### The Algorithm... in English
-    > The same alternative text (case insensitive, but not null/empty) is present for two images or image buttons (<input type='image'>) near each other (no more than 2 other images separate them).
-
+    > The same alternative text (case insensitive, but not null/empty) is present for two images or image buttons (`<input type='image'>`) near each other (no more than 2 other images separate them).
     > ### Standards and Guidelines
-    > - 1.1.1 Non-text Content (Level A)
+    > - [1.1.1 Non-text Content (Level A)](https://webaim.org/standards/wcag/checklist#sc1.1.1)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
