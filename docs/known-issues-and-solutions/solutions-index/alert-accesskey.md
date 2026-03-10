@@ -34,7 +34,7 @@ WAVE Tool's Reference material on Accesskey may not specifically address your pr
     > ### The Algorithm... in English
     > An element has an accesskey attribute.
     > ### Standards and Guidelines
-    > - [2.4.1 Bypass Blocks (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.1)> - [2.4.1 Bypass Blocks (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.1)
+    > - [2.4.1 Bypass Blocks (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.1)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
