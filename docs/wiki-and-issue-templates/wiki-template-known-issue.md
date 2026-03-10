@@ -1,4 +1,4 @@
-# WIKI page template: known issue
+# WIKI template: known issue
 
 ## What does this template do?
 This WIKI template creates a new WIKI page in the Known solutions index.  The wiki pages created from this template will be used for future audits (across many teams) so that volunteers can easily identify and refer to technical solutions to WAVE accessibility errors.
