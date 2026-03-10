@@ -34,7 +34,7 @@ The filename should be all lowercase and without brackets
 <details><summary>Body</summary>
 
 ````
-# WAVE Known Accessibility Issue: [REPLACE WITH WAVE CATEGORY] - [REPLACE WITH WAVE NAME]
+# [REPLACE WITH WAVE CATEGORY] - [REPLACE WITH WAVE NAME]
 - WAVE Category: [REPLACE WITH WAVE CATEGORY]
 - WAVE [Error/Contrast Error/Alert/ARIA]: [REPLACE WITH NAME]
 
