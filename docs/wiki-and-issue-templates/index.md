@@ -9,11 +9,11 @@ The wiki pages created from this template will be used for future audits (across
 1. Replace all bracketed `[placeholders]` with actual content
 1. Update the date in `YYYY-MM-DD` format
 1. Fill in the area below "Click to see WAVE Tool Reference" with content from the official WAVE documentation
-    1. Go to https://wave.webaim.org/api/docs?format=html
-    1. Find the section that matches the WAVE guidance referenced in this file
-    1. Copy the anchor name from the URL (the part after `#`)
-    1. Replace both [REPLACE ANCHOR NAME] in the link with that anchor name
     1. Replace [YYYY-MM-DD] with the date the content was added or reviewed
+    1. Go to https://wave.webaim.org/api/docs?format=html
+    1. Find the section that matches the WAVE guidance referenced in this file (e.g. Link to PDF document)
+    1. Copy the anchor name from the end of that section (e.g. link_pdf)
+    1. Replace both [REPLACE ANCHOR NAME] in the link with that anchor name
     1. For each header under that (e.g. ### WAVE Category), add the content from the relevant WAVE guidance section
 1. Provide specific details in the Project Team Solution section based on your issue and PR
 1. Add actual screenshot URLs to replace `IMAGE_URL` placeholders
