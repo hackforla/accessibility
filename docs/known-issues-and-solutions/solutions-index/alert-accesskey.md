@@ -1,6 +1,6 @@
-# WAVE Known Accessibility Issue: Alert - A nearby image has the same alternative text
+Alert - Accesskey
 - WAVE Category: Alert
-- WAVE Alert: A nearby image has the same alternative text
+- WAVE Alert: Accesskey
 
 ## Page Content Status
 - [X] WAVE Error guidance text
@@ -13,28 +13,28 @@
 
 ## WAVE Guidance
 
-WAVE Tool's Reference material on A nearby image has the same alternative text may not specifically address your problem.  We provide it here for optional reading.
+WAVE Tool's Reference material on Accesskey may not specifically address your problem.  We provide it here for optional reading.
 
 ??? Info "Click to see WAVE Tool Reference"
 
-    This content added 2026-03-10. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#alt_duplicate" target="_blank">https://wave.webaim.org/api/docs?format=html#alt_duplicate</a>
+    This content added 2026-03-10. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#accesskey" target="_blank">https://wave.webaim.org/api/docs?format=html#accesskey</a>
 
     <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
 
     > ### WAVE Category
     > Alerts
     > ### WAVE Error
-    > A nearby image has the same alternative text
+    > Accesskey
     > ### What It Means
-    > Two images near each other have the same alternative text.
+    > An accesskey attribute is present.
     > ### Why It Matters
-    > When two images have the same alternative text, this often causes redundancy or indicates incorrect alternative text.
+    > Accesskey provides a way to define shortcut keys for web page elements. Accesskeys often conflict with user or assistive technology shortcut keys and should be avoided or implemented with care.
     > ### What To Do
-    > Ensure that the alternative text for each image or image button is appropriate while removing unnecessary redundancy. If the content of the image is already conveyed elsewhere (through text or the alternative text of a nearby image) or if the image does not convey content, the image may generally be given empty/null alternative text (alt=""). Image buttons always convey a specific function, and thus cannot be given null alternative text.
+    > Remove the accesskey or be aware that the accesskey may conflict with user shortcut keys.
     > ### The Algorithm... in English
-    > The same alternative text (case insensitive, but not null/empty) is present for two images or image buttons (`<input type='image'>`) near each other (no more than 2 other images separate them).
+    > An element has an accesskey attribute.
     > ### Standards and Guidelines
-    > - [1.1.1 Non-text Content (Level A)](https://webaim.org/standards/wcag/checklist#sc1.1.1)
+    > - [2.4.1 Bypass Blocks (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.1)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
@@ -118,6 +118,6 @@ The following material covers how the Project Team has provided a solution to th
 
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
-- @Rabia2219
+- [INCLUDE Contributor 1]
 - [INCLUDE Contributor 2]
 - [INCLUDE Contributor N]
