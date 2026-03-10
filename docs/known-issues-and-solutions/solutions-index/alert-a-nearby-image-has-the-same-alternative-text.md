@@ -1,4 +1,4 @@
-# WAVE Known Accessibility Issue: Alert - A nearby image has the same alternative text
+Alert - A nearby image has the same alternative text
 - WAVE Category: Alert
 - WAVE Alert: A nearby image has the same alternative text
 
