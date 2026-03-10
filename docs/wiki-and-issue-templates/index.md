@@ -4,7 +4,7 @@
 - [Known Issue](wiki-template-known-issue.md)
 
 ## Issue templates
-- [Epic: Create and apply solution](issue-template-epic-create-and-apply-solution.md)
+- [Epic: Create, apply and document code solution](issue-template-epic-create-apply-and-document-solution.md)
 
 ---
 
