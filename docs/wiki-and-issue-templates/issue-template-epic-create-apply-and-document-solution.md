@@ -59,8 +59,9 @@ This epic will do the following
       - priority: MUST HAVE
    - [ ] add milestone: launch
    - Customize the draft issue resoures
-      - [x] In this issue use the content in resource 1.03.01 (Product Documentation) to update the draft's issue resource 1.02.01, 1.02.02
-      - [x] In this issue use the content in resource 1.01 & 1.01.01 (spreadsheet) to update draft issue's resource 1.03
+      - [ ] In this issue use the content in resource 1.03.01 (Product Documentation) to update the draft's issue resource 1.02.01, 1.02.02
+      - [ ] In this issue use the content in resource 1.01.01 (spreadsheet) to update the link to the spreadsheet in draft issue's
+         - [ ] open the spreadsheet link and find the row number, and add it to the draft issues's resource 1.03.01resource 1.03
 - [ ] In this issue, add issue to Sub Issue section below
 - [ ] Copy the second issue template (resource 1.05)
 - [ ] Use the template content to create a new issue(s) for the remaining pages under Known pages above
@@ -76,7 +77,7 @@ This epic will do the following
       - priority: MUST HAVE
    - Customize the draft issue resoures
       - [ ] In this issue use the content in resource Product Documentation 1.03.01 to update the draft's issue resource 1.02.01, 1.02.02
-      - [ ] In this issue use the content in resource 1.01.01 to update the link to the spreadsheet in draft issue's resource 1.03
+      - [ ] In this issue use the content in resource 1.01.01 (spreadsheet) to update the link to the spreadsheet in draft issue's resource 1.03
          - [ ] open the spreadsheet link and find the row number, and add it to the draft issues's resource 1.03.01
 - [ ] Once both those issues are closed, run WAVE and check all other pages for this alert; ignore all other alerts.  Check user interactions on the page to ensure that the alert isn't hidden by an interaction. Check one of the following below:
    - [ ] No additional instances of this alert found
