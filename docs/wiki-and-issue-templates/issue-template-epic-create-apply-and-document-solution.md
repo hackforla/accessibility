@@ -69,7 +69,7 @@ This epic will do the following
    - [ ] Add the following labels
       - role: front-end
       - size: missing
-      - p-feature: Checklist
+      - p-feature: [REPLACE WITH FIRST PAGE NAME]
       - feature: Accessibility
       - level: missing
       - deck: add to staging
