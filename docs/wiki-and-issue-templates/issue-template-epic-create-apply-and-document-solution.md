@@ -29,7 +29,7 @@ Epic: WAVE: [[REPLACE WITH Alert/Aria/Contrast Error/Error]
 
 ### Overview
 
-We need to make issues that will create, apply and document a solution for [REPLACE WITH Alert/Aria/Contrast Error/Error] so that it can get fixed on the site and documented for future devlopers
+We need to make issues that will create, apply and document a solution for [REPLACE WITH Alert/Aria/Contrast Error/Error] so that it can get fixed on the site and documented for future developers
 
 ### Details
 Category: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error]
