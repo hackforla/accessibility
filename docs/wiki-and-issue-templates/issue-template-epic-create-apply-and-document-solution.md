@@ -47,7 +47,7 @@ This epic will do the following
 ### Action Items
 - [ ] Go to the Solutions Index (resource 1.02) and add the link to the specific page for this problem 1.02.01
 - [ ] Copy the first issue template (resource 1.04) 
-- [ ] Use the template content to create a new issue for the `About` page
+- [ ] Use the template content to create a new issue for the `[REPLACE WITH FIRST PAGE NAME]` page
    - [ ] Add the following labels
       - role: front-end
       - size: missing
