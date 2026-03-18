@@ -5,6 +5,7 @@
 
 ## Issue templates
 - [Epic: Create, apply and document code solution](issue-template-epic-create-apply-and-document-solution.md)
+- [Epic: Apply code solution](issue-template-epic-apply-solution.md)
 
 ---
 
