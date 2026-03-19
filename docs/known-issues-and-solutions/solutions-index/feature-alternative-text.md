@@ -13,7 +13,7 @@
 
 ## WAVE Guidance
 
-WAVE Tool's Reference material on [REPLACE WITH WAVE ERROR NAME] may not specifically address your problem.  We provide it here for optional reading.
+WAVE Tool's Reference material on Alternative text may not specifically address your problem.  We provide it here for optional reading.
 
 ??? Info "Click to see WAVE Tool Reference"
 
