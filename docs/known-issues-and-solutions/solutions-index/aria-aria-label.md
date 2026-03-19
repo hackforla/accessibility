@@ -26,7 +26,7 @@ WAVE Tool's Reference material on ARIA label may not specifically address your p
     > ### WAVE Error
     > ARIA label
     > ### What It Means
-    >An aria-label or aria-labelledby attribute is present.
+    > An aria-label or aria-labelledby attribute is present.
     > ### Why It Matters
     > ARIA labels define accessible names to be read by screen readers for interface elements. They may be used when HTML associations (label, alternative text, etc.) are not sufficient.
     > ### What To Do
