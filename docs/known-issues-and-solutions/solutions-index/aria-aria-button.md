@@ -1,6 +1,6 @@
-# Feature - Alternative text
-- WAVE Category: Feature
-- WAVE Feature: Alternative text
+# ARIA - ARIA button
+- WAVE Category: ARIA
+- WAVE ARIA: ARIA button
 
 ## Page Content Status
 - [X] WAVE Error guidance text
@@ -13,27 +13,28 @@
 
 ## WAVE Guidance
 
-WAVE Tool's Reference material on Alternative text may not specifically address your problem.  We provide it here for optional reading.
+WAVE Tool's Reference material on ARIA button may not specifically address your problem.  We provide it here for optional reading.
 
 ??? Info "Click to see WAVE Tool Reference"
 
-    This content added 2026-03-19. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#alt" target="_blank">https://wave.webaim.org/api/docs?format=html#alt</a>
+    This content added 2026-03-19. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#aria_button" target="_blank">https://wave.webaim.org/api/docs?format=html#aria_button</a>
 
     > ### WAVE Category
-    > Features
+    > ARIA
     > ### WAVE Error
-    > Alternative text
+    > ARIA button
     > ### What It Means
-    > Image alternative text is present.
+    > An element with role="button" is present.
     > ### Why It Matters
-    > Alternative text presents the content or function of an image to screen reader users or in other situations where images cannot be seen or are unavailable.
+    > Elements with role="button" must function like native buttons. These should typically be replaced with true button elements.
     > ### What To Do
-    > Ensure that the alternative text conveys the content and function of the image accurately and succinctly. The alt attribute should be equivalent, accurate, and succinct.
+    > Replace the element with a true button element, or ensure the element is keyboard navigable, can be activated with Enter or Space key presses (key detection is typically necessary), and provides a visible focus indicator.
     > ### The Algorithm... in English
-    > A non-empty alt attribute is present on an image.
+    > An element (other than a button) has role="button".
     > ### Standards and Guidelines
-    > - [1.1.1 Non-text Content (Level A)](https://webaim.org/standards/wcag/checklist#sc1.1.1)
-    
+    > - [2.1.1 Keyboard (Level A)](https://webaim.org/standards/wcag/checklist#sc2.1.1)
+    > - [4.1.2 Name, Role, Value (Level A)](https://webaim.org/standards/wcag/checklist#sc4.1.2)
+
 ## Example of a DOM Snippet Generated From WAVE Tool
 
 > ```html

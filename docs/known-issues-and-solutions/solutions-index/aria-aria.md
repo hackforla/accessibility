@@ -1,6 +1,6 @@
-# Feature - Alternative text
-- WAVE Category: Feature
-- WAVE Feature: Alternative text
+# ARIA - ARIA
+- WAVE Category: ARIA
+- WAVE ARIA: ARIA
 
 ## Page Content Status
 - [X] WAVE Error guidance text
@@ -13,27 +13,27 @@
 
 ## WAVE Guidance
 
-WAVE Tool's Reference material on Alternative text may not specifically address your problem.  We provide it here for optional reading.
+WAVE Tool's Reference material on ARIA may not specifically address your problem.  We provide it here for optional reading.
 
 ??? Info "Click to see WAVE Tool Reference"
 
-    This content added 2026-03-19. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#alt" target="_blank">https://wave.webaim.org/api/docs?format=html#alt</a>
+    This content added 2026-03-19. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#aria" target="_blank">https://wave.webaim.org/api/docs?format=html#aria</a>
 
     > ### WAVE Category
-    > Features
+    > ARIA
     > ### WAVE Error
-    > Alternative text
+    > ARIA
     > ### What It Means
-    > Image alternative text is present.
+    > An ARIA role, state, or property is present.
     > ### Why It Matters
-    > Alternative text presents the content or function of an image to screen reader users or in other situations where images cannot be seen or are unavailable.
+    > ARIA provides enhanced semantics and accessibility for web content.
     > ### What To Do
-    > Ensure that the alternative text conveys the content and function of the image accurately and succinctly. The alt attribute should be equivalent, accurate, and succinct.
+    > Ensure the ARIA role, state, or property is used correctly. Use standard HTML accessibility features when possible. Be aware that support for ARIA is limited in older browsers and assistive technologies.
     > ### The Algorithm... in English
-    > A non-empty alt attribute is present on an image.
+    > An ARIA role, state, or property is present, excluding landmark roles, aria-labelledby, or aria-describedby which are distinct WAVE items.
     > ### Standards and Guidelines
-    > - [1.1.1 Non-text Content (Level A)](https://webaim.org/standards/wcag/checklist#sc1.1.1)
-    
+    > - [4.1.2 Name, Role, Value (Level A)](https://webaim.org/standards/wcag/checklist#sc4.1.2)
+
 ## Example of a DOM Snippet Generated From WAVE Tool
 
 > ```html
