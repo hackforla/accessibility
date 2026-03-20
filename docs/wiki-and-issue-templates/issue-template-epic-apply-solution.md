@@ -57,6 +57,7 @@ This epic will do the following
       - [ ] In this issue use the content in resource Product Documentation 1.03.01 to update the draft's issue resource 1.02.01, 1.02.02
       - [ ] In this issue use the content in resource 1.01.01 (spreadsheet) to update the link to the spreadsheet in draft issue's resource 1.03
          - [ ] open the spreadsheet link and find the row number, and add it to the draft issues's resource 1.03.01
+- [ ] In this issue, add issue to Sub Issue section below
 - [ ] Once all the issues are closed, run WAVE and check all other pages for this [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error]; ignore all other [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error].  Check user interactions on the page to ensure that the [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error] isn't hidden by an interaction. Check one of the following below:
    - [ ] No additional instances of this [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error] found
    - [ ] New instances of these [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error] found
@@ -105,7 +106,7 @@ Page that will be worked on:
    - [ ] Add labels: 
       - `ready for accessibility lead`
    - [ ] Change status to: `Technical Review`
-   - to the epic #2897
+   - to the epic #[REPLACE WITH EPIC NUMBER]
      - [ ] Add the label `ready for product`
       - [ ] Add this comment 
          ```
