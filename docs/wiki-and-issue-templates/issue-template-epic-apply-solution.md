@@ -114,7 +114,7 @@ Page that will be worked on:
          ```
 
 ### Resources/Instructions
-- 1.01[How to run the WAVE browser extension](https://github.com/hackforla/accessibility/blob/main/docs/getting-started/wave-browser-extension.md)
+- 1.01 [How to run the WAVE browser extension](https://github.com/hackforla/accessibility/blob/main/docs/getting-started/wave-browser-extension.md)
 - 1.02 Application details
    - 1.02.01 User Profile Required: [REPLACE WITH USER TYPE: visitor (not logged in)/user/admin/security admin/]
    - 1.02.02 Page URL: http://tdm-dev.azurewebsites.net/[REPLACE WITH PAGE URL]
