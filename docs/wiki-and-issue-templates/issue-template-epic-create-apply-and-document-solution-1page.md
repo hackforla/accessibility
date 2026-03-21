@@ -1,10 +1,10 @@
 # Issue Template for Epic to create and apply solution
 
 ## What does this template do?
-This issue template creates an epic issue and will direct the person working on the epic issue in how to create child issues (using a template that is customized during the epic creation). The scope of work of the epic will fix one specific Alert/Aria/Contrast Error/Error found on your website and update this WIKI to share that solution for future reference.
+This issue template creates an epic issue and will direct the person working on the epic issue in how to create a single child issue (using a template that is customized during the epic creation). The scope of work of the epic will fix one specific Alert/Aria/Contrast Error/Error found on your website and update this WIKI to share that solution for future reference.
 
 ## When should this template be used?
-Only use this template if there is no solution in the index and there are two or more pages with the same Alert/Aria/Contrast Error/Error.
+Only use this template if there is no solution in the index and there only 1 pages with the Alert/Aria/Contrast Error/Error.
 
 - to confirm there is no solution, go to [Known issues and solutions index](../../known-issues-and-solutions/solutions-index), and identify if the page is in the Completed or Drafts section.  If it is in the Drafts section, there is no solution yet. 
 - If this is not the correct template, see [WIKI and Issue templates](index.md) for a list of other templates available.   
