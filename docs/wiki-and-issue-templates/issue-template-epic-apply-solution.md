@@ -1,4 +1,4 @@
-# Issue Template for Epic to apply solution
+# Issue Template for Epic to apply solution - for 2+ pages
 
 ## What does this template do?
 This issue template creates an epic issue and will direct the person working on the epic issue in how to create child issues (using a template that is customized during the epic creation). The scope of work of the epic will fix a specific Alert/Aria/Contrast Error/Error found on your website.
