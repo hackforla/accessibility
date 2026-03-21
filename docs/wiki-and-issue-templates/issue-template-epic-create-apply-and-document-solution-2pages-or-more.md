@@ -1,4 +1,4 @@
-# Issue Template for Epic to create, apply and document code solution - for 2 pages or more
+# Issue Template for Epic to create, apply and document code solution - for 2+ pages
 
 ## What does this template do?
 This issue template creates an epic issue and will direct the person working on the epic issue in how to create child issues (using a template that is customized during the epic creation). The scope of work of the epic will fix one specific Alert/Aria/Contrast Error/Error found on your website and update this WIKI to share that solution for future reference.
