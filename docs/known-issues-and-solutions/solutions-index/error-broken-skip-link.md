@@ -1,6 +1,6 @@
-# Errors - Broken skip link
-- WAVE Category: Errors
-- WAVE Errors: Broken skip link
+# Error - Broken skip link
+- WAVE Category: Error
+- WAVE Error: Broken skip link
 
 ## Page Content Status
 - [X] WAVE Error guidance text
