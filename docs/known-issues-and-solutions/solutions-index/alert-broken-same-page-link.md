@@ -1,6 +1,6 @@
-# Alerts - Broken same-page link
-- WAVE Category: Alerts
-- WAVE Alerts: Broken same-page link
+# Alert - Broken same-page link
+- WAVE Category: Alert
+- WAVE Alert: Broken same-page link
 
 ## Page Content Status
 - [X] WAVE Error guidance text
