@@ -1,6 +1,6 @@
-# Structural Elements - Data table
-- WAVE Category: Structural Elements
-- WAVE Structural Elements: Data table
+# Structural Element - Data table
+- WAVE Category: Structural Element
+- WAVE Structural Element: Data table
 
 ## Page Content Status
 - [X] WAVE Error guidance text
