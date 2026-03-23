@@ -43,7 +43,7 @@ WAVE Tool's Reference material on ARIA popup may not specifically address your p
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the [Alert/ARIA/Contrast Error/Error Name] WAVE [Alert/ARIA/Contrast Error/Error].
+The following material covers how the Project Team has provided a solution to the ARIA popup WAVE ARIA.
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
