@@ -44,7 +44,7 @@ WAVE Tool's Reference material on Aside may not specifically address your proble
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the [Alert/ARIA/Contrast Error/Error Name] WAVE [Alert/ARIA/Contrast Error/Error].
+The following material covers how the Project Team has provided a solution to the Aside WAVE Structural Element.
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
