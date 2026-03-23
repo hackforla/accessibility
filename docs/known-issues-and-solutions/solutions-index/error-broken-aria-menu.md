@@ -1,6 +1,6 @@
-# Errors - Broken ARIA menu
-- WAVE Category: Errors
-- WAVE Errors: Broken ARIA menu
+# Error - Broken ARIA menu
+- WAVE Category: Error
+- WAVE Error: Broken ARIA menu
 
 ## Page Content Status
 - [X] WAVE Error guidance text
