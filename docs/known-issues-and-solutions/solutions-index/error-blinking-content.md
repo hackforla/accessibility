@@ -1,6 +1,6 @@
-# Errors - Blinking content
-- WAVE Category: Errors
-- WAVE Errors: Blinking content
+# Error - Blinking content
+- WAVE Category: Error
+- WAVE Error: Blinking content
 
 ## Page Content Status
 - [X] WAVE Error guidance text
