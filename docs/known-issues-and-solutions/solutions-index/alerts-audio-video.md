@@ -47,7 +47,7 @@ WAVE Tool's Reference material on Audio/Video may not specifically address your 
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the [Alert/ARIA/Contrast Error/Error Name] WAVE [Alert/ARIA/Contrast Error/Error].
+The following material covers how the Project Team has provided a solution to the Audio/Video WAVE Alert.
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
