@@ -44,7 +44,7 @@ WAVE Tool's Reference material on Broken ARIA menu may not specifically address 
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the [Alert/ARIA/Contrast Error/Error Name] WAVE [Alert/ARIA/Contrast Error/Error].
+The following material covers how the Project Team has provided a solution to the Broken ARIA menu WAVE Error.
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
