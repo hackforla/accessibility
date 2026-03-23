@@ -1,6 +1,6 @@
-# Structural Elements - Column header cell
-- WAVE Category: Structural Elements
-- WAVE Structural Elements: Column header cell
+# Structural Element - Column header cell
+- WAVE Category: Structural Element
+- WAVE Structural Element: Column header cell
 
 ## Page Content Status
 - [X] WAVE Error guidance text
