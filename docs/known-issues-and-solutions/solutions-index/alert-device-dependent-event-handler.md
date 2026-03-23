@@ -1,6 +1,6 @@
-# Alerts - Device dependent event handler
-- WAVE Category: Alerts
-- WAVE Alerts: Device dependent event handler
+# Alert - Device dependent event handler
+- WAVE Category: Alert
+- WAVE Alert: Device dependent event handler
 
 ## Page Content Status
 - [X] WAVE Error guidance text
