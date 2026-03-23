@@ -1,6 +1,6 @@
-# Structural Elements - Definition/description list
-- WAVE Category: Structural Elements
-- WAVE Structural Elements: Definition/description list
+# Structural Element - Definition/description list
+- WAVE Category: Structural Element
+- WAVE Structural Element: Definition/description list
 
 ## Page Content Status
 - [X] WAVE Error guidance text
