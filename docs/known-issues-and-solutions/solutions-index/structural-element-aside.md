@@ -1,6 +1,6 @@
-# Structural Elements - Aside
-- WAVE Category: Structural Elements
-- WAVE Structural Elements: Aside
+# Structural Element - Aside
+- WAVE Category: Structural Element
+- WAVE Structural Element: Aside
 
 ## Page Content Status
 - [X] WAVE Error guidance text
