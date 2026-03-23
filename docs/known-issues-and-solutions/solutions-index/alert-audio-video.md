@@ -1,6 +1,6 @@
-# Alerts - Audio/Video
-- WAVE Category: Alerts
-- WAVE Alerts: Audio/Video
+# Alert - Audio/Video
+- WAVE Category: Alert
+- WAVE Alert: Audio/Video
 
 ## Page Content Status
 - [X] WAVE Error guidance text
