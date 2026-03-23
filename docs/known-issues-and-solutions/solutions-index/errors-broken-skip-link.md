@@ -17,7 +17,7 @@ WAVE Tool's Reference material on Broken skip link may not specifically address 
 
 ??? Info "Click to see WAVE Tool Reference"
 
-    This content added 2026-03-23. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#link_skip_broken"target="_blank">https://wave.webaim.org/api/docs?format=html#link_skip_broken</a>
+    This content added 2026-03-23. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#link_skip_broken" target="_blank">https://wave.webaim.org/api/docs?format=html#link_skip_broken</a>
 
     > ### WAVE Category
     > Errors
