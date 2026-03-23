@@ -43,7 +43,7 @@ WAVE Tool's Reference material on Blinking content may not specifically address 
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the [Alert/ARIA/Contrast Error/Error Name] WAVE [Alert/ARIA/Contrast Error/Error].
+The following material covers how the Project Team has provided a solution to the Blinking content WAVE Error.
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
