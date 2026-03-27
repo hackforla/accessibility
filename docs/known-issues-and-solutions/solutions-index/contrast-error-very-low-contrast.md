@@ -1,5 +1,5 @@
-# Contrast Errors - Very low contrast
-- WAVE Category: Contrast Errors
+# Contrast Error - Very low contrast
+- WAVE Category: Contrast Error
 - WAVE Contrast Error: Very low contrast
 
 ## Page Content Status
