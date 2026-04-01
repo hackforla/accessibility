@@ -1,6 +1,6 @@
-# Contrast Errors - Very low contrast
-- WAVE Category: Contrast Errors
-- WAVE Contrast Error: Very low contrast
+# Alert - HTML5 video or audio
+- WAVE Category: Alert
+- WAVE Alert: HTML5 video or audio
 
 ## Page Content Status
 - [X] WAVE Error guidance text
@@ -11,30 +11,32 @@
     - [ ] Project Team Solution
 - [ ] Credits/Authors
 
-## WAVE Error guidance
+## WAVE Guidance
 
-WAVE Tool's Reference material on Very low contrast may not specifically address your problem.  We provide it here for optional reading.
+WAVE Tool's Reference material on HTML5 video or audio may not specifically address your problem.  We provide it here for optional reading.
 
 ??? Info "Click to see WAVE Tool Reference"
 
-    This content added 2026-02-26. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#contrast" target="_blank">https://wave.webaim.org/api/docs?format=html#contrast</a>
-
-    <!-- Note For Wiki Author: WAVE Tool text content will use text that break markdown generation for the details dropdown. If the copy/pasted text includes angle brackets, surround them with backticks to avoid this problem. -->
+    This content added 2026-03-27. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#html5_video_audio" target="_blank">https://wave.webaim.org/api/docs?format=html#html5_video_audio</a>
 
     > ### WAVE Category
-    > Contrast Errors
+    > Alerts
     > ### WAVE Error
-    > Very low contrast
+    > HTML5 video or audio
     > ### What It Means
-    > Very low contrast between text and background colors.
+    > A `<video>` or `<audio>` element is present.
     > ### Why It Matters
-    > Adequate contrast of text is necessary for all users, especially users with low vision.
+    > `<video>` defines video, such as a movie clip or other video streams. `<audio>` defines sound, such as music or other audio streams. Audio content must be presented in a text format to be fully accessible to users who are deaf and hard of hearing. Video content with audio must have synchronized captions and a transcript. Audio-only content must have a transcript.
     > ### What To Do
-    > Increase the contrast between the foreground (text) color and the background color. Large text (larger than 18 point or 14 point bold) does not require as much contrast as smaller text.
+    > For video content with audio, ensure that synchronized captioning and a transcript is provided. For audio-only content, ensure that a transcript is provided.
     > ### The Algorithm... in English
-    > Text is present that has a contrast ratio less than 4.5:1, or large text (larger than 18 point or 14 point bold) has a contrast ratio less than 3:1. WCAG requires that page elements have both foreground AND background colors defined (or inherited) that provide sufficient contrast. When text is presented over a background image, the text must have a background color defined (typically in CSS) that provides adequate text contrast when the background image is disabled or unavailable. WAVE does not identify contrast issues in text with CSS transparency, gradients, or filters. WCAG Level AAA requires a contrast ratio of at least 7:1 for normal text and 4.5:1 for large text.
+    > A `<video>` or `<audio>` element is present. Note that WAVE does not analyze fall-back content within the `<video>` or `<audio>` element. This content should be accessible because it will be presented to the user if the video or audio content is not supported.
     > ### Standards and Guidelines
-    > - [1.4.3 Contrast (Minimum) (Level AA)](https://webaim.org/standards/wcag/checklist#sc1.4.3)
+    > - [1.2.1 Prerecorded Audio-only and Video-only (Level A)](https://webaim.org/standards/wcag/checklist#sc1.2.1)
+    > - [1.2.2 Captions (Prerecorded) (Level A)](https://webaim.org/standards/wcag/checklist#sc1.2.2)
+    > - [1.2.3 Audio Description or Media Alternative (Prerecorded) (Level A)](https://webaim.org/standards/wcag/checklist#sc1.2.3)
+    > - [1.2.5 Audio Description (Prerecorded) (Level AA)](https://webaim.org/standards/wcag/checklist#sc1.2.5)
+    > - [1.4.2 Audio Control (Level A)](https://webaim.org/standards/wcag/checklist#sc1.4.2)
 
 ## Example of a DOM Snippet Generated From WAVE Tool
 
@@ -45,11 +47,11 @@ WAVE Tool's Reference material on Very low contrast may not specifically address
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the Very low contrast WAVE contrast error.
+The following material covers how the Project Team has provided a solution to the HTML5 video or audio WAVE Alert.
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
-- Project Staging URL: [INSERT URL or "N/A"]
+- Project Dev URL: [INSERT URL or "N/A"]
 - Requires sign in: [TRUE OR FALSE]
     - Required User Role: [INSERT ONE OF: Visitor, Logged in user, Admin, Security Admin]
     - Can access page directly from URL: [TRUE OR FALSE]
@@ -80,14 +82,12 @@ The following material covers how the Project Team has provided a solution to th
 
     [ADD DETAILED INSTRUCTIONS HERE]
 
-
 #### Other Technical Details
 <!-- Author Instructions: Write N/A if this does not apply -->
 
 ??? Info "Click to see other technical details"
 
     [INSERT OTHER DETAILS e.g. Prop References, Return Value ]
-
 
 #### Code Snippet With Solution
 ??? Info "Click to see code snippets"
@@ -97,7 +97,6 @@ The following material covers how the Project Team has provided a solution to th
     ```jsx
     [Code example showing the fix/solution]
     ```
-
 
 #### Why the Fix Works
 <!-- Author Instruction: Add an explanation of how the code changes resolve the accessibility issue and why this approach was chosen -->
@@ -116,16 +115,6 @@ The following material covers how the Project Team has provided a solution to th
 ??? Info "1. Descriptive Title for Screenshot Set 1"
 
     Description/text for image
-
-    [INSERT IMAGE HERE]
-    
-    Description/text for image
-
-    [INSERT IMAGE HERE]
-
-??? Info "1. Descriptive Title for Screenshot Set 2"
-
-    Descriptoin/text for image
 
     [INSERT IMAGE HERE]
 
