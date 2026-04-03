@@ -173,21 +173,11 @@ This fix becuase it removes the gap in sequential heading levels within a single
 
 <!-- Author Instructions: when including markdown images, ensure they are responsive by specifying EITHER width OR height. Do not provide both. -->
 
-??? Info "1. Descriptive Title for Screenshot Set 1"
-
-    Description/text for image
-
-    [INSERT IMAGE HERE]
+??? Info "1. Image showing WAVE heading level skipped error with <h3> tag highlighted within page. "
+   
+    <img width="1557" height="767" alt="Screenshot 2026-03-18 191647" src="https://github.com/user-attachments/assets/de65b188-4f04-4956-9581-53e8dec090d3" />
     
-    Description/text for image
 
-    [INSERT IMAGE HERE]
-
-??? Info "1. Descriptive Title for Screenshot Set 2"
-
-    Descriptoin/text for image
-
-    [INSERT IMAGE HERE]
 
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
