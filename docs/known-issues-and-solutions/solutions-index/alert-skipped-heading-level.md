@@ -96,49 +96,78 @@ The following material covers how the Project Team has provided a solution to th
 - React Component(s)
     - [INSERT PATH: e.g. path/to/Component.jsx]
 
+### Project Page Details 4
+- Project Page name: About Page
+- Project Dev URL: https://tdm-dev.azurewebsites.net/about
+- Requires sign in: FALSE
+    - Required User Role: All Users
+    - Can access page directly from URL: TRUE
+    - Accepts URL parameters: FALSE
+
+### Project Team Issue and PR details 4
+- Related GitHub Issue(s):
+    - https://github.com/hackforla/tdm-calculator/issues/2960
+- Related Pull Request(s):
+    - https://github.com/hackforla/tdm-calculator/pull/3033
+- React Component(s)
+    - client/src/components/About/DefaultView.jsx
+
 ### Project Team Solution
 
 #### What is the specific problem that was occurring?
 <!-- Author Instructions: Add a detailed explanation of the specific accessibility problem, including context about when/where it occurs, what elements are involved, and why it's problematic for assistive technology users -->
-[INSERT CONTENT]
+The issues above were caused by a skip in sequential heading level within a page's html. For example, if a page had a <h1> and <h3>, but no <h2>. This is problematic for assistive technology users because heading levels serve as a table of contents for understanding the structure of information on a web page. When a heading level is skipped, a user may assume there is missing information or that there are no further heading levels to explore when they encounter a heading level with no content. It is a major break in expected behavior and is disruptive for a user's ability to understand a page quickly.
 
 #### What is the proposed solution to this problem?
 <!-- Author Instructions: Add a few sentences describing the fix. "Why the Fix Works" comes later (see below). If there are lots of instructions required to explain the solution, include them in Developer Resources below -->
-[INSERT CONTENT]
+This can be resolved by updated the heading levels so that no levels are skipped. In the example provided above, the <h3> heading should be updated to <h2>. In addition, we should double check that this update does not create a new skipped heading level for the rest of the page and if so, update accordingly.
 
 #### Step-By-Step Guide
 <!-- Author Instructions: Replace details dropdown with N/A if this does not apply -->
 
-??? Info "Click to see step-by-step guide"
-
-    [ADD DETAILED INSTRUCTIONS HERE]
+N/A
 
 
 #### Other Technical Details
 <!-- Author Instructions: Write N/A if this does not apply -->
 
-??? Info "Click to see other technical details"
+N/A
 
-    [INSERT OTHER DETAILS e.g. Prop References, Return Value ]
 
 #### Code Snippet With Solution
 ??? Info "Click to see code snippets"
 
-    [INSERT PATH file/path/to/Snippet.jsx]
+    client/src/components/About/DefaultView.jsx
 
     ```jsx
-    [Code example showing the fix/solution]
+    [const DefaultView = ({ aboutList }) => {
+  const classes = useStyles();
+  if (!aboutList || aboutList?.length === 0) {
+    return null;
+  }
+  return (
+    <>
+      {aboutList.map(about => (
+        <div key={about.id}>
+          <h2 className={classes.subheading}>{about.title}</h2>
+          <Interweave
+            transform={TransformExternalLink}
+            content={about.content}
+          />
+        </div>
+      ))}
+    </>
+  );
+};]
     ```
 
 #### Why the Fix Works
 <!-- Author Instruction: Add an explanation of how the code changes resolve the accessibility issue and why this approach was chosen -->
-[INSERT CONTENT]
+This fix becuase it removes the gap in sequential heading levels within a single page.
 
 #### Where this solution is applicable 
 <!-- Author Instruction: Add a bullet point list of scenarios that might trigger this error and would be fixed by applying the provided solution, e.g. particular groupings of html elements, user interactivity, code-specific edge cases -->
-- [INSERT SCENARIO 1]
-- [INSERT SCENARIO 2]
-- [INSERT SCENARIO N]
+- Any page of the website since all pages should have an h1 and then require sequential heading levels for any subheadings.
 
 #### Screenshots of WAVE Error
 
@@ -164,4 +193,5 @@ The following material covers how the Project Team has provided a solution to th
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
 - @experimentsinhonesty
 - @Rabia2219
+- @ColinBuyck
 - [INCLUDE Contributor N]
