@@ -41,7 +41,11 @@ WAVE Tool's Reference material on Skipped heading level may not specifically add
 ## Example of a DOM Snippet Generated From WAVE Tool
 
 > ```html
-> [HTML snippet showing the problematic code structure that WAVE detected]
+> <h1 class="heading1-0-1-23">About the TDM Calculator</h1>
+> <div>
+>     <h3 class="subheading-0-1-28">What does TDM mean?</h3>
+>     ...
+> </div>
 > ```
 
 ## Project Team Error guidance
@@ -116,11 +120,13 @@ The following material covers how the Project Team has provided a solution to th
 
 #### What is the specific problem that was occurring?
 <!-- Author Instructions: Add a detailed explanation of the specific accessibility problem, including context about when/where it occurs, what elements are involved, and why it's problematic for assistive technology users -->
-The issues above were caused by a skip in sequential heading level within a page's html. For example, if a page had a <h1> and <h3>, but no <h2>. This is problematic for assistive technology users because heading levels serve as a table of contents for understanding the structure of information on a web page. When a heading level is skipped, a user may assume there is missing information or that there are no further heading levels to explore when they encounter a heading level with no content. It is a major break in expected behavior and is disruptive for a user's ability to understand a page quickly.
+
+`The issues above were caused by a skip in sequential heading level within a page's html. For example, if a page had a <h1> and <h3>, but no <h2>. This is problematic for assistive technology users because heading levels serve as a table of contents for understanding the structure of information on a web page. When a heading level is skipped, a user may assume there is missing information or that there are no further heading levels to explore when they encounter a heading level with no content. It is a major break in expected behavior and is disruptive for a user's ability to understand a page quickly`
 
 #### What is the proposed solution to this problem?
 <!-- Author Instructions: Add a few sentences describing the fix. "Why the Fix Works" comes later (see below). If there are lots of instructions required to explain the solution, include them in Developer Resources below -->
-This can be resolved by updated the heading levels so that no levels are skipped. In the example provided above, the <h3> heading should be updated to <h2>. In addition, we should double check that this update does not create a new skipped heading level for the rest of the page and if so, update accordingly.
+
+`This can be resolved by updated the heading levels so that no levels are skipped. In the example provided above, the <h3> heading should be updated to <h2>. In addition, we should double check that this update does not create a new skipped heading level for the rest of the page and if so, update accordingly.`
 
 #### Step-By-Step Guide
 <!-- Author Instructions: Replace details dropdown with N/A if this does not apply -->
@@ -135,35 +141,33 @@ N/A
 
 
 #### Code Snippet With Solution
-??? Info "Click to see code snippets"
-
     client/src/components/About/DefaultView.jsx
 
     ```jsx
     [const DefaultView = ({ aboutList }) => {
-  const classes = useStyles();
-  if (!aboutList || aboutList?.length === 0) {
-    return null;
-  }
-  return (
-    <>
-      {aboutList.map(about => (
-        <div key={about.id}>
-          <h2 className={classes.subheading}>{about.title}</h2>
-          <Interweave
-            transform={TransformExternalLink}
-            content={about.content}
-          />
-        </div>
-      ))}
-    </>
-  );
-};]
+      const classes = useStyles();
+      if (!aboutList || aboutList?.length === 0) {
+        return null;
+      }
+      return (
+        <>
+          {aboutList.map(about => (
+            <div key={about.id}>
+              <h2 className={classes.subheading}>{about.title}</h2>
+              <Interweave
+                transform={TransformExternalLink}
+                content={about.content}
+              />
+            </div>
+          ))}
+        </>
+      );
+    };]
     ```
 
 #### Why the Fix Works
 <!-- Author Instruction: Add an explanation of how the code changes resolve the accessibility issue and why this approach was chosen -->
-This fix becuase it removes the gap in sequential heading levels within a single page.
+- This fix becuase it removes the gap in sequential heading levels within a single page.
 
 #### Where this solution is applicable 
 <!-- Author Instruction: Add a bullet point list of scenarios that might trigger this error and would be fixed by applying the provided solution, e.g. particular groupings of html elements, user interactivity, code-specific edge cases -->
@@ -173,9 +177,10 @@ This fix becuase it removes the gap in sequential heading levels within a single
 
 <!-- Author Instructions: when including markdown images, ensure they are responsive by specifying EITHER width OR height. Do not provide both. -->
 
-??? Info "1. Image showing WAVE heading level skipped error with <h3> tag highlighted within page. "
-   
-    <img width="1557" height="767" alt="Screenshot 2026-03-18 191647" src="https://github.com/user-attachments/assets/de65b188-4f04-4956-9581-53e8dec090d3" />
+Info 1.
+   <img width="1259" alt="WAVE tool showing skipped heading level error" src="https://github.com/user-attachments/assets/ccf86006-9a22-4b17-a49b-95c253df37b3" />
+
+
     
 
 
