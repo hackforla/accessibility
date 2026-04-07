@@ -17,7 +17,7 @@ WAVE Tool's Reference material on Link to document may not specifically address 
 
 ??? Info "Click to see WAVE Tool Reference"
 
-    This content added [2026-04-07]. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#link_document" target="_blank">https://wave.webaim.org/api/docs?format=html#link_document</a>
+    This content added 2026-04-07. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#link_document" target="_blank">https://wave.webaim.org/api/docs?format=html#link_document</a>
 
     > ### WAVE Category
     > Alerts
