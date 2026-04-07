@@ -3,7 +3,7 @@
 - WAVE Alert: Link to Excel spreadsheet
 
 ## Page Content Status
-- [ ] WAVE Error guidance text
+- [X] WAVE Error guidance text
 - [ ] Example of a DOM Snippet Generated From WAVE Tool
 - Project Team Error guidance
     - [ ] Project Team Page Details
