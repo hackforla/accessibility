@@ -26,7 +26,7 @@ WAVE Tool's Reference material on Noscript element may not specifically address 
     > ### What It Means
     > A `<noscript>` element is present.
     > ### Why It Matters
-    > Content within `<noscript>` is presented if JavaScript is disabled. Because nearly all users (including users of screen readers and other assistive technologies) have JavaScript enabled, <noscript> cannot be used to provide an accessible version of inaccessible scripted content.
+    > Content within `<noscript>` is presented if JavaScript is disabled. Because nearly all users (including users of screen readers and other assistive technologies) have JavaScript enabled, `<noscript>` cannot be used to provide an accessible version of inaccessible scripted content.
     > ### What To Do
     > Ensure that scripted content is accessible. The <noscript> content will be presented to very few users, but must be accessible if used.
     > ### The Algorithm... in English
