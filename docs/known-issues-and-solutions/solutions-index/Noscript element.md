@@ -16,8 +16,7 @@
 WAVE Tool's Reference material on Noscript element may not specifically address your problem.  We provide it here for optional reading.
 
 ??? Info "Click to see WAVE Tool Reference"
-
-    This content added 2026-04-07. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#noscript" target="_blank">https://wave.webaim.org/api/docs?format=html#noscript</a>
+    This content added [YYYY-MM-DD]. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#noscript" target="_blank">https://wave.webaim.org/api/docs?format=html#noscript</a>
 
     > ### WAVE Category
     > Alerts
@@ -26,14 +25,14 @@ WAVE Tool's Reference material on Noscript element may not specifically address 
     > ### What It Means
     > A `<noscript>` element is present.
     > ### Why It Matters
-    > Content within `<noscript>` is presented if JavaScript is disabled. Because nearly all users (including users of screen readers and other assistive technologies) have JavaScript enabled, `<noscript>` cannot be used to provide an accessible version of inaccessible scripted content.
+    > Content within `<noscript>` is presented if JavaScript is disabled. Because nearly all users (including users of screen readers   and other assistive technologies) have JavaScript enabled, `<noscript>` cannot be used to provide an accessible version of inaccessible scripted content.
     > ### What To Do
-    > Ensure that scripted content is accessible. The <noscript> content will be presented to very few users, but must be accessible if used.
+    > Ensure that scripted content is accessible. The `<noscript>` content will be presented to very few users, but must be accessible if used.
     > ### The Algorithm... in English
     > A `<noscript>` element is present.
     > ### Standards and Guidelines
     > None
-
+    
 ## Example of a DOM Snippet Generated From WAVE Tool
 
 > ```html
