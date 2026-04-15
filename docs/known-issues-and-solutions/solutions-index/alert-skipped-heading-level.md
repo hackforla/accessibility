@@ -8,10 +8,10 @@
 - Project Team Error guidance
     - [X] Project Team Page Details
     - [X] Project Team Issue and PR details
-    - [ ] Project Team Solution
+    - [X] Project Team Solution
 - [x] Credits/Authors
 
-## WAVE Error guidance
+## WAVE Alert guidance
 
 WAVE Tool's Reference material on Skipped heading level may not specifically address your problem.  We provide it here for optional reading.
 
@@ -121,12 +121,12 @@ The following material covers how the Project Team has provided a solution to th
 #### What is the specific problem that was occurring?
 <!-- Author Instructions: Add a detailed explanation of the specific accessibility problem, including context about when/where it occurs, what elements are involved, and why it's problematic for assistive technology users -->
 
-`The issues above were caused by a skip in sequential heading level within a page's html. For example, if a page had a <h1> and <h3>, but no <h2>. This is problematic for assistive technology users because heading levels serve as a table of contents for understanding the structure of information on a web page. When a heading level is skipped, a user may assume there is missing information or that there are no further heading levels to explore when they encounter a heading level with no content. It is a major break in expected behavior and is disruptive for a user's ability to understand a page quickly`
+The issues above were caused by a skip in sequential heading level within a page's html. For example, if a page had a `<h1>` and `<h3>`, but no `<h2>`. This is problematic for assistive technology users because heading levels serve as a table of contents for understanding the structure of information on a web page. When a heading level is skipped, a user may assume there is missing information or that there are no further heading levels to explore when they encounter a heading level with no content. It is a major break in expected behavior and is disruptive for a user's ability to understand a page quickly`
 
 #### What is the proposed solution to this problem?
 <!-- Author Instructions: Add a few sentences describing the fix. "Why the Fix Works" comes later (see below). If there are lots of instructions required to explain the solution, include them in Developer Resources below -->
 
-`This can be resolved by updated the heading levels so that no levels are skipped. In the example provided above, the <h3> heading should be updated to <h2>. In addition, we should double check that this update does not create a new skipped heading level for the rest of the page and if so, update accordingly.`
+This can be resolved by updated the heading levels so that no levels are skipped. In the example provided above, the `<h3>` heading should be updated to `<h2>`. In addition, we should double check that this update does not create a new skipped heading level for the rest of the page and if so, update accordingly.`
 
 #### Step-By-Step Guide
 <!-- Author Instructions: Replace details dropdown with N/A if this does not apply -->
@@ -167,7 +167,7 @@ N/A
 
 #### Why the Fix Works
 <!-- Author Instruction: Add an explanation of how the code changes resolve the accessibility issue and why this approach was chosen -->
-- This fix becuase it removes the gap in sequential heading levels within a single page.
+- This fix because it removes the gap in sequential heading levels within a single page.
 
 #### Where this solution is applicable 
 <!-- Author Instruction: Add a bullet point list of scenarios that might trigger this error and would be fixed by applying the provided solution, e.g. particular groupings of html elements, user interactivity, code-specific edge cases -->
@@ -189,4 +189,3 @@ Info 1.
 - @experimentsinhonesty
 - @Rabia2219
 - @ColinBuyck
-- [INCLUDE Contributor N]
