@@ -1,4 +1,4 @@
-# ARIA - ARIA hidden
+# ARIA hidden
 - WAVE Category: ARIA
 - WAVE ARIA: ARIA hidden
 
