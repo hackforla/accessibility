@@ -7,7 +7,7 @@ Follow these steps to get your computer setup and understand how to use the WAVE
 2. [Perform WAVE audit](perform-wave-audit.md)
 
 ## Learn about Accessibility Patterns
-Consult [Accessibility Pattern Index](https://hackforla.github.io/accessibility/getting-started/accessibility-patterns-index) to understand the different types (Features, ARIA labels, and Structural Elements) and how they work.
+Consult [Accessibility Pattern Index](accessibility-patterns-index) to understand the different types (Features, ARIA labels, and Structural Elements) and how they work.
 
 
 ## See and use Known Issues and Solutions
