@@ -1,4 +1,4 @@
-# ARIA - ARIA popup
+# ARIA popup
 - WAVE Category: ARIA
 - WAVE ARIA: ARIA popup
 
