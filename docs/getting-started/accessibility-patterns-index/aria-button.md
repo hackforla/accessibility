@@ -1,4 +1,4 @@
-# ARIA - ARIA button
+# ARIA button
 - WAVE Category: ARIA
 - WAVE ARIA: ARIA button
 
