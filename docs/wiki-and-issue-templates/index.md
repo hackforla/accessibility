@@ -2,6 +2,7 @@
 
 ## WIKI templates
 - [Known Issue](wiki-template-known-issue.md)
+- [Accessibility Pattern](wiki-template-accessibility-pattern.md)
 
 ## Issue templates
 - [Epic: Create, apply and document code solution - for 1 page](issue-template-epic-create-apply-and-document-solution-1page.md)
