@@ -1,4 +1,4 @@
-# ARIA - ARIA tabindex
+# ARIA tabindex
 - WAVE Category: ARIA
 - WAVE ARIA: ARIA tabindex
 
