@@ -1,4 +1,4 @@
-# ARIA - ARIA expanded
+# ARIA expanded
 - WAVE Category: ARIA
 - WAVE ARIA: ARIA expanded
 
