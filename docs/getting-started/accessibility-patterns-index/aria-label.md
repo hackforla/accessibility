@@ -1,4 +1,4 @@
-# ARIA - ARIA label
+# ARIA label
 - WAVE Category: ARIA
 - WAVE ARIA: ARIA label
 
