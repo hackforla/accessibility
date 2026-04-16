@@ -1,4 +1,4 @@
-# ARIA - ARIA description
+# ARIA description
 - WAVE Category: ARIA
 - WAVE ARIA: ARIA description
 
