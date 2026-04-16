@@ -29,11 +29,11 @@ Epic: WAVE: [REPLACE WITH Alert/Contrast Error/Error]
 
 ### Overview
 
-We need to make issues that will create, apply and document a solution for [REPLACE WITH ONE OF THESE CATEGORIES /Aria/Contrast Error/Error]: [REPLACE WITH NAME OF /Aria/Contrast Error/Error] so that it can get fixed on the site and documented for future developers
+We need to make issues that will create, apply and document a solution for [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error]: [REPLACE WITH NAME OF Alert/Contrast Error/Error] so that it can get fixed on the site and documented for future developers
 
 ### Details
-Category: [REPLACE WITH ONE OF THESE CATEGORIES /Aria/Contrast Error/Error]
-Name: [REPLACE WITH NAME OF /Aria/Contrast Error/Error]
+Category: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error]
+Name: [REPLACE WITH NAME OF Alert/Contrast Error/Error]
 (The Accessibility wiki for this [REPLACE WITH NAME OF Alert/Contrast Error/Error] has no solution yet)
 
 known pages (there might be others):
@@ -79,9 +79,9 @@ This epic will do the following
       - [ ] In this issue use the content in resource Product Documentation 1.03.01 to update the draft's issue resource 1.02.01, 1.02.02
       - [ ] In this issue use the content in resource 1.01.01 (spreadsheet) to update the link to the spreadsheet in draft issue's resource 1.03
          - [ ] open the spreadsheet link and find the row number, and add it to the draft issues's resource 1.03.01
-- [ ] Once both those issues are closed, run WAVE and check all other pages for this [REPLACE WITH ONE OF THESE CATEGORIES /Aria/Contrast Error/Error]: [REPLACE WITH NAME OF /Aria/Contrast Error/Error]; ignore all other Alerts and Errors.  Check user interactions on the page to ensure that the [REPLACE WITH ONE OF THESE CATEGORIES /Aria/Contrast Error/Error] isn't hidden by an interaction. Check one of the following below:
-   - [ ] No additional instances of this [REPLACE WITH ONE OF THESE CATEGORIES /Aria/Contrast Error/Error] found
-   - [ ] New instances of these [REPLACE WITH ONE OF THESE CATEGORIES /Aria/Contrast Error/Error] found
+- [ ] Once both those issues are closed, run WAVE and check all other pages for this [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error]: [REPLACE WITH NAME OF Alert/Contrast Error/Error]; ignore all other Alerts and Errors.  Check user interactions on the page to ensure that the [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] isn't hidden by an interaction. Check one of the following below:
+   - [ ] No additional instances of this [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] found
+   - [ ] New instances of these [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] found
       - [ ] Make additional issues
 
 
@@ -101,7 +101,7 @@ Dev: fix [REPLACE WITH Alert/Contrast Error/Error] on [REPLACE WITH PAGE NAME] p
 Body
 ```
 ### Overview
-We need to fix the [REPLACE WITH ONE OF THESE CATEGORIES /Aria/Contrast Error/Error](s): [REPLACE WITH NAME OF Alert/Contrast Error/Error] on [REPLACE WITH PAGE NAME] so that page can be WCAG compliant.
+We need to fix the [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error](s): [REPLACE WITH NAME OF Alert/Contrast Error/Error] on [REPLACE WITH PAGE NAME] so that page can be WCAG compliant.
 
 #### Details
 Category: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error]
