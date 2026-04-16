@@ -1,4 +1,4 @@
-# ARIA - ARIA menu
+# ARIA menu
 - WAVE Category: ARIA
 - WAVE ARIA: ARIA menu
 
