@@ -1,10 +1,10 @@
 # Issue Template for Epic to create, apply and document code solution - for 2+ pages
 
 ## What does this template do?
-This issue template creates an epic issue and will direct the person working on the epic issue in how to create child issues (using a template that is customized during the epic creation). The scope of work of the epic will fix one specific Alert/Aria/Contrast Error/Error found on your website and update this WIKI to share that solution for future reference.
+This issue template creates an epic issue and will direct the person working on the epic issue in how to create child issues (using a template that is customized during the epic creation). The scope of work of the epic will fix one specific Alert/Contrast Error/Error found on your website and update this WIKI to share that solution for future reference.
 
 ## When should this template be used?
-Only use this template if there is no solution in the index and there are two or more pages with the same Alert/Aria/Contrast Error/Error.
+Only use this template if there is no solution in the index and there are two or more pages with the same Alert/Contrast Error/Error.
 
 - to confirm there is no solution, go to [Known issues and solutions index](../../known-issues-and-solutions/solutions-index), and identify if the page is in the Completed or Drafts section.  If it is in the Drafts section, there is no solution yet. 
 - If this is not the correct template, see [WIKI and Issue templates](index.md) for a list of other templates available.   
@@ -21,7 +21,7 @@ p-feature: [REPLACE WITH PAGE NAME]
 ```
 ### Title
 ```
-Epic: WAVE: [REPLACE WITH Alert/Aria/Contrast Error/Error]
+Epic: WAVE: [REPLACE WITH Alert/Contrast Error/Error]
 ```
 ### Body
 `````
@@ -34,7 +34,7 @@ We need to make issues that will create, apply and document a solution for [REPL
 ### Details
 Category: [REPLACE WITH ONE OF THESE CATEGORIES /Aria/Contrast Error/Error]
 Name: [REPLACE WITH NAME OF /Aria/Contrast Error/Error]
-(The Accessibility wiki for this [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error] has no solution yet)
+(The Accessibility wiki for this [REPLACE WITH NAME OF Alert/Contrast Error/Error] has no solution yet)
 
 known pages (there might be others):
 1. [REPLACE WITH NAME OF PAGE NAME 1]
@@ -87,7 +87,7 @@ This epic will do the following
 
 ### Resources
 - 1.01 [TDM WAVE Accessibility Audit Spreadsheet, tab: 2. Audit Log](https://docs.google.com/spreadsheets/d/1qiAqR9LH-Gd4LO3aOs0yUy174o5LOmnuU6Bz671mKsY/edit?gid=0#gid=0)
-   - 1.01.01 [TDM WAVE Accessibility Audit Spreadsheet, tab: 2. Audit Log, filter: [REPLACE WITH NAME OF FILTER FOR Alert/Aria/Contrast Error/Error]
+   - 1.01.01 [TDM WAVE Accessibility Audit Spreadsheet, tab: 2. Audit Log, filter: [REPLACE WITH NAME OF FILTER FOR Alert/Contrast Error/Error]
 - 1.02 [WCAG: Known Issues and Solutions](https://hackforla.github.io/accessibility/known-issues-and-solutions)
   - 1.02.01 https://hackforla.github.io/accessibility/known-issues-and-solutions/solutions-index/[REPLACE WITH PAGE NAME WITH DASHES]/
 - 1.03 WIKI: Product Documentation: https://github.com/hackforla/tdm-calculator/wiki/Product-Documentation
@@ -96,17 +96,17 @@ This epic will do the following
 #### 1.04 first issue Template
 Title
 ```
-Dev: fix [REPLACE WITH Alert/Aria/Contrast Error/Error] on [REPLACE WITH PAGE NAME] page
+Dev: fix [REPLACE WITH Alert/Contrast Error/Error] on [REPLACE WITH PAGE NAME] page
 ```
 Body
 ```
 ### Overview
-We need to fix the [REPLACE WITH ONE OF THESE CATEGORIES /Aria/Contrast Error/Error](s): [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error] on [REPLACE WITH PAGE NAME] so that page can be WCAG compliant.
+We need to fix the [REPLACE WITH ONE OF THESE CATEGORIES /Aria/Contrast Error/Error](s): [REPLACE WITH NAME OF Alert/Contrast Error/Error] on [REPLACE WITH PAGE NAME] so that page can be WCAG compliant.
 
 #### Details
-Category: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error]
-Name: [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error]
-(The Accessibility wiki for this [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error] has no solution yet)
+Category: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error]
+Name: [REPLACE WITH NAME OF Alert/Contrast Error/Error]
+(The Accessibility wiki for this [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] has no solution yet)
 
 Page that will be worked on:
 [REPLACE WITH NAME OF PAGE NAME]
@@ -116,14 +116,14 @@ Page that will be worked on:
    - [ ] Install the WAVE browser extension
 - [ ] Log in as the user indicated (resource 1.02.01) 
 - [ ] navigate to the page you are going to fix (resource 1.02.02)
-- [ ] Open the TDM WAVE Accessibility Audit Spreadsheet, for this [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error] (resource 1.03) and find the row that relates to this issues page.
+- [ ] Open the TDM WAVE Accessibility Audit Spreadsheet, for this [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] (resource 1.03) and find the row that relates to this issues page.
 - [ ] Run the WAVE extension with no elements focused, or clicked (resource 1.04)
-- [ ] Find the [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error] shown in the Spreadsheet (1.03)
-- [ ] This [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error]: [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error] has been resolved on other pages, so look at the other issues where this was solved (resource 1.05.01 see Project Team [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error] guidance section)
+- [ ] Find the [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] shown in the Spreadsheet (1.03)
+- [ ] This [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error]: [REPLACE WITH NAME OF Alert/Contrast Error/Error] has been resolved on other pages, so look at the other issues where this was solved (resource 1.05.01 see Project Team [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] guidance section)
 - [ ] Apply solution
 - [ ] write and add the appropriate details to the `Project Team Solution` section (resource 1.05.01.01)
 - [ ] Submit PR (include link to `Project Team Solution` section (resource 1.05.01.01)
-- [ ] Add PR to spreadsheet in PR column next to [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error] (resource 1.03)
+- [ ] Add PR to spreadsheet in PR column next to [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] (resource 1.03)
 - [ ] On this issue
    - [ ] Add labels: 
       - `ready for accessibility lead`
@@ -147,8 +147,8 @@ Page that will be worked on:
    -  Spreadsheet Row(s): [REPLACE WITH ROW NUMBERS]
 - 1.04 https://hackforla.github.io/accessibility/getting-started/perform-wave-audit
 - 1.05 [Accessibility Known Issues Index](https://hackforla.github.io/accessibility/known-issues-and-solutions/solutions-index/)
-    - 1.05.01 [WAVE Known Accessibility Issue: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error] - [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error]]
-       - 1.05.01.01 [WAVE Known Accessibility Issue: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error] - [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error], project-team-solution]
+    - 1.05.01 [WAVE Known Accessibility Issue: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] - [REPLACE WITH NAME OF Alert/Contrast Error/Error]]
+       - 1.05.01.01 [WAVE Known Accessibility Issue: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] - [REPLACE WITH NAME OF Alert/Contrast Error/Error], project-team-solution]
 
 Additional reading (optional)
 - TDM [Accessibility Audits](https://hackforla.github.io/accessibility/)
@@ -164,17 +164,17 @@ Additional reading (optional)
 #### 1.05 Second Issue Template
 Title
 ```
-Dev: fix [REPLACE WITH Alert/Aria/Contrast Error/Error] on [REPLACE WITH PAGE NAME] page
+Dev: fix [REPLACE WITH Alert/Contrast Error/Error] on [REPLACE WITH PAGE NAME] page
 ```
 Body
 ````
 ### Overview
-We need to fix the [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error](s): [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error] on [REPLACE WITH PAGE NAME] so that page can be WCAG compliant.
+We need to fix the [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error](s): [REPLACE WITH NAME OF Alert/Contrast Error/Error] on [REPLACE WITH PAGE NAME] so that page can be WCAG compliant.
 
 #### Details
-Category: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error]
-Name: [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error]
-(The Accessibility wiki for this [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error] has a solution)
+Category: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error]
+Name: [REPLACE WITH NAME OF Alert/Contrast Error/Error]
+(The Accessibility wiki for this [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] has a solution)
 
 Page that will be worked on:
 [REPLACE WITH NAME OF PAGE NAME]
@@ -184,13 +184,13 @@ Page that will be worked on:
    - [ ] Install the WAVE browser extension
 - [ ] Log in as the user indicated (resource 1.02.01) 
 - [ ] navigate to the page you are going to fix (resource 1.02.02)
-- [ ] Open the TDM WAVE Accessibility Audit Spreadsheet, for this [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error]: [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error] (resource 1.03) and find the row that relates to this  issues page.
+- [ ] Open the TDM WAVE Accessibility Audit Spreadsheet, for this [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error]: [REPLACE WITH NAME OF Alert/Contrast Error/Error] (resource 1.03) and find the row that relates to this  issues page.
 - [ ] Run the WAVE extension with no elements focused, or clicked
-- [ ] Find the [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error] referenced in the Spreadsheet (1.03)
-- [ ] This [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error]: [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error] has been resolved on other pages, so review `Project Team Solution` section (resource 1.04.01.01)
+- [ ] Find the [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] referenced in the Spreadsheet (1.03)
+- [ ] This [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error]: [REPLACE WITH NAME OF Alert/Contrast Error/Error] has been resolved on other pages, so review `Project Team Solution` section (resource 1.04.01.01)
 - [ ] Apply solution
 - [ ] Submit PR
-- [ ] Add PR to spreadsheet in PR column next to [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error] (resource 1.03)
+- [ ] Add PR to spreadsheet in PR column next to [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] (resource 1.03)
 - [ ] On this issue
    - [ ] Add labels: 
       - `ready for accessibility lead`
@@ -209,11 +209,11 @@ Page that will be worked on:
    - 1.02.02 Page URL: http://tdm-dev.azurewebsites.net/[REPLACE WITH PAGE URL]
       - Requires sign in: [REPLACE WITH TRUE OR FALSE]
       - Can access page directly from URL: [REPLACE WITH TRUE OR FALSE]
-- 1.03 [TDM WAVE Accessibility Audit Spreadsheet, tab: 2. Audit Log, filter: [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error]: [REPLACE WITH FILTER NAME]]
+- 1.03 [TDM WAVE Accessibility Audit Spreadsheet, tab: 2. Audit Log, filter: [REPLACE WITH NAME OF Alert/Contrast Error/Error]: [REPLACE WITH FILTER NAME]]
    -  Spreadsheet Row(s): [REPLACE WITH ROW NUMBERS]
 - 1.04 [Accessibility Known Issues Index](https://github.com/hackforla/accessibility/blob/main/docs/known-issues-and-solutions/solutions-index/index.md)
-    - 1.04.01 [WAVE Known Accessibility Issue: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error] - [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error]]
-        - 1.04.01.01 [WAVE Known Accessibility Issue: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Aria/Contrast Error/Error] - [REPLACE WITH NAME OF Alert/Aria/Contrast Error/Error], project-team-solution]
+    - 1.04.01 [WAVE Known Accessibility Issue: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] - [REPLACE WITH NAME OF Alert/Contrast Error/Error]]
+        - 1.04.01.01 [WAVE Known Accessibility Issue: [REPLACE WITH ONE OF THESE CATEGORIES Alert/Contrast Error/Error] - [REPLACE WITH NAME OF Alert/Contrast Error/Error], project-team-solution]
 
 Additional reading (optional)
 - https://hackforla.github.io/accessibility/
