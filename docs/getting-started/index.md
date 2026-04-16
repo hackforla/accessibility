@@ -6,6 +6,9 @@ Follow these steps to get your computer setup and understand how to use the WAVE
 1. Read about and install [WAVE Browser extension](wave-browser-extension.md)
 2. [Perform WAVE audit](perform-wave-audit.md)
 
+## Learn about Accessibility Patterns
+Consult [Accessibility Pattern Info](https://hackforla.github.io/accessibility/getting-started/accessibility-patterns). To understand the different types (Features, ARIA labels, and Structural Elements) and how they work.
+
 
 ## See and use Known Issues and Solutions
 Consult [Known issues and solutions](../known-issues-and-solutions/index.md).  To see how to use and contribute to the Known Issues and Solutions Index.
