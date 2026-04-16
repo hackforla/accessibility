@@ -17,19 +17,18 @@ Begin with semantic HTML to establish meaning, implement the user-facing functio
 
 #### Examples
 
-<details><summary>Example: Form Input with Error Messaging</summary>
+??? Info "Example: Form Input with Error Messaging"
 
-A user enters information into a form field and receives feedback if there is an error.
+    A user enters information into a form field and receives feedback if there is an error.
 
-- **Structural Element**  
-  Use semantic HTML such as `<label>` and `<input>` to define the form field and its relationship.
+    - **Structural Element**  
+      Use semantic HTML such as `<label>` and `<input>` to define the form field and its relationship.
 
-- **Feature**  
-  Provide input validation and clear error messaging so users understand what is required and how to fix issues.
+    - **Feature**  
+      Provide input validation and clear error messaging so users understand what is required and how to fix issues.
 
-- **ARIA**  
-  Use ARIA (e.g., `aria-describedby`, `aria-live`) only when needed to associate instructions or announce dynamic error messages.
-</details>
+    - **ARIA**  
+      Use ARIA (e.g., `aria-describedby`, `aria-live`) only when needed to associate instructions or announce dynamic error messages.
 
 
 <details><summary>Example: Expand/Collapse Section (Accordion)</summary>
