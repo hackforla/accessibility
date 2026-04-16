@@ -31,36 +31,36 @@ Begin with semantic HTML to establish meaning, implement the user-facing functio
       Use ARIA (e.g., `aria-describedby`, `aria-live`) only when needed to associate instructions or announce dynamic error messages.
 
 
-<details><summary>Example: Expand/Collapse Section (Accordion)</summary>
+??? Info "Example: Expand/Collapse Section (Accordion)"
 
-A user expands or collapses a section to show or hide content.
+    A user expands or collapses a section to show or hide content.
 
-- **Structural Element**  
-  Use semantic elements such as `<button>` for the trigger and headings or sections to organize content.
+    - **Structural Element**  
+      Use semantic elements such as `<button>` for the trigger and headings or sections to organize content.
 
-- **Feature**  
-  Allow users to toggle visibility of content in a predictable and accessible way.
+    - **Feature**  
+      Allow users to toggle visibility of content in a predictable and accessible way.
 
-- **ARIA**  
-  Use `aria-expanded` and `aria-controls` to communicate the current state and relationship between the trigger and the content region.
+    - **ARIA**  
+      Use `aria-expanded` and `aria-controls` to communicate the current state and relationship between the trigger and the content region.
 
-Use the table below to explore individual patterns, understand their purpose, and learn how to implement them correctly to support accessible, standards-compliant experiences.
-</details>
+    Use the table below to explore individual patterns, understand their purpose, and learn how to implement them correctly to support accessible, standards-compliant experiences.
 
 
-<details><summary>Example: Navigation with Skip Link</summary>
 
-A user navigates a page and wants to skip repetitive navigation to reach the main content.
+??? Info "Example: Navigation with Skip Link"
 
-- **Structural Element**  
-  Use landmarks such as `<nav>` and `<main>` to define navigation and primary content areas.
+    A user navigates a page and wants to skip repetitive navigation to reach the main content.
 
-- **Feature**  
-  Provide a skip link that allows users to jump directly to the main content.
+    - **Structural Element**  
+      Use landmarks such as `<nav>` and `<main>` to define navigation and primary content areas.
 
-- **ARIA**  
-  Use ARIA landmarks or labels only if needed to further clarify regions when multiple similar elements exist.
-</details>
+    - **Feature**  
+      Provide a skip link that allows users to jump directly to the main content.
+
+    - **ARIA**  
+      Use ARIA landmarks or labels only if needed to further clarify regions when multiple similar elements exist.
+
 
 [INSERT TABLE]
 
