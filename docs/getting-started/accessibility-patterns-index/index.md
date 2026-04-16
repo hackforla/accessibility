@@ -2,13 +2,6 @@
 
 ## Understand How Accessibility Patterns Are Used 
 This section provides a structured overview of accessibility patterns identified through WAVE, organized into three categories: 
-- Features
-- Structural Elements
-- ARIA
-
-Each category groups related patterns that address how users interact with content, how that content is structured, and how additional semantics are communicated to assistive technologies. Use the table below to explore individual patterns, understand their purpose, and learn how to implement them correctly to support accessible, standards-compliant experiences.
-
-👉 Start with Structure → build the Feature → enhance with ARIA
 
 ### Structural Element
 Documentation about accessibility patterns related to semantic HTML elements that define the structure, organization, and relationships within a page. These patterns include headings, lists, landmarks, tables, and other structural components that enable assistive technologies to interpret and navigate content effectively.
@@ -19,6 +12,15 @@ Documentation about accessibility patterns related to user-facing functionality 
 ### ARIA
 Documentation about accessibility patterns that use ARIA roles, states, and properties to enhance or communicate meaning, behavior, and dynamic changes to assistive technologies when native HTML alone is not sufficient. These patterns focus on ensuring that custom or interactive components are properly announced, labeled, and usable by screen 
 reader and keyboard users.
+
+Each category groups related patterns that address how users interact with content, how that content is structured, and how additional semantics are communicated to assistive technologies. 
+
+👉 Start with Structure → build the Feature → enhance with ARIA  
+Begin with semantic HTML to establish meaning, implement the user-facing functionality, and only use ARIA when native HTML cannot fully convey behavior or relationships. Avoid replacing native elements with ARIA unless necessary.
+
+Use the table below to explore individual patterns, understand their purpose, and learn how to implement them correctly to support accessible, standards-compliant experiences.
+
+
 
 [INSERT TABLE]
 
