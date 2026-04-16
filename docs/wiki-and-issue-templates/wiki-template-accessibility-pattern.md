@@ -23,8 +23,7 @@ If this is not the correct template, see [WIKI and Issue templates](index.md) fo
 1. Remove or add screenshot sections as needed
 
 ## Template
-Copy/paste this template to create a wiki page in the folder: /getting-started/accessibility-patterns
--index
+Copy/paste this template to create a wiki page in the folder: /getting-started/accessibility-patterns-index
 
 ### File Name
 The filename should be all lowercase and without brackets
