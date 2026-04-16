@@ -36,7 +36,7 @@ The filename should be all lowercase and without brackets
 ````
 # [REPLACE WITH WAVE CATEGORY] - [REPLACE WITH WAVE NAME]
 - WAVE Category: [REPLACE WITH WAVE CATEGORY]
-- WAVE [Error/Contrast Error/Alert/ARIA]: [REPLACE WITH NAME]
+- WAVE [Error/Contrast Error/Alert]: [REPLACE WITH NAME]
 
 ## Page Content Status
 - [ ] WAVE Error guidance text
@@ -85,7 +85,7 @@ WAVE Tool's Reference material on [REPLACE WITH WAVE ERROR NAME] may not specifi
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the [Alert/ARIA/Contrast Error/Error Name] WAVE [Alert/ARIA/Contrast Error/Error].
+The following material covers how the Project Team has provided a solution to the [Alert/Contrast Error/Error Name] WAVE [Alert/Contrast Error/Error].
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
