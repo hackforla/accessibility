@@ -1,7 +1,11 @@
 # Accessibility Pattern Index
 
 ## Understand How Accessibility Patterns Are Used 
-This section provides a structured overview of accessibility patterns identified through WAVE, organized into three categories: Features, Structural Elements, and ARIA. Each category groups related patterns that address how users interact with content, how that content is structured, and how additional semantics are communicated to assistive technologies. Use the table below to explore individual patterns (e.g., aria-button, aria-hidden), understand their purpose, and learn how to implement them correctly to support accessible, standards-compliant experiences.
+This section provides a structured overview of accessibility patterns identified through WAVE, organized into three categories: 
+- Features
+- Structural Elements
+- ARIA
+Each category groups related patterns that address how users interact with content, how that content is structured, and how additional semantics are communicated to assistive technologies. Use the table below to explore individual patterns (e.g., aria-button, aria-hidden), understand their purpose, and learn how to implement them correctly to support accessible, standards-compliant experiences.
 
 👉 Start with Structure → build the Feature → enhance with ARIA
 
