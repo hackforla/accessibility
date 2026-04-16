@@ -44,9 +44,6 @@ Begin with semantic HTML to establish meaning, implement the user-facing functio
     - **ARIA**  
       Use `aria-expanded` and `aria-controls` to communicate the current state and relationship between the trigger and the content region.
 
-    Use the table below to explore individual patterns, understand their purpose, and learn how to implement them correctly to support accessible, standards-compliant experiences.
-
-
 
 ??? Info "Example: Navigation with Skip Link"
 
@@ -62,6 +59,7 @@ Begin with semantic HTML to establish meaning, implement the user-facing functio
       Use ARIA landmarks or labels only if needed to further clarify regions when multiple similar elements exist.
 
 
+Use the table below to explore individual patterns, understand their purpose, and learn how to implement them correctly to support accessible, standards-compliant experiences.
 [INSERT TABLE]
 
 ---
