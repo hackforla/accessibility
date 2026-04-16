@@ -15,6 +15,7 @@ Each category groups related patterns that address how users interact with conte
 ### 👉 Start with Structure → build the Feature → enhance with ARIA  
 Begin with semantic HTML to establish meaning, implement the user-facing functionality, and only use ARIA when native HTML cannot fully convey behavior or relationships. Avoid replacing native elements with ARIA unless necessary.
 
+#### Examples
 
 <details><summary>Example: Form Input with Error Messaging</summary>
 
