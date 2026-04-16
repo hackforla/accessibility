@@ -1,4 +1,4 @@
-# ARIA - ARIA alert or live region
+# ARIA alert or live region
 - WAVE Category: ARIA
 - WAVE ARIA: ARIA alert or live region
 
