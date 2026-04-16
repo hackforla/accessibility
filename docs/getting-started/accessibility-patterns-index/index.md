@@ -18,6 +18,21 @@ Each category groups related patterns that address how users interact with conte
 👉 Start with Structure → build the Feature → enhance with ARIA  
 Begin with semantic HTML to establish meaning, implement the user-facing functionality, and only use ARIA when native HTML cannot fully convey behavior or relationships. Avoid replacing native elements with ARIA unless necessary.
 
+
+<details><summary>Example: Form Input with Error Messaging</summary>
+
+A user enters information into a form field and receives feedback if there is an error.
+
+- **Structural Element**  
+  Use semantic HTML such as `<label>` and `<input>` to define the form field and its relationship.
+
+- **Feature**  
+  Provide input validation and clear error messaging so users understand what is required and how to fix issues.
+
+- **ARIA**  
+  Use ARIA (e.g., `aria-describedby`, `aria-live`) only when needed to associate instructions or announce dynamic error messages.
+</details>
+
 Use the table below to explore individual patterns, understand their purpose, and learn how to implement them correctly to support accessible, standards-compliant experiences.
 
 
