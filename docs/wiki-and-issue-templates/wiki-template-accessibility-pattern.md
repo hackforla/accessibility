@@ -4,7 +4,7 @@
 This WIKI template creates a new WIKI page in the Accessibility Patterns index.  The wiki pages created from this template will be used for self guided learning of accessibility patterns.
 
 ## When should this template be used?
-Only use this template when you have confirmed that there isn't already a page in the [Accessibility Patterns index]
+Only use this template when you have confirmed that there isn't already a page in the [Accessibility Patterns index](../getting-started/accessibility-patterns-index/)
 
 If this is not the correct template, see [WIKI and Issue templates](index.md) for a list of other templates available.
 
