@@ -60,6 +60,7 @@ Begin with semantic HTML to establish meaning, implement the user-facing functio
 
 
 Use the table below to explore individual patterns, understand their purpose, and learn how to implement them correctly to support accessible, standards-compliant experiences.
+
 [INSERT TABLE]
 
 ---
