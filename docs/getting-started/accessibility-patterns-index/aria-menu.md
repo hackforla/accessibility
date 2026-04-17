@@ -44,7 +44,7 @@ WAVE Tool's Reference material on ARIA menu may not specifically address your pr
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the ARIA menu WAVE ARIA.
+The following material covers how the Project Team has provided a solution to the WAVE ARIA menu.
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
