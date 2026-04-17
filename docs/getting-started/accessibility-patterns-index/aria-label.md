@@ -49,7 +49,7 @@ WAVE Tool's Reference material on ARIA label may not specifically address your p
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the Aria label WAVE Aria.
+The following material covers how the Project Team has provided a solution to the WAVE Aria label.
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
