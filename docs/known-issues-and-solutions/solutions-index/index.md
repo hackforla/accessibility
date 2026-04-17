@@ -21,7 +21,6 @@ Alerts | [Possible heading](alert-possible-heading.md) | missing | FALSE | FALSE
 Alerts | [Layout table](alert-layout-table.md) | missing | FALSE | FALSE | FALSE | missing
 Alerts | [Redundant link](alert-redundant-link.md) | missing | FALSE | FALSE | FALSE | missing
 Alerts | [Link to PDF document](alert-link-to-pdf-document.md) | missing | FALSE | FALSE | FALSE | missing
-ARIA | [ARIA label](aria-aria-label.md) | missing | FALSE | FALSE | FALSE | missing
 Contrast Errors | [Very low contrast](contrast-errors-very-low-contrast.md) | missing | FALSE | FALSE | FALSE | missing
 
 
