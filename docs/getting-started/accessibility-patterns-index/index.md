@@ -61,7 +61,61 @@ Begin with semantic HTML to establish meaning, implement the user-facing functio
 
 Use the table below to explore individual patterns, understand their purpose, and learn how to implement them correctly to support accessible, standards-compliant experiences.
 
-[INSERT TABLE]
+Accessibility Patterns DRAFTS
+
+Category | Page Link for inside wiki | DOM snippit | Example | Screenshots
+-- | -- | -- | -- | --
+ARIA | [ARIA alert or live region](aria-aria-alert-or-live-region) | missing | missing | missing
+ARIA | [ARIA button](aria-aria-button) | missing | missing | missing
+ARIA | [ARIA description](aria-aria-description) | missing | missing | missing
+ARIA | [ARIA expanded](aria-aria-expanded) | missing | missing | missing
+ARIA | [ARIA hidden](aria-aria-hidden) | missing | missing | missing
+ARIA | [ARIA label](aria-aria-label) | missing | missing | missing
+ARIA | [ARIA menu](aria-aria-menu) | missing | missing | missing
+ARIA | [ARIA popup](aria-aria-popup) | missing | missing | missing
+ARIA | [ARIA tabindex](aria-aria-tabindex) | missing | missing | missing
+ARIA | [ARIA](aria-aria) | missing | missing | missing
+Feature | [Alternative text](feature-alternative-text) | missing | missing | missing
+Structural Element | [Aside](structural-element-aside) | missing | missing | missing
+Structural Element | [Column header cell](structural-element-column-header-cell) | missing | missing | missing
+Structural Element | [Data table](structural-element-data-table) | missing | missing | missing
+Structural Element | [Definition/description list](structural-element-definition-description-list) | missing | missing | missing
+
+
+Accessibility Patterns Comming Soon
+
+Category | Page Link for inside wiki | DOM snippit | Example | Screenshots
+-- | -- | -- | -- | --
+Feature | [Fieldset](feature-fieldset) | missing | missing | missing
+Feature | [Figure](feature-figure) | missing | missing | missing
+Feature | [Form label](feature-form-label) | missing | missing | missing
+Feature | [Image button with alternative text](feature-image-button-with-alternative-text) | missing | missing | missing
+Feature | [Image map area with alternative text](feature-image-map-area-with-alternative-text) | missing | missing | missing
+Feature | [Image map with alternative text](feature-image-map-with-alternative-text) | missing | missing | missing
+Feature | [Language](feature-language) | missing | missing | missing
+Feature | [Linked image with alternative text](feature-linked-image-with-alternative-text) | missing | missing | missing
+Feature | [Null or empty alternative text on spacer](feature-null-or-empty-alternative-text-on-spacer) | missing | missing | missing
+Feature | [Null or empty alternative text](feature-null-or-empty-alternative-text) | missing | missing | missing
+Feature | [Skip link target](feature-skip-link-target) | missing | missing | missing
+Feature | [Skip link](feature-skip-link) | missing | missing | missing
+Structural Element | [Footer](structural-element-footer) | missing | missing | missing
+Structural Element | [Generic region](structural-element-generic-region) | missing | missing | missing
+Structural Element | [Header](structural-element-header) | missing | missing | missing
+Structural Element | [Heading level 1](structural-element-heading-level-1) | missing | missing | missing
+Structural Element | [Heading level 2](structural-element-heading-level-2) | missing | missing | missing
+Structural Element | [Heading level 3](structural-element-heading-level-3) | missing | missing | missing
+Structural Element | [Heading level 4](structural-element-heading-level-4) | missing | missing | missing
+Structural Element | [Heading level 5](structural-element-heading-level-5) | missing | missing | missing
+Structural Element | [Heading level 6](structural-element-heading-level-6) | missing | missing | missing
+Structural Element | [Inline frame](structural-element-inline-frame) | missing | missing | missing
+Structural Element | [Main content](structural-element-main-content) | missing | missing | missing
+Structural Element | [Navigation](structural-element-navigation) | missing | missing | missing
+Structural Element | [Ordered list](structural-element-ordered-list) | missing | missing | missing
+Structural Element | [Row header cell](structural-element-row-header-cell) | missing | missing | missing
+Structural Element | [Search](structural-element-search) | missing | missing | missing
+Structural Element | [Table caption](structural-element-table-caption) | missing | missing | missing
+Structural Element | [Table header cell](structural-element-table-header-cell) | missing | missing | missing
+Structural Element | [Unordered list](structural-element-unordered-list) | missing | missing | missing
 
 ---
 
