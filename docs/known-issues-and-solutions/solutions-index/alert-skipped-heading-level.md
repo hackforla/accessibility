@@ -177,7 +177,7 @@ N/A
 
 <!-- Author Instructions: when including markdown images, ensure they are responsive by specifying EITHER width OR height. Do not provide both. -->
 
-??? Info 1. WAVE tool showing skipped heading level error"
+??? Info "1. WAVE tool showing skipped heading level error"
    <img width="1259" alt="WAVE tool showing skipped heading level error" src="https://github.com/user-attachments/assets/ccf86006-9a22-4b17-a49b-95c253df37b3" />
 
 
