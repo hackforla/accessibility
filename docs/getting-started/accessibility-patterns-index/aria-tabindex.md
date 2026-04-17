@@ -43,7 +43,7 @@ WAVE Tool's Reference material on ARIA tabindex may not specifically address you
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the ARIA tabindex WAVE ARIA.
+The following material covers how the Project Team has provided a solution to the WAVE ARIA tabindex.
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
