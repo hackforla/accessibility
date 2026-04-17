@@ -44,7 +44,7 @@ WAVE Tool's Reference material on ARIA description may not specifically address 
 
 ## Project Team Error guidance
 
-The following material covers how the Project Team has provided a solution to the ARIA description WAVE ARIA.
+The following material covers how the Project Team has provided a solution to the WAVE ARIA description.
 
 ### Project Page Details
 - Project Page name: [INSERT PAGE NAME or "ALL"]
