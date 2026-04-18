@@ -53,54 +53,6 @@ WAVE Tool's Reference material on Skipped heading level may not specifically add
 The following material covers how the Project Team has provided a solution to the Skippped heading level WAVE alert.
 
 ### Project Page Details 1
-- Project Page name: Privacy Policy
-- Project Dev URL: http://tdm-dev.azurewebsites.net/privacypolicy
-- Requires sign in: FALSE
-    - Required User Role: Visitor
-    - Can access page directly from URL: TRUE
-    - Accepts URL parameters: FALSE
-
-### Project Team Issue and PR details 1
-- Related GitHub Issue(s):
-    - https://github.com/hackforla/tdm-calculator/issues/2716
-- Related Pull Request(s):
-    - PR: https://github.com/hackforla/tdm-calculator/pull/2760
-- React Component(s)
-    - [INSERT PATH: e.g. path/to/Component.jsx]
- 
-### Project Page Details 2
-- Project Page name: Forgot Password
-- Project Dev URL: https://tdm-dev.azurewebsites.net/forgotpassword
-- Requires sign in: FALSE
-    - Required User Role: All Users
-    - Can access page directly from URL: TRUE
-    - Accepts URL parameters: FALSE
- 
-### Project Team Issue and PR details 2
-- Related GitHub Issue(s):
-    - https://github.com/hackforla/tdm-calculator/issues/2701
-- Related Pull Request(s):
-   - https://github.com/hackforla/tdm-calculator/pull/2779
-- React Component(s)
-   - [INSERT PATH: e.g. path/to/Component.jsx]
- 
-### Project Page Details 3
-- Project Page name: Manage Submissions
-- Project Dev URL: https://tdm-dev.azurewebsites.net/managesubmissions
-- Requires sign in: TRUE
-    - Required User Role: Admin
-    - Can access page directly from URL: FALSE
-    - Accepts URL parameters: FALSE
-
-### Project Team Issue and PR details 3
-- Related GitHub Issue(s):
-    - https://github.com/hackforla/tdm-calculator/issues/2705
-- Related Pull Request(s):
-    - https://github.com/hackforla/tdm-calculator/pull/2799
-- React Component(s)
-    - [INSERT PATH: e.g. path/to/Component.jsx]
-
-### Project Page Details 4
 - Project Page name: About Page
 - Project Dev URL: https://tdm-dev.azurewebsites.net/about
 - Requires sign in: FALSE
@@ -108,7 +60,7 @@ The following material covers how the Project Team has provided a solution to th
     - Can access page directly from URL: TRUE
     - Accepts URL parameters: FALSE
 
-### Project Team Issue and PR details 4
+### Project Team Issue and PR details 1
 - Related GitHub Issue(s):
     - https://github.com/hackforla/tdm-calculator/issues/2960
 - Related Pull Request(s):
