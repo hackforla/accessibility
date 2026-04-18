@@ -65,15 +65,15 @@ Accessibility Patterns DRAFTS
 
 Category | Page Link for inside wiki | DOM snippit | Example | Screenshots
 -- | -- | -- | -- | --
-ARIA | [ARIA alert or live region](aria-aria-alert-or-live-region) | missing | missing | missing
-ARIA | [ARIA button](aria-aria-button) | missing | missing | missing
-ARIA | [ARIA description](aria-aria-description) | missing | missing | missing
-ARIA | [ARIA expanded](aria-aria-expanded) | missing | missing | missing
-ARIA | [ARIA hidden](aria-aria-hidden) | missing | missing | missing
-ARIA | [ARIA label](aria-aria-label) | missing | missing | missing
-ARIA | [ARIA menu](aria-aria-menu) | missing | missing | missing
-ARIA | [ARIA popup](aria-aria-popup) | missing | missing | missing
-ARIA | [ARIA tabindex](aria-aria-tabindex) | missing | missing | missing
+ARIA | [alert or live region](aria-alert-or-live-region) | missing | missing | missing
+ARIA | [button](aria-button) | missing | missing | missing
+ARIA | [description](aria-description) | missing | missing | missing
+ARIA | [expanded](aria-expanded) | missing | missing | missing
+ARIA | [hidden](aria-hidden) | missing | missing | missing
+ARIA | [label](aria-label) | missing | missing | missing
+ARIA | [menu](aria-menu) | missing | missing | missing
+ARIA | [popup](aria-popup) | missing | missing | missing
+ARIA | [tabindex](aria-tabindex) | missing | missing | missing
 ARIA | [ARIA](aria-aria) | missing | missing | missing
 Feature | [Alternative text](feature-alternative-text) | missing | missing | missing
 Structural Element | [Aside](structural-element-aside) | missing | missing | missing
