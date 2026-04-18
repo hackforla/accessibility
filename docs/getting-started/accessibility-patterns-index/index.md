@@ -74,7 +74,7 @@ ARIA | [label](aria-label) | missing | missing | missing
 ARIA | [menu](aria-menu) | missing | missing | missing
 ARIA | [popup](aria-popup) | missing | missing | missing
 ARIA | [tabindex](aria-tabindex) | missing | missing | missing
-ARIA | [ARIA](aria-aria) | missing | missing | missing
+ARIA | [ARIA](aria) | missing | missing | missing
 Feature | [Alternative text](feature-alternative-text) | missing | missing | missing
 Structural Element | [Aside](structural-element-aside) | missing | missing | missing
 Structural Element | [Column header cell](structural-element-column-header-cell) | missing | missing | missing
