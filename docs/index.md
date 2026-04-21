@@ -2,7 +2,7 @@
 
 ## Motivation for Accessibility Compliance
 
-Hack for LA is committed to delivering a site that is compliant with modern accessibility standards. We will be using the WAVE browser extension to perform accessibility audits in order to ensure we meet WCAG2.2 standards.
+Hack for LA is committed to delivering sites that are compliant with modern accessibility standards. We use the WAVE browser extension to perform accessibility audits in order to ensure we meet WCAG2.2 standards.
 
 ### WCAG 2.2 Accessibility Standards
 The WCAG documents explain how to make web content more accessible to people with disabilities. Web “content” generally refers to the information in a web page or web application
