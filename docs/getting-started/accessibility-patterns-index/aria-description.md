@@ -3,7 +3,8 @@
 - WAVE ARIA: ARIA description
 
 ## Page Content Status
-- [X] Example of a DOM Snippet Generated From WAVE Tool
+- [X] WAVE Tool Reference text
+- [ ] Example of a DOM Snippet Generated From WAVE Tool
 - [ ] Screenshots of Accessibility Pattern in Use
 - [ ] Credits/Authors
 
