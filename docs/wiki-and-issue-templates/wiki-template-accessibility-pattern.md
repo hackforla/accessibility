@@ -39,7 +39,7 @@ The filename should be all lowercase and without brackets
 - WAVE ACCESSIBILITY PATTERN: [REPLACE WITH NAME]
 
 ## Page Content Status
-- [ ] WAVE WAVE Tool Reference text
+- [ ] WAVE Tool Reference text
 - [ ] Example of a DOM Snippet Generated From WAVE Tool
 - [ ] Screenshots of Accessibility Pattern in Use
 - [ ] Credits/Authors
