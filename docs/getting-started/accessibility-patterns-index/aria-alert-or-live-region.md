@@ -3,12 +3,9 @@
 - WAVE ARIA: ARIA alert or live region
 
 ## Page Content Status
-- [X] WAVE Error guidance text
+- [X] WAVE Tool Reference text
 - [ ] Example of a DOM Snippet Generated From WAVE Tool
-- Project Team Error guidance
-    - [ ] Project Team Page Details
-    - [ ] Project Team Issue and PR details
-    - [ ] Project Team Solution
+- [ ] Screenshots of Accessibility Pattern in Use
 - [ ] Credits/Authors
 
 ## WAVE Guidance
