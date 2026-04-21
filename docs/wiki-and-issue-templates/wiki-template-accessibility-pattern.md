@@ -44,7 +44,7 @@ The filename should be all lowercase and without brackets
 - [ ] Screenshots of Accessibility Pattern in Use
 - [ ] Credits/Authors
 
-## WAVE Accessibility Pattern 
+## WAVE Tool Reference
 
 ??? Info "Click to see WAVE Tool Reference"
 
