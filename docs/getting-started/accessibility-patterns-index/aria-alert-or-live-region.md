@@ -8,9 +8,7 @@
 - [ ] Screenshots of Accessibility Pattern in Use
 - [ ] Credits/Authors
 
-## WAVE Guidance
-
-WAVE Tool's Reference material on ARIA alert or live region may not specifically address your problem.  We provide it here for optional reading.
+## WAVE Tool Reference
 
 ??? Info "Click to see WAVE Tool Reference"
 
