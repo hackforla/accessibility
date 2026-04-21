@@ -39,14 +39,14 @@ The filename should be all lowercase and without brackets
 - WAVE ACCESSIBILITY PATTERN: [REPLACE WITH NAME]
 
 ## Page Content Status
-- [ ] WAVE Accessibility Pattern text
+- [ ] WAVE WAVE Tool Reference text
 - [ ] Example of a DOM Snippet Generated From WAVE Tool
 - [ ] Screenshots of Accessibility Pattern in Use
 - [ ] Credits/Authors
 
 ## WAVE Accessibility Pattern 
 
-??? Info "Click to see WAVE Accessibility Pattern "
+??? Info "Click to see WAVE Tool Reference"
 
     This content added [YYYY-MM-DD]. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#[REPLACE ANCHOR NAME]" target="_blank">https://wave.webaim.org/api/docs?format=html#[REPLACE ANCHOR NAME]</a>
 
