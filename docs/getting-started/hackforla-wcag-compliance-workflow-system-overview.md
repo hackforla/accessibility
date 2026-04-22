@@ -1,23 +1,4 @@
 <style>
-  .section-number {
-    font-family: monospace;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: #a0aab8;
-    display: block;
-    margin-bottom: 4px;
-  }
-
-  .section-intro {
-    font-size: 14px;
-    line-height: 1.65;
-    color: #5a6478;
-    margin-bottom: 20px;
-  }
-
-  .section-intro strong { color: #1a1f2e; }
 
   /* ── Block diagram ── */
   .diagram {
@@ -581,17 +562,19 @@
   .toggle-all button:hover { background: #f0f2f6; }
 </style>
 
-<p style="font-size:15px;line-height:1.7;color:#3d4558;margin-bottom:32px;">This page provides four complementary views of the accessibility compliance workflow. Each diagram serves a different purpose — read them in order for the fullest understanding, or jump to the one that answers your current question.</p>
+# WCAG Compliance Workflow Overview
 
-<hr style="border:none;border-top:1.5px solid #eaecf0;margin:0 0 40px 0;">
+This page provides four complementary views of the accessibility compliance workflow. Each diagram serves a different purpose — read them in order for the fullest understanding, or jump to the one that answers your current question.
+
+---
 
 <!-- ══════════════════════════════════════
      1. SYSTEM OVERVIEW
 ══════════════════════════════════════ -->
 
-<span class="section-number">Diagram 1 of 4</span>
-<h2 style="font-size:20px;font-weight:700;color:#1a1f2e;margin:0 0 8px 0;">System Overview</h2>
-<p class="section-intro"><strong>Start here.</strong> This diagram introduces the people, tools, and artifacts involved in the workflow and shows how they connect to each other. Before diving into any process, it helps to know what you're working with.</p>
+## 1. System Overview
+
+**Start here.** This diagram introduces the people, tools, and artifacts involved in the workflow and shows how they connect to each other. Before diving into any process, it helps to know what you're working with.
 
 <div class="diagram">
   <div class="diagram-inner-title">WCAG Compliance Workflow — System Overview</div>
@@ -722,15 +705,15 @@
   </div>
 </div>
 
-<hr style="border:none;border-top:1.5px solid #eaecf0;margin:40px 0;">
+---
 
 <!-- ══════════════════════════════════════
      2. PHASE OVERVIEW
 ══════════════════════════════════════ -->
 
-<span class="section-number">Diagram 2 of 4</span>
-<h2 style="font-size:20px;font-weight:700;color:#1a1f2e;margin:0 0 8px 0;">Phase Overview</h2>
-<p class="section-intro"><strong>The six phases at a glance.</strong> Once you know the players and tools, this diagram shows the lifecycle of the project — how it moves from setup through iterative auditing and fixing, all the way to final sign-off.</p>
+## 2. Phase Overview
+
+**The six phases at a glance.** Once you know the players and tools, this diagram shows the lifecycle of the project — how it moves from setup through iterative auditing and fixing, all the way to final sign-off.
 
 <div class="state-diagram">
   <div class="state-inner-title">WCAG Compliance Workflow — Phase Overview</div>
@@ -803,15 +786,15 @@
   </div>
 </div>
 
-<hr style="border:none;border-top:1.5px solid #eaecf0;margin:40px 0;">
+---
 
 <!-- ══════════════════════════════════════
      3. HANDOFF SEQUENCE
 ══════════════════════════════════════ -->
 
-<span class="section-number">Diagram 3 of 4</span>
-<h2 style="font-size:20px;font-weight:700;color:#1a1f2e;margin:0 0 8px 0;">Handoff Sequence</h2>
-<p class="section-intro"><strong>Who does what, and when.</strong> This diagram shows the rhythm of handoffs between the PM and developers across all six phases — when the PM acts, when they hand off to a developer, and when work comes back for the next step. For branching logic and decision details within each phase, see the Process Flowchart below.</p>
+## 3. Handoff Sequence
+
+**Who does what, and when.** This diagram shows the rhythm of handoffs between the PM and developers across all six phases — when the PM acts, when they hand off to a developer, and when work comes back for the next step. For branching logic and decision details within each phase, see the Process Flowchart below.
 
 <div class="seq-diagram">
   <div class="seq-inner-title">WCAG Compliance Workflow — Handoff Sequence</div>
@@ -966,15 +949,15 @@
   <div style="text-align:center;margin-top:16px;font-size:13px;font-weight:600;color:#2a7a50;letter-spacing:0.04em;padding:10px;background:#e6f7ed;border-radius:6px;">✓ Initiative Complete</div>
 </div>
 
-<hr style="border:none;border-top:1.5px solid #eaecf0;margin:40px 0;">
+---
 
 <!-- ══════════════════════════════════════
      4. PROCESS FLOWCHART
 ══════════════════════════════════════ -->
 
-<span class="section-number">Diagram 4 of 4</span>
-<h2 style="font-size:20px;font-weight:700;color:#1a1f2e;margin:0 0 8px 0;">Process Flowchart</h2>
-<p class="section-intro"><strong>The full step-by-step logic.</strong> Use this as a working reference when actively running the process. Each phase is collapsible — expand only what you need. Decision points show both branches, and loop indicators mark where the process repeats.</p>
+## 4. Process Flowchart
+
+**The full step-by-step logic.** Use this as a working reference when actively running the process. Each phase is collapsible — expand only what you need. Decision points show both branches, and loop indicators mark where the process repeats.
 
 <div class="flow-wrap">
   <div class="toggle-all">
