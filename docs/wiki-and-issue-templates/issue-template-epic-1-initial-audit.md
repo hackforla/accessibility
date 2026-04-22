@@ -53,7 +53,7 @@ Page Access by Role Spreadsheet: [REPLACE WITH LINK TO PAGE ACCESS SPREADSHEET]
 - [ ] Review the Page Access by Role spreadsheet (resource 1.01.01) to identify
       every page and every recurring element (e.g., header, nav, footer,
       sidebar)
-- [ ] Confirm the spreadsheet (resource 1.01.01) lists all pages and update it
+- [ ] Confirm the spreadsheet (resource 1.01.02) lists all pages and update it
       if any are missing
 
 #### WAVE Audit — Recurring Elements
@@ -64,13 +64,13 @@ Page Access by Role Spreadsheet: [REPLACE WITH LINK TO PAGE ACCESS SPREADSHEET]
   - [ ] Run WAVE with no elements focused or clicked (resource 1.03)
   - [ ] Record all Errors, Contrast Errors, and Alerts for that element
         in the audit spreadsheet (resource 1.01.01)
-  - [ ] Note the user role required to view the element (resource 1.01)
+  - [ ] Note the user role required to view the element (resource 1.01.01)
 
 #### Documentation
 - [ ] Ensure every recurring element's findings are logged in the spreadsheet
-      (resource 1.01.01) with at minimum: page/element name, error/alert name,
+      (resource 1.01.02) with at minimum: page/element name, error/alert name,
       category, and user role
-- [ ] Flag any pages that appear to require a non-default user role (resource 1.01)
+- [ ] Flag any pages that appear to require a non-default user role (resource 1.01.01)
       so the PM can plan audits accordingly
 - [ ] Notify PM that Epic 1 is complete and the findings are ready for review
 
