@@ -1,4 +1,12 @@
-# Compliance Workflow — System Overview
+# WCAG Compliance Workflow Overview
+
+This page provides four complementary views of the accessibility compliance workflow. Each diagram serves a different purpose — read them in order for the fullest understanding, or jump to the one that answers your current question.
+
+---
+
+## 1. System Overview
+
+**Start here.** This diagram introduces the people, tools, and artifacts involved in the workflow and shows how they connect to each other. Before diving into any process, it helps to know what you're working with.
 
 <style>
   .diagram {
@@ -143,7 +151,6 @@
 
 <div class="diagram">
   <h2 class="diagram-title">WCAG Compliance Workflow — System Overview</h2>
-
   <div class="diagram-grid">
 
     <div class="diagram-group people">
@@ -271,11 +278,119 @@
   </div>
 </div>
 
+---
+
+## 2. Phase Overview
+
+**The six phases at a glance.** Once you know the players and tools, this diagram shows the lifecycle of the project — how it moves from setup through iterative auditing and fixing, all the way to final sign-off.
+
+```mermaid
+stateDiagram-v2
+    [*] --> InitialAudit : PM creates Initiative
+
+    InitialAudit : Epic 1 — Initial Audit
+    InitialAudit --> RecurringRemediation : Audit complete
+
+    RecurringRemediation : Epic 2 — Recurring Element Remediation
+    RecurringRemediation --> PageAudits : All recurring elements fixed
+
+    PageAudits : Epic 3 — Page Audits
+    PageAudits --> ErrorFixes : All pages audited
+
+    ErrorFixes : Epic 4 — Error & Alert Fixes
+    ErrorFixes --> OngoingAudit : All known errors fixed
+
+    OngoingAudit : Epic 5 — Ongoing Audit Cycle
+    OngoingAudit --> ErrorFixes : New errors found
+    OngoingAudit --> [*] : No errors — signed off
+```
+
+---
+
+## 3. Handoff Sequence
+
+**Who does what, and when.** This diagram shows the rhythm of handoffs between the PM and developers across all six phases — when the PM acts, when they hand off to a developer, and when work comes back for the next step. For the branching logic and decision details within each phase, see the Process Flowchart below.
+
+```mermaid
+sequenceDiagram
+    participant PM
+    participant Dev
+
+    PM->>PM: Create Initiative issue
+    PM->>PM: Set up Accessibility Project folder in Google Drive
+    PM->>PM: Create Audit Spreadsheet & Page Access by Role from templates
+    PM->>PM: Create Epics 1–5 and add as sub-issues to Initiative
+
+    rect rgb(255, 232, 232)
+        Note over PM,Dev: Epic 1 — Initial Audit
+        PM->>Dev: Assign Epic 1
+        Dev->>Dev: Inventory pages & recurring elements
+        Dev->>Dev: Audit recurring elements with WAVE
+        Dev->>Dev: Document findings in spreadsheet
+        Dev->>PM: Epic 1 complete
+    end
+
+    rect rgb(255, 240, 220)
+        Note over PM,Dev: Epic 2 — Recurring Element Remediation
+        PM->>PM: Create one issue per recurring element
+        PM->>Dev: Assign issues
+        Dev->>Dev: Fix each recurring element
+        Dev->>PM: All issues closed
+    end
+
+    rect rgb(255, 252, 210)
+        Note over PM,Dev: Epic 3 — Page Audits
+        PM->>PM: Create one audit issue per page
+        PM->>Dev: Assign issues
+        Dev->>Dev: Run WAVE on each page & log findings
+        Dev->>PM: All pages audited
+    end
+
+    rect rgb(220, 242, 255)
+        Note over PM,Dev: Epic 4 — Error & Alert Fixes
+        PM->>PM: Create one fix epic per error type
+        PM->>Dev: Assign first issue per error type
+
+        alt No solution exists yet
+            Dev->>Dev: Research & develop solution
+            Dev->>Dev: Apply to first page & document in Known Issues Index
+            Dev->>PM: PR submitted, wiki updated
+            PM->>PM: Create fix issues for remaining pages
+            PM->>Dev: Assign remaining issues
+            Dev->>Dev: Apply known solution to each remaining page
+        else Solution already exists
+            Dev->>Dev: Apply known solution to each page
+        end
+
+        Dev->>PM: All fix issues closed
+    end
+
+    rect rgb(220, 245, 230)
+        Note over PM,Dev: Epic 5 — Ongoing Audit & Sign-Off
+        PM->>Dev: Assign re-audit
+        Dev->>Dev: Re-audit all pages with WAVE
+
+        alt Errors found
+            Dev->>PM: Report affected pages
+            PM->>PM: Create new issues for affected pages
+            Note over PM,Dev: Returns to Epic 3 & 4 workflow
+        else No errors found
+            Dev->>PM: All clear — ready for sign-off
+            PM->>PM: Epic 5 = Final audit & sign-off
+        end
+    end
+
+    Note over PM,Dev: Initiative complete ✓
+```
+
+---
+
+## 4. Process Flowchart
+
+**The full step-by-step logic.** Use this as a working reference when actively running the process. Each phase is collapsible — expand only what you need. Decision points show both branches, and loop indicators mark where the process repeats.
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap');
-
-  * { box-sizing: border-box; margin: 0; padding: 0; }
 
   .flow-wrap {
     margin: 0;
@@ -293,7 +408,6 @@
     border-bottom: 1.5px solid #dde2ea;
   }
 
-  /* ── Connector line ── */
   .connector {
     width: 2px;
     height: 28px;
@@ -301,11 +415,6 @@
     margin: 0 auto;
   }
 
-  .connector.branch {
-    height: 16px;
-  }
-
-  /* ── Start / End pill ── */
   .node-pill {
     display: block;
     margin: 0 auto;
@@ -321,7 +430,6 @@
   .node-pill.start { background: #ffffff; color: #1a1f2e; border: 2px solid #1a1f2e; }
   .node-pill.end   { background: #2a7a50; color: #fff; }
 
-  /* ── Epic block ── */
   .epic {
     border-radius: 10px;
     overflow: hidden;
@@ -366,7 +474,6 @@
     font-size: 12px;
     transition: transform 0.25s ease;
     flex-shrink: 0;
-    color: inherit;
     opacity: 0.6;
   }
 
@@ -380,7 +487,6 @@
 
   .epic.open .epic-body { display: block; }
 
-  /* ── Step node ── */
   .step {
     display: flex;
     align-items: flex-start;
@@ -399,7 +505,6 @@
     margin-top: 1px;
   }
 
-  /* ── Decision diamond ── */
   .decision-wrap {
     margin-top: 10px;
     display: flex;
@@ -415,8 +520,6 @@
     height: 56px;
     background: #fff;
     border: 2px solid #d0d5e0;
-    transform: rotate(0deg);
-    position: relative;
     font-size: 12px;
     font-weight: 600;
     color: #2a2f3e;
@@ -451,7 +554,6 @@
     display: block;
   }
 
-  /* ── Loop indicator ── */
   .loop-badge {
     display: inline-flex;
     align-items: center;
@@ -468,15 +570,15 @@
     color: #5a6478;
   }
 
-  /* ── Color themes per epic ── */
-  /* epic color themes defined below */
-
   /* Initiative — Red */
   .epic.e0 { border-color: #f5b8b8; }
   .epic.e0 .epic-header { background: #fde8e8; color: #8a1a1a; }
   .epic.e0 .epic-badge  { background: #f5b8b8; color: #8a1a1a; }
   .epic.e0 .epic-body   { background: #fff5f5; }
   .epic.e0 .step        { background: #fde8e8; border: 1px solid #f5b8b8; }
+  .epic.e0 .decision    { border-color: #f5b8b8; }
+  .epic.e0 .branch      { background: #fde8e8; border: 1px solid #f5b8b8; }
+  .epic.e0 .branch-label { color: #8a1a1a; }
 
   /* Epic 1 — Orange */
   .epic.e1 { border-color: #f5c89a; }
@@ -484,6 +586,9 @@
   .epic.e1 .epic-badge  { background: #f5c89a; color: #8a3d00; }
   .epic.e1 .epic-body   { background: #fff8f2; }
   .epic.e1 .step        { background: #fff0e0; border: 1px solid #f5c89a; }
+  .epic.e1 .decision    { border-color: #f5c89a; }
+  .epic.e1 .branch      { background: #fff0e0; border: 1px solid #f5c89a; }
+  .epic.e1 .branch-label { color: #8a3d00; }
 
   /* Epic 2 — Yellow */
   .epic.e2 { border-color: #e8d870; }
@@ -491,6 +596,9 @@
   .epic.e2 .epic-badge  { background: #e8d870; color: #7a6000; }
   .epic.e2 .epic-body   { background: #fffde8; }
   .epic.e2 .step        { background: #fff8d6; border: 1px solid #e8d870; }
+  .epic.e2 .decision    { border-color: #e8d870; }
+  .epic.e2 .branch      { background: #fff8d6; border: 1px solid #e8d870; }
+  .epic.e2 .branch-label { color: #7a6000; }
 
   /* Epic 3 — Cyan */
   .epic.e3 { border-color: #7ed4e0; }
@@ -498,6 +606,9 @@
   .epic.e3 .epic-badge  { background: #7ed4e0; color: #0e6b7a; }
   .epic.e3 .epic-body   { background: #f0fcff; }
   .epic.e3 .step        { background: #e0f7fa; border: 1px solid #7ed4e0; }
+  .epic.e3 .decision    { border-color: #7ed4e0; }
+  .epic.e3 .branch      { background: #e0f7fa; border: 1px solid #7ed4e0; }
+  .epic.e3 .branch-label { color: #0e6b7a; }
 
   /* Epic 4 — Blue */
   .epic.e4 { border-color: #94b8f0; }
@@ -505,6 +616,9 @@
   .epic.e4 .epic-badge  { background: #94b8f0; color: #1a4a9a; }
   .epic.e4 .epic-body   { background: #f4f8ff; }
   .epic.e4 .step        { background: #e8f0ff; border: 1px solid #94b8f0; }
+  .epic.e4 .decision    { border-color: #94b8f0; }
+  .epic.e4 .branch      { background: #e8f0ff; border: 1px solid #94b8f0; }
+  .epic.e4 .branch-label { color: #1a4a9a; }
 
   /* Epic 5 — Green */
   .epic.e5 { border-color: #7ed4a0; }
@@ -512,33 +626,10 @@
   .epic.e5 .epic-badge  { background: #7ed4a0; color: #1a6e3c; }
   .epic.e5 .epic-body   { background: #f2fdf6; }
   .epic.e5 .step        { background: #e6f7ed; border: 1px solid #7ed4a0; }
-
-  /* decision & branch theming per epic */
-  .epic.e0 .decision { border-color: #f5b8b8; }
-  .epic.e0 .branch   { background: #fde8e8; border: 1px solid #f5b8b8; }
-  .epic.e0 .branch-label { color: #8a1a1a; }
-
-  .epic.e1 .decision { border-color: #f5c89a; }
-  .epic.e1 .branch   { background: #fff0e0; border: 1px solid #f5c89a; }
-  .epic.e1 .branch-label { color: #8a3d00; }
-
-  .epic.e2 .decision { border-color: #e8d870; }
-  .epic.e2 .branch   { background: #fff8d6; border: 1px solid #e8d870; }
-  .epic.e2 .branch-label { color: #7a6000; }
-
-  .epic.e3 .decision { border-color: #7ed4e0; }
-  .epic.e3 .branch   { background: #e0f7fa; border: 1px solid #7ed4e0; }
-  .epic.e3 .branch-label { color: #0e6b7a; }
-
-  .epic.e4 .decision { border-color: #94b8f0; }
-  .epic.e4 .branch   { background: #e8f0ff; border: 1px solid #94b8f0; }
-  .epic.e4 .branch-label { color: #1a4a9a; }
-
-  .epic.e5 .decision { border-color: #7ed4a0; }
-  .epic.e5 .branch   { background: #e6f7ed; border: 1px solid #7ed4a0; }
+  .epic.e5 .decision    { border-color: #7ed4a0; }
+  .epic.e5 .branch      { background: #e6f7ed; border: 1px solid #7ed4a0; }
   .epic.e5 .branch-label { color: #1a6e3c; }
 
-  /* expand-all toggle */
   .toggle-all {
     display: flex;
     justify-content: flex-end;
@@ -563,17 +654,14 @@
 </style>
 
 <div class="flow-wrap">
-  <div class="flow-title">WCAG Compliance Workflow — Process Flowchart</div>
 
   <div class="toggle-all">
     <button onclick="toggleAll()">Expand All</button>
   </div>
 
-  <!-- START -->
   <span class="node-pill start">▶ Start: WCAG Compliance Initiative</span>
   <div class="connector"></div>
 
-  <!-- INITIATIVE SETUP -->
   <div class="epic e0" id="epic0">
     <div class="epic-header" onclick="toggle('epic0')">
       <div class="epic-header-left">
@@ -592,7 +680,6 @@
 
   <div class="connector"></div>
 
-  <!-- EPIC 1 -->
   <div class="epic e1" id="epic1">
     <div class="epic-header" onclick="toggle('epic1')">
       <div class="epic-header-left">
@@ -611,7 +698,6 @@
 
   <div class="connector"></div>
 
-  <!-- EPIC 2 -->
   <div class="epic e2" id="epic2">
     <div class="epic-header" onclick="toggle('epic2')">
       <div class="epic-header-left">
@@ -627,14 +713,8 @@
       <div class="decision-wrap">
         <div class="decision">More recurring elements?</div>
         <div class="decision-branches">
-          <div class="branch">
-            <span class="branch-label">↑ Yes</span>
-            Return to top of Epic 2 loop
-          </div>
-          <div class="branch">
-            <span class="branch-label">↓ No</span>
-            Epic 2 complete
-          </div>
+          <div class="branch"><span class="branch-label">↑ Yes</span>Return to top of Epic 2 loop</div>
+          <div class="branch"><span class="branch-label">↓ No</span>Epic 2 complete</div>
         </div>
       </div>
       <span class="loop-badge">↻ Repeats per recurring element</span>
@@ -643,7 +723,6 @@
 
   <div class="connector"></div>
 
-  <!-- EPIC 3 -->
   <div class="epic e3" id="epic3">
     <div class="epic-header" onclick="toggle('epic3')">
       <div class="epic-header-left">
@@ -659,14 +738,8 @@
       <div class="decision-wrap">
         <div class="decision">More pages?</div>
         <div class="decision-branches">
-          <div class="branch">
-            <span class="branch-label">↑ Yes</span>
-            Return to top of Epic 3 loop
-          </div>
-          <div class="branch">
-            <span class="branch-label">↓ No</span>
-            Epic 3 complete
-          </div>
+          <div class="branch"><span class="branch-label">↑ Yes</span>Return to top of Epic 3 loop</div>
+          <div class="branch"><span class="branch-label">↓ No</span>Epic 3 complete</div>
         </div>
       </div>
       <span class="loop-badge">↻ Repeats per page</span>
@@ -675,7 +748,6 @@
 
   <div class="connector"></div>
 
-  <!-- EPIC 4 -->
   <div class="epic e4" id="epic4">
     <div class="epic-header" onclick="toggle('epic4')">
       <div class="epic-header-left">
@@ -702,27 +774,15 @@
       <div class="decision-wrap">
         <div class="decision">More pages for this error?</div>
         <div class="decision-branches">
-          <div class="branch">
-            <span class="branch-label">↑ Yes</span>
-            Create fix issue for next page
-          </div>
-          <div class="branch">
-            <span class="branch-label">↓ No</span>
-            Check for more error types
-          </div>
+          <div class="branch"><span class="branch-label">↑ Yes</span>Create fix issue for next page</div>
+          <div class="branch"><span class="branch-label">↓ No</span>Check for more error types</div>
         </div>
       </div>
       <div class="decision-wrap">
         <div class="decision">More error types?</div>
         <div class="decision-branches">
-          <div class="branch">
-            <span class="branch-label">↑ Yes</span>
-            Return to top of Epic 4 loop
-          </div>
-          <div class="branch">
-            <span class="branch-label">↓ No</span>
-            Epic 4 complete
-          </div>
+          <div class="branch"><span class="branch-label">↑ Yes</span>Return to top of Epic 4 loop</div>
+          <div class="branch"><span class="branch-label">↓ No</span>Epic 4 complete</div>
         </div>
       </div>
       <span class="loop-badge">↻ Repeats per error type and per page</span>
@@ -731,7 +791,6 @@
 
   <div class="connector"></div>
 
-  <!-- EPIC 5 -->
   <div class="epic e5" id="epic5">
     <div class="epic-header" onclick="toggle('epic5')">
       <div class="epic-header-left">
@@ -760,8 +819,6 @@
   </div>
 
   <div class="connector"></div>
-
-  <!-- END -->
   <span class="node-pill end">✓ Initiative Complete — Final Sign-Off</span>
 
 </div>
@@ -786,9 +843,3 @@
     document.querySelector('.toggle-all button').textContent = allOpen ? 'Collapse All' : 'Expand All';
   }
 </script>
-
----
-
-- Page Status: In Progress
-- Current Authors: 
-    - Bonnie Wolfe
