@@ -50,10 +50,10 @@ Page Access by Role Spreadsheet: [REPLACE WITH LINK TO PAGE ACCESS SPREADSHEET]
 ### Action Items
 
 #### Inventory
-- [ ] Review the Page Access by Role spreadsheet (resource 1.01) to identify
+- [ ] Review the Page Access by Role spreadsheet (resource 1.01.01) to identify
       every page and every recurring element (e.g., header, nav, footer,
       sidebar)
-- [ ] Confirm the spreadsheet (resource 1.01) lists all pages and update it
+- [ ] Confirm the spreadsheet (resource 1.01.01) lists all pages and update it
       if any are missing
 
 #### WAVE Audit — Recurring Elements
@@ -75,10 +75,9 @@ Page Access by Role Spreadsheet: [REPLACE WITH LINK TO PAGE ACCESS SPREADSHEET]
 - [ ] Notify PM that Epic 1 is complete and the findings are ready for review
 
 ### Resources
-- 1.01 Page Access by Role spreadsheet:
-       [REPLACE WITH LINK TO PAGE ACCESS SPREADSHEET]
-   - 1.01.01 WAVE Accessibility Audit Spreadsheet, tab: Audit Log:
-             [REPLACE WITH LINK TO AUDIT SPREADSHEET]
+- 1.01 Spreadsheets
+   - 1.01.01 [[REPLACE WITH PROJECT NAME] Page Access by Role spreadsheet](REPLACE WITH LINK TO PAGE ACCESS SPREADSHEET)
+   - 1.01.02 [[REPLACE WITH PROJECT NAME] WAVE Accessibility Audit Spreadsheet, tab: Audit Log](REPLACE WITH LINK TO AUDIT SPREADSHEET)
 - 1.02 [How to run the WAVE browser extension](https://hackforla.github.io/accessibility/getting-started/wave-browser-extension/)
 - 1.03 [Perform a WAVE audit](https://hackforla.github.io/accessibility/getting-started/perform-wave-audit/)
 - 1.04 [WCAG Known Issues and Solutions](https://hackforla.github.io/accessibility/known-issues-and-solutions/)
