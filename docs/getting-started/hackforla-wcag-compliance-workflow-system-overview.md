@@ -177,11 +177,11 @@
         </ul>
       </div>
       <div class="diagram-card">
-        <div class="diagram-card-title"><span>📊</span> Audit Spreadsheet</div>
+        <div class="diagram-card-title"><span>📁</span> Google Drive</div>
         <ul class="diagram-card-body">
-          <li>Tracks pages audited</li>
-          <li>Logs errors found</li>
-          <li>Records PR links</li>
+          <li>Hosts Accessibility Project folder</li>
+          <li>Stores both spreadsheets</li>
+          <li>Shared across PM &amp; developers</li>
         </ul>
       </div>
     </div>
@@ -199,19 +199,43 @@
       <div class="diagram-card">
         <div class="diagram-card-title"><span>🗂</span> GitHub Issues</div>
         <ul class="diagram-card-body">
-          <li>Initiative → Epics</li>
+          <li>Initiative → Epics 1–5</li>
           <li>Fix issues → PRs</li>
           <li>Created &amp; managed by PM</li>
+        </ul>
+      </div>
+      <div class="diagram-card">
+        <div class="diagram-card-title"><span>📋</span> Page Access by Role</div>
+        <ul class="diagram-card-body">
+          <li>Lists all pages &amp; global elements</li>
+          <li>Maps user role permissions</li>
+          <li>Created from template by PM</li>
+        </ul>
+      </div>
+      <div class="diagram-card">
+        <div class="diagram-card-title"><span>📊</span> Audit Spreadsheet</div>
+        <ul class="diagram-card-body">
+          <li>Created from template by PM</li>
+          <li>Tracks pages, errors &amp; PRs</li>
+          <li>Stored in Accessibility Project folder</li>
         </ul>
       </div>
     </div>
 
     <div class="diagram-relationships">
       <div class="diagram-group-label">How they connect</div>
-      <div class="diagram-rel-grid">
+      <div class="diagram-rel-grid" style="grid-template-columns: repeat(5, 1fr);">
+        <div class="diagram-rel-item">
+          <strong>PM <span class="diagram-rel-arrow">→</span> Google Drive</strong>
+          Creates Accessibility Project folder &amp; spreadsheets from templates
+        </div>
         <div class="diagram-rel-item">
           <strong>PM <span class="diagram-rel-arrow">→</span> GitHub Issues</strong>
-          Creates and manages all issues and epics
+          Creates Initiative, Epics 1–5, and all child issues
+        </div>
+        <div class="diagram-rel-item">
+          <strong>Page Access by Role <span class="diagram-rel-arrow">→</span> Audit Spreadsheet</strong>
+          Informs which pages &amp; roles to audit
         </div>
         <div class="diagram-rel-item">
           <strong>Developer <span class="diagram-rel-arrow">→</span> WAVE Extension</strong>
@@ -219,15 +243,15 @@
         </div>
         <div class="diagram-rel-item">
           <strong>WAVE <span class="diagram-rel-arrow">→</span> Audit Spreadsheet</strong>
-          Findings are logged per page
+          Findings logged per page by developer
+        </div>
+        <div class="diagram-rel-item">
+          <strong>Audit Spreadsheet <span class="diagram-rel-arrow">→</span> GitHub Issues</strong>
+          Informs which fix issues to create
         </div>
         <div class="diagram-rel-item">
           <strong>Developer <span class="diagram-rel-arrow">→</span> Known Issues Index</strong>
           Documents new solutions for reuse
-        </div>
-        <div class="diagram-rel-item">
-          <strong>Audit Spreadsheet <span class="diagram-rel-arrow">→</span> GitHub Issues</strong>
-          Informs which issues to create
         </div>
         <div class="diagram-rel-item">
           <strong>Known Issues Index <span class="diagram-rel-arrow">→</span> GitHub Issues</strong>
@@ -235,7 +259,7 @@
         </div>
         <div class="diagram-rel-item">
           <strong>Developer <span class="diagram-rel-arrow">→</span> Audit Spreadsheet</strong>
-          Logs findings and PR links
+          Logs PR links on completion
         </div>
         <div class="diagram-rel-item">
           <strong>Developer <span class="diagram-rel-arrow">→</span> GitHub Issues</strong>
@@ -246,6 +270,7 @@
 
   </div>
 </div>
+
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap');
