@@ -1,32 +1,42 @@
-# WCAG Compliance Workflow Overview
-
-This page provides four complementary views of the accessibility compliance workflow. Each diagram serves a different purpose — read them in order for the fullest understanding, or jump to the one that answers your current question.
-
----
-
-## 1. System Overview
-
-**Start here.** This diagram introduces the people, tools, and artifacts involved in the workflow and shows how they connect to each other. Before diving into any process, it helps to know what you're working with.
-
 <style>
+  .section-number {
+    font-family: monospace;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #a0aab8;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .section-intro {
+    font-size: 14px;
+    line-height: 1.65;
+    color: #5a6478;
+    margin-bottom: 20px;
+  }
+
+  .section-intro strong { color: #1a1f2e; }
+
+  /* ── Block diagram ── */
   .diagram {
     background: #ffffff;
     border: 1.5px solid #dde2ea;
     border-radius: 12px;
-    padding: 40px 48px 48px;
+    padding: 32px 36px 36px;
     width: 100%;
-    margin: 24px 0;
   }
 
-  .diagram h2.diagram-title {
+  .diagram-inner-title {
     font-family: monospace;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 500;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #7a8599;
-    margin-bottom: 32px;
-    padding-bottom: 16px;
+    margin-bottom: 24px;
+    padding-bottom: 14px;
     border-bottom: 1.5px solid #eaecf0;
   }
 
@@ -47,7 +57,7 @@ This page provides four complementary views of the accessibility compliance work
 
   .diagram-group {
     border-radius: 8px;
-    padding: 18px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -55,17 +65,15 @@ This page provides four complementary views of the accessibility compliance work
 
   .diagram-group.people    { background: #eef4ff; border: 1.5px solid #c5d8f8; }
   .diagram-group.people .diagram-group-label { color: #3b6ecf; }
-
   .diagram-group.tools     { background: #f0faf4; border: 1.5px solid #b6e4c8; }
   .diagram-group.tools .diagram-group-label { color: #2a7a50; }
-
   .diagram-group.artifacts { background: #fdf4ff; border: 1.5px solid #ddb8f5; }
   .diagram-group.artifacts .diagram-group-label { color: #7c3aaf; }
 
   .diagram-card {
     background: #ffffff;
     border-radius: 6px;
-    padding: 14px 16px;
+    padding: 12px 14px;
     border: 1.5px solid transparent;
     flex: 1;
   }
@@ -75,17 +83,17 @@ This page provides four complementary views of the accessibility compliance work
   .diagram-group.artifacts .diagram-card { border-color: #ddb8f5; }
 
   .diagram-card-title {
-    font-size: 13.5px;
+    font-size: 13px;
     font-weight: 600;
     color: #1a1f2e;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 6px;
   }
 
   .diagram-card-body {
-    font-size: 12px;
+    font-size: 11.5px;
     color: #5a6478;
     line-height: 1.65;
     padding: 0;
@@ -111,17 +119,14 @@ This page provides four complementary views of the accessibility compliance work
     background: #fafbfc;
     border: 1.5px solid #eaecf0;
     border-radius: 8px;
-    padding: 18px 20px;
+    padding: 16px 18px;
   }
 
-  .diagram-relationships .diagram-group-label {
-    color: #7a8599;
-    margin-bottom: 12px;
-  }
+  .diagram-relationships .diagram-group-label { color: #7a8599; margin-bottom: 12px; }
 
   .diagram-rel-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
   }
 
@@ -129,28 +134,467 @@ This page provides four complementary views of the accessibility compliance work
     background: #fff;
     border: 1.5px solid #eaecf0;
     border-radius: 6px;
-    padding: 10px 12px;
-    font-size: 11.5px;
+    padding: 9px 11px;
+    font-size: 11px;
     color: #3d4558;
     line-height: 1.5;
   }
 
   .diagram-rel-item strong {
     display: block;
-    font-size: 11px;
+    font-size: 10.5px;
     font-weight: 600;
     color: #1a1f2e;
     margin-bottom: 3px;
   }
 
-  .diagram-rel-arrow {
-    color: #a0aab8;
-    font-size: 11px;
+  .diagram-rel-arrow { color: #a0aab8; font-size: 11px; }
+
+  /* ── State diagram ── */
+  .state-diagram {
+    background: #ffffff;
+    border: 1.5px solid #dde2ea;
+    border-radius: 12px;
+    padding: 32px 36px 36px;
+    width: 100%;
   }
+
+  .state-inner-title {
+    font-family: monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7a8599;
+    margin-bottom: 24px;
+    padding-bottom: 14px;
+    border-bottom: 1.5px solid #eaecf0;
+  }
+
+  .state-flow { display: flex; flex-direction: column; align-items: center; }
+
+  .state-node {
+    border-radius: 8px;
+    padding: 12px 28px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    min-width: 320px;
+  }
+
+  .state-node.terminal {
+    background: #1a1f2e;
+    color: #fff;
+    border-radius: 999px;
+    padding: 10px 28px;
+    font-size: 12px;
+  }
+
+  .state-node.e1 { background: #fff0e0; color: #8a3d00; border: 1.5px solid #f5c89a; }
+  .state-node.e2 { background: #fff8d6; color: #7a6000; border: 1.5px solid #e8d870; }
+  .state-node.e3 { background: #e0f7fa; color: #0e6b7a; border: 1.5px solid #7ed4e0; }
+  .state-node.e4 { background: #e8f0ff; color: #1a4a9a; border: 1.5px solid #94b8f0; }
+  .state-node.e5 { background: #e6f7ed; color: #1a6e3c; border: 1.5px solid #7ed4a0; }
+
+  .state-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    margin: 2px 0;
+  }
+
+  .state-arrow-line { width: 2px; height: 20px; background: #d0d5e0; }
+
+  .state-arrow-label {
+    font-size: 10.5px;
+    color: #7a8599;
+    font-family: monospace;
+    letter-spacing: 0.04em;
+    background: #f4f6f9;
+    padding: 2px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+
+  .state-arrow-tip {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #d0d5e0;
+  }
+
+  /* ── Sequence diagram ── */
+  .seq-diagram {
+    background: #ffffff;
+    border: 1.5px solid #dde2ea;
+    border-radius: 12px;
+    padding: 32px 36px 36px;
+    width: 100%;
+  }
+
+  .seq-inner-title {
+    font-family: monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7a8599;
+    margin-bottom: 24px;
+    padding-bottom: 14px;
+    border-bottom: 1.5px solid #eaecf0;
+  }
+
+  .seq-participants {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+
+  .seq-participant {
+    background: #1a1f2e;
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.04em;
+  }
+
+  .seq-phase {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1.5px solid transparent;
+  }
+
+  .seq-phase-label {
+    font-family: monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 7px 14px;
+    display: block;
+  }
+
+  .seq-phase.setup { border-color: #dde2ea; }
+  .seq-phase.setup .seq-phase-label { background: #f4f6f9; color: #5a6478; }
+  .seq-phase.setup .seq-rows { background: #fafbfc; }
+
+  .seq-phase.e1 { border-color: #f5c89a; }
+  .seq-phase.e1 .seq-phase-label { background: #fff0e0; color: #8a3d00; }
+  .seq-phase.e1 .seq-rows { background: #fff8f2; }
+
+  .seq-phase.e2 { border-color: #e8d870; }
+  .seq-phase.e2 .seq-phase-label { background: #fff8d6; color: #7a6000; }
+  .seq-phase.e2 .seq-rows { background: #fffde8; }
+
+  .seq-phase.e3 { border-color: #7ed4e0; }
+  .seq-phase.e3 .seq-phase-label { background: #e0f7fa; color: #0e6b7a; }
+  .seq-phase.e3 .seq-rows { background: #f0fcff; }
+
+  .seq-phase.e4 { border-color: #94b8f0; }
+  .seq-phase.e4 .seq-phase-label { background: #e8f0ff; color: #1a4a9a; }
+  .seq-phase.e4 .seq-rows { background: #f4f8ff; }
+
+  .seq-phase.e5 { border-color: #7ed4a0; }
+  .seq-phase.e5 .seq-phase-label { background: #e6f7ed; color: #1a6e3c; }
+  .seq-phase.e5 .seq-rows { background: #f2fdf6; }
+
+  .seq-rows { padding: 10px 14px; display: flex; flex-direction: column; gap: 5px; }
+
+  .seq-handoff {
+    display: grid;
+    grid-template-columns: 1fr 32px 1fr;
+    align-items: center;
+    font-size: 11.5px;
+    color: #3d4558;
+    padding: 2px 0;
+  }
+
+  .seq-handoff .seq-left  { text-align: right; padding-right: 4px; }
+  .seq-handoff .seq-right { text-align: left;  padding-left: 4px; }
+  .seq-handoff .seq-mid   { text-align: center; font-size: 15px; }
+
+  .seq-self-pm {
+    font-size: 11.5px;
+    color: #3d4558;
+    padding: 3px 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .seq-self-pm::before { content: '↻'; color: #a0aab8; font-size: 13px; }
+
+  .seq-self-dev {
+    font-size: 11.5px;
+    color: #3d4558;
+    padding: 3px 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-left: calc(50% + 6px);
+  }
+
+  .seq-self-dev::before { content: '↻'; color: #a0aab8; font-size: 13px; }
+
+  .seq-alt {
+    border-radius: 6px;
+    border: 1px dashed #d0d5e0;
+    margin: 6px 0;
+    overflow: hidden;
+  }
+
+  .seq-alt-label {
+    font-family: monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    background: #f0f2f6;
+    color: #5a6478;
+    display: block;
+  }
+
+  .seq-alt-body { padding: 6px 10px; display: flex; flex-direction: column; gap: 4px; }
+
+  .seq-note {
+    font-size: 11px;
+    font-style: italic;
+    color: #7a8599;
+    text-align: center;
+    padding: 4px 8px;
+    background: rgba(0,0,0,0.03);
+    border-radius: 4px;
+    margin: 2px 0;
+  }
+
+  /* ── Flowchart ── */
+  .flow-wrap { margin: 0; }
+
+  .connector { width: 2px; height: 24px; background: #d0d5e0; margin: 0 auto; }
+
+  .node-pill {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px 32px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+
+  .node-pill.start { background: #ffffff; color: #1a1f2e; border: 2px solid #1a1f2e; }
+  .node-pill.end   { background: #2a7a50; color: #fff; }
+
+  .epic { border-radius: 10px; overflow: hidden; border: 1.5px solid transparent; }
+
+  .epic-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 17px;
+    cursor: pointer;
+    user-select: none;
+    gap: 12px;
+  }
+
+  .epic-header:hover { filter: brightness(0.97); }
+  .epic-header-left { display: flex; align-items: center; gap: 10px; }
+
+  .epic-badge {
+    font-family: monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+
+  .epic-title { font-size: 13.5px; font-weight: 600; }
+
+  .epic-chevron {
+    font-size: 12px;
+    transition: transform 0.25s ease;
+    flex-shrink: 0;
+    opacity: 0.6;
+  }
+
+  .epic.open .epic-chevron { transform: rotate(180deg); }
+
+  .epic-body {
+    display: none;
+    padding: 0 17px 17px;
+    border-top: 1px solid rgba(0,0,0,0.06);
+  }
+
+  .epic.open .epic-body { display: block; }
+
+  .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: #2a2f3e;
+  }
+
+  .step-icon { font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+
+  .decision-wrap { margin-top: 10px; display: flex; flex-direction: column; align-items: center; }
+
+  .decision {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 56px;
+    background: #fff;
+    border: 2px solid #d0d5e0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2a2f3e;
+    text-align: center;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    padding: 0 28px;
+  }
+
+  .decision-branches {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .branch { border-radius: 6px; padding: 10px 12px; font-size: 12px; line-height: 1.5; color: #2a2f3e; }
+
+  .branch-label {
+    font-family: monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .loop-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-family: monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 4px;
+    margin-top: 10px;
+    background: rgba(0,0,0,0.06);
+    color: #5a6478;
+  }
+
+  .epic.e0 { border-color: #f5b8b8; }
+  .epic.e0 .epic-header { background: #fde8e8; color: #8a1a1a; }
+  .epic.e0 .epic-badge  { background: #f5b8b8; color: #8a1a1a; }
+  .epic.e0 .epic-body   { background: #fff5f5; }
+  .epic.e0 .step        { background: #fde8e8; border: 1px solid #f5b8b8; }
+  .epic.e0 .decision    { border-color: #f5b8b8; }
+  .epic.e0 .branch      { background: #fde8e8; border: 1px solid #f5b8b8; }
+  .epic.e0 .branch-label { color: #8a1a1a; }
+
+  .epic.e1 { border-color: #f5c89a; }
+  .epic.e1 .epic-header { background: #fff0e0; color: #8a3d00; }
+  .epic.e1 .epic-badge  { background: #f5c89a; color: #8a3d00; }
+  .epic.e1 .epic-body   { background: #fff8f2; }
+  .epic.e1 .step        { background: #fff0e0; border: 1px solid #f5c89a; }
+  .epic.e1 .decision    { border-color: #f5c89a; }
+  .epic.e1 .branch      { background: #fff0e0; border: 1px solid #f5c89a; }
+  .epic.e1 .branch-label { color: #8a3d00; }
+
+  .epic.e2 { border-color: #e8d870; }
+  .epic.e2 .epic-header { background: #fff8d6; color: #7a6000; }
+  .epic.e2 .epic-badge  { background: #e8d870; color: #7a6000; }
+  .epic.e2 .epic-body   { background: #fffde8; }
+  .epic.e2 .step        { background: #fff8d6; border: 1px solid #e8d870; }
+  .epic.e2 .decision    { border-color: #e8d870; }
+  .epic.e2 .branch      { background: #fff8d6; border: 1px solid #e8d870; }
+  .epic.e2 .branch-label { color: #7a6000; }
+
+  .epic.e3 { border-color: #7ed4e0; }
+  .epic.e3 .epic-header { background: #e0f7fa; color: #0e6b7a; }
+  .epic.e3 .epic-badge  { background: #7ed4e0; color: #0e6b7a; }
+  .epic.e3 .epic-body   { background: #f0fcff; }
+  .epic.e3 .step        { background: #e0f7fa; border: 1px solid #7ed4e0; }
+  .epic.e3 .decision    { border-color: #7ed4e0; }
+  .epic.e3 .branch      { background: #e0f7fa; border: 1px solid #7ed4e0; }
+  .epic.e3 .branch-label { color: #0e6b7a; }
+
+  .epic.e4 { border-color: #94b8f0; }
+  .epic.e4 .epic-header { background: #e8f0ff; color: #1a4a9a; }
+  .epic.e4 .epic-badge  { background: #94b8f0; color: #1a4a9a; }
+  .epic.e4 .epic-body   { background: #f4f8ff; }
+  .epic.e4 .step        { background: #e8f0ff; border: 1px solid #94b8f0; }
+  .epic.e4 .decision    { border-color: #94b8f0; }
+  .epic.e4 .branch      { background: #e8f0ff; border: 1px solid #94b8f0; }
+  .epic.e4 .branch-label { color: #1a4a9a; }
+
+  .epic.e5 { border-color: #7ed4a0; }
+  .epic.e5 .epic-header { background: #e6f7ed; color: #1a6e3c; }
+  .epic.e5 .epic-badge  { background: #7ed4a0; color: #1a6e3c; }
+  .epic.e5 .epic-body   { background: #f2fdf6; }
+  .epic.e5 .step        { background: #e6f7ed; border: 1px solid #7ed4a0; }
+  .epic.e5 .decision    { border-color: #7ed4a0; }
+  .epic.e5 .branch      { background: #e6f7ed; border: 1px solid #7ed4a0; }
+  .epic.e5 .branch-label { color: #1a6e3c; }
+
+  .toggle-all { display: flex; justify-content: flex-end; margin-bottom: 16px; }
+
+  .toggle-all button {
+    font-family: monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: #fff;
+    border: 1.5px solid #dde2ea;
+    border-radius: 6px;
+    padding: 6px 14px;
+    cursor: pointer;
+    color: #5a6478;
+    transition: background 0.15s;
+  }
+
+  .toggle-all button:hover { background: #f0f2f6; }
 </style>
 
+<p style="font-size:15px;line-height:1.7;color:#3d4558;margin-bottom:32px;">This page provides four complementary views of the accessibility compliance workflow. Each diagram serves a different purpose — read them in order for the fullest understanding, or jump to the one that answers your current question.</p>
+
+<hr style="border:none;border-top:1.5px solid #eaecf0;margin:0 0 40px 0;">
+
+<!-- ══════════════════════════════════════
+     1. SYSTEM OVERVIEW
+══════════════════════════════════════ -->
+
+<span class="section-number">Diagram 1 of 4</span>
+<h2 style="font-size:20px;font-weight:700;color:#1a1f2e;margin:0 0 8px 0;">System Overview</h2>
+<p class="section-intro"><strong>Start here.</strong> This diagram introduces the people, tools, and artifacts involved in the workflow and shows how they connect to each other. Before diving into any process, it helps to know what you're working with.</p>
+
 <div class="diagram">
-  <h2 class="diagram-title">WCAG Compliance Workflow — System Overview</h2>
+  <div class="diagram-inner-title">WCAG Compliance Workflow — System Overview</div>
   <div class="diagram-grid">
 
     <div class="diagram-group people">
@@ -231,7 +675,7 @@ This page provides four complementary views of the accessibility compliance work
 
     <div class="diagram-relationships">
       <div class="diagram-group-label">How they connect</div>
-      <div class="diagram-rel-grid" style="grid-template-columns: repeat(5, 1fr);">
+      <div class="diagram-rel-grid">
         <div class="diagram-rel-item">
           <strong>PM <span class="diagram-rel-arrow">→</span> Google Drive</strong>
           Creates Accessibility Project folder &amp; spreadsheets from templates
@@ -278,383 +722,261 @@ This page provides four complementary views of the accessibility compliance work
   </div>
 </div>
 
----
+<hr style="border:none;border-top:1.5px solid #eaecf0;margin:40px 0;">
 
-## 2. Phase Overview
+<!-- ══════════════════════════════════════
+     2. PHASE OVERVIEW
+══════════════════════════════════════ -->
 
-**The six phases at a glance.** Once you know the players and tools, this diagram shows the lifecycle of the project — how it moves from setup through iterative auditing and fixing, all the way to final sign-off.
+<span class="section-number">Diagram 2 of 4</span>
+<h2 style="font-size:20px;font-weight:700;color:#1a1f2e;margin:0 0 8px 0;">Phase Overview</h2>
+<p class="section-intro"><strong>The six phases at a glance.</strong> Once you know the players and tools, this diagram shows the lifecycle of the project — how it moves from setup through iterative auditing and fixing, all the way to final sign-off.</p>
 
-```mermaid
-stateDiagram-v2
-    [*] --> InitialAudit : PM creates Initiative
+<div class="state-diagram">
+  <div class="state-inner-title">WCAG Compliance Workflow — Phase Overview</div>
+  <div class="state-flow">
 
-    InitialAudit : Epic 1 — Initial Audit
-    InitialAudit --> RecurringRemediation : Audit complete
+    <div class="state-node terminal">● Start</div>
 
-    RecurringRemediation : Epic 2 — Recurring Element Remediation
-    RecurringRemediation --> PageAudits : All recurring elements fixed
+    <div class="state-arrow">
+      <div class="state-arrow-line"></div>
+      <div class="state-arrow-label">PM creates Initiative</div>
+      <div class="state-arrow-line"></div>
+      <div class="state-arrow-tip"></div>
+    </div>
 
-    PageAudits : Epic 3 — Page Audits
-    PageAudits --> ErrorFixes : All pages audited
+    <div class="state-node e1">Epic 1 — Initial Audit</div>
 
-    ErrorFixes : Epic 4 — Error & Alert Fixes
-    ErrorFixes --> OngoingAudit : All known errors fixed
+    <div class="state-arrow">
+      <div class="state-arrow-line"></div>
+      <div class="state-arrow-label">Audit complete</div>
+      <div class="state-arrow-line"></div>
+      <div class="state-arrow-tip"></div>
+    </div>
 
-    OngoingAudit : Epic 5 — Ongoing Audit Cycle
-    OngoingAudit --> ErrorFixes : New errors found
-    OngoingAudit --> [*] : No errors — signed off
-```
+    <div class="state-node e2">Epic 2 — Recurring Element Remediation</div>
 
----
+    <div class="state-arrow">
+      <div class="state-arrow-line"></div>
+      <div class="state-arrow-label">All recurring elements fixed</div>
+      <div class="state-arrow-line"></div>
+      <div class="state-arrow-tip"></div>
+    </div>
 
-## 3. Handoff Sequence
+    <div class="state-node e3">Epic 3 — Page Audits</div>
 
-**Who does what, and when.** This diagram shows the rhythm of handoffs between the PM and developers across all six phases — when the PM acts, when they hand off to a developer, and when work comes back for the next step. For the branching logic and decision details within each phase, see the Process Flowchart below.
+    <div class="state-arrow">
+      <div class="state-arrow-line"></div>
+      <div class="state-arrow-label">All pages audited</div>
+      <div class="state-arrow-line"></div>
+      <div class="state-arrow-tip"></div>
+    </div>
 
-```mermaid
-sequenceDiagram
-    participant PM
-    participant Dev
+    <div class="state-node e4">Epic 4 — Error &amp; Alert Fixes</div>
 
-    PM->>PM: Create Initiative issue
-    PM->>PM: Set up Accessibility Project folder in Google Drive
-    PM->>PM: Create Audit Spreadsheet & Page Access by Role from templates
-    PM->>PM: Create Epics 1–5 and add as sub-issues to Initiative
+    <div class="state-arrow">
+      <div class="state-arrow-line"></div>
+      <div class="state-arrow-label">All known errors fixed</div>
+      <div class="state-arrow-line"></div>
+      <div class="state-arrow-tip"></div>
+    </div>
 
-    rect rgb(255, 232, 232)
-        Note over PM,Dev: Epic 1 — Initial Audit
-        PM->>Dev: Assign Epic 1
-        Dev->>Dev: Inventory pages & recurring elements
-        Dev->>Dev: Audit recurring elements with WAVE
-        Dev->>Dev: Document findings in spreadsheet
-        Dev->>PM: Epic 1 complete
-    end
+    <div class="state-node e5">Epic 5 — Ongoing Audit Cycle</div>
 
-    rect rgb(255, 240, 220)
-        Note over PM,Dev: Epic 2 — Recurring Element Remediation
-        PM->>PM: Create one issue per recurring element
-        PM->>Dev: Assign issues
-        Dev->>Dev: Fix each recurring element
-        Dev->>PM: All issues closed
-    end
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;width:100%;margin-top:8px;max-width:480px;">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+        <div style="width:2px;height:16px;background:#94b8f0;"></div>
+        <div style="font-size:10.5px;color:#1a4a9a;font-family:monospace;background:#e8f0ff;padding:2px 8px;border-radius:4px;white-space:nowrap;">Errors found</div>
+        <div style="width:2px;height:16px;background:#94b8f0;"></div>
+        <div style="width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:7px solid #94b8f0;"></div>
+        <div style="font-size:11px;color:#1a4a9a;font-family:monospace;text-align:center;padding:6px 12px;border:1.5px dashed #94b8f0;border-radius:6px;background:#f4f8ff;">↑ Return to Epic 3 &amp; 4</div>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+        <div style="width:2px;height:16px;background:#7ed4a0;"></div>
+        <div style="font-size:10.5px;color:#1a6e3c;font-family:monospace;background:#e6f7ed;padding:2px 8px;border-radius:4px;white-space:nowrap;">No errors found</div>
+        <div style="width:2px;height:16px;background:#7ed4a0;"></div>
+        <div style="width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:7px solid #7ed4a0;"></div>
+        <div style="background:#2a7a50;color:#fff;border-radius:999px;padding:10px 20px;font-size:12px;font-weight:600;text-align:center;">● Initiative Complete — Signed Off</div>
+      </div>
+    </div>
 
-    rect rgb(255, 252, 210)
-        Note over PM,Dev: Epic 3 — Page Audits
-        PM->>PM: Create one audit issue per page
-        PM->>Dev: Assign issues
-        Dev->>Dev: Run WAVE on each page & log findings
-        Dev->>PM: All pages audited
-    end
+  </div>
+</div>
 
-    rect rgb(220, 242, 255)
-        Note over PM,Dev: Epic 4 — Error & Alert Fixes
-        PM->>PM: Create one fix epic per error type
-        PM->>Dev: Assign first issue per error type
+<hr style="border:none;border-top:1.5px solid #eaecf0;margin:40px 0;">
 
-        alt No solution exists yet
-            Dev->>Dev: Research & develop solution
-            Dev->>Dev: Apply to first page & document in Known Issues Index
-            Dev->>PM: PR submitted, wiki updated
-            PM->>PM: Create fix issues for remaining pages
-            PM->>Dev: Assign remaining issues
-            Dev->>Dev: Apply known solution to each remaining page
-        else Solution already exists
-            Dev->>Dev: Apply known solution to each page
-        end
+<!-- ══════════════════════════════════════
+     3. HANDOFF SEQUENCE
+══════════════════════════════════════ -->
 
-        Dev->>PM: All fix issues closed
-    end
+<span class="section-number">Diagram 3 of 4</span>
+<h2 style="font-size:20px;font-weight:700;color:#1a1f2e;margin:0 0 8px 0;">Handoff Sequence</h2>
+<p class="section-intro"><strong>Who does what, and when.</strong> This diagram shows the rhythm of handoffs between the PM and developers across all six phases — when the PM acts, when they hand off to a developer, and when work comes back for the next step. For branching logic and decision details within each phase, see the Process Flowchart below.</p>
 
-    rect rgb(220, 245, 230)
-        Note over PM,Dev: Epic 5 — Ongoing Audit & Sign-Off
-        PM->>Dev: Assign re-audit
-        Dev->>Dev: Re-audit all pages with WAVE
+<div class="seq-diagram">
+  <div class="seq-inner-title">WCAG Compliance Workflow — Handoff Sequence</div>
 
-        alt Errors found
-            Dev->>PM: Report affected pages
-            PM->>PM: Create new issues for affected pages
-            Note over PM,Dev: Returns to Epic 3 & 4 workflow
-        else No errors found
-            Dev->>PM: All clear — ready for sign-off
-            PM->>PM: Epic 5 = Final audit & sign-off
-        end
-    end
+  <div class="seq-participants">
+    <div class="seq-participant">👤 PM</div>
+    <div class="seq-participant">👤 Developer</div>
+  </div>
 
-    Note over PM,Dev: Initiative complete ✓
-```
+  <div class="seq-phase setup">
+    <span class="seq-phase-label">Initiative — PM Setup</span>
+    <div class="seq-rows">
+      <div class="seq-self-pm">Create Initiative issue in GitHub</div>
+      <div class="seq-self-pm">Create Accessibility Project folder in Google Drive</div>
+      <div class="seq-self-pm">Create Audit Spreadsheet &amp; Page Access by Role from templates</div>
+      <div class="seq-self-pm">Create Epics 1–5 and add as sub-issues to Initiative</div>
+    </div>
+  </div>
 
----
+  <div class="seq-phase e1">
+    <span class="seq-phase-label">Epic 1 — Initial Audit</span>
+    <div class="seq-rows">
+      <div class="seq-handoff">
+        <span class="seq-left">PM assigns Epic 1</span>
+        <span class="seq-mid" style="color:#f5c89a;">→</span>
+        <span class="seq-right"></span>
+      </div>
+      <div class="seq-self-dev">Inventory pages &amp; recurring elements</div>
+      <div class="seq-self-dev">Audit recurring elements with WAVE</div>
+      <div class="seq-self-dev">Document findings in spreadsheet</div>
+      <div class="seq-handoff">
+        <span class="seq-left"></span>
+        <span class="seq-mid" style="color:#f5c89a;">←</span>
+        <span class="seq-right">Epic 1 complete</span>
+      </div>
+    </div>
+  </div>
 
-## 4. Process Flowchart
+  <div class="seq-phase e2">
+    <span class="seq-phase-label">Epic 2 — Recurring Element Remediation</span>
+    <div class="seq-rows">
+      <div class="seq-self-pm">Create one issue per recurring element</div>
+      <div class="seq-handoff">
+        <span class="seq-left">Assign issues</span>
+        <span class="seq-mid" style="color:#e8d870;">→</span>
+        <span class="seq-right"></span>
+      </div>
+      <div class="seq-self-dev">Fix each recurring element</div>
+      <div class="seq-handoff">
+        <span class="seq-left"></span>
+        <span class="seq-mid" style="color:#e8d870;">←</span>
+        <span class="seq-right">All issues closed</span>
+      </div>
+    </div>
+  </div>
 
-**The full step-by-step logic.** Use this as a working reference when actively running the process. Each phase is collapsible — expand only what you need. Decision points show both branches, and loop indicators mark where the process repeats.
+  <div class="seq-phase e3">
+    <span class="seq-phase-label">Epic 3 — Page Audits</span>
+    <div class="seq-rows">
+      <div class="seq-self-pm">Create one audit issue per page</div>
+      <div class="seq-handoff">
+        <span class="seq-left">Assign issues</span>
+        <span class="seq-mid" style="color:#7ed4e0;">→</span>
+        <span class="seq-right"></span>
+      </div>
+      <div class="seq-self-dev">Run WAVE on each page &amp; log findings</div>
+      <div class="seq-handoff">
+        <span class="seq-left"></span>
+        <span class="seq-mid" style="color:#7ed4e0;">←</span>
+        <span class="seq-right">All pages audited</span>
+      </div>
+    </div>
+  </div>
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap');
+  <div class="seq-phase e4">
+    <span class="seq-phase-label">Epic 4 — Error &amp; Alert Fixes</span>
+    <div class="seq-rows">
+      <div class="seq-self-pm">Create one fix epic per error type</div>
+      <div class="seq-handoff">
+        <span class="seq-left">Assign first issue per error type</span>
+        <span class="seq-mid" style="color:#94b8f0;">→</span>
+        <span class="seq-right"></span>
+      </div>
+      <div class="seq-alt">
+        <span class="seq-alt-label">If no solution exists yet</span>
+        <div class="seq-alt-body">
+          <div class="seq-self-dev">Research &amp; develop solution</div>
+          <div class="seq-self-dev">Apply to first page &amp; document in Known Issues Index</div>
+          <div class="seq-handoff">
+            <span class="seq-left"></span>
+            <span class="seq-mid" style="color:#94b8f0;">←</span>
+            <span class="seq-right">PR submitted, wiki updated</span>
+          </div>
+          <div class="seq-self-pm">Create fix issues for remaining pages</div>
+          <div class="seq-handoff">
+            <span class="seq-left">Assign remaining issues</span>
+            <span class="seq-mid" style="color:#94b8f0;">→</span>
+            <span class="seq-right"></span>
+          </div>
+        </div>
+      </div>
+      <div class="seq-alt">
+        <span class="seq-alt-label">If solution already exists</span>
+        <div class="seq-alt-body">
+          <div class="seq-self-dev">Review known solution in wiki</div>
+        </div>
+      </div>
+      <div class="seq-self-dev">Apply solution to each page &amp; submit PRs</div>
+      <div class="seq-handoff">
+        <span class="seq-left"></span>
+        <span class="seq-mid" style="color:#94b8f0;">←</span>
+        <span class="seq-right">All fix issues closed</span>
+      </div>
+    </div>
+  </div>
 
-  .flow-wrap {
-    margin: 0;
-  }
+  <div class="seq-phase e5">
+    <span class="seq-phase-label">Epic 5 — Ongoing Audit &amp; Sign-Off</span>
+    <div class="seq-rows">
+      <div class="seq-handoff">
+        <span class="seq-left">Assign re-audit</span>
+        <span class="seq-mid" style="color:#7ed4a0;">→</span>
+        <span class="seq-right"></span>
+      </div>
+      <div class="seq-self-dev">Re-audit all pages with WAVE</div>
+      <div class="seq-alt">
+        <span class="seq-alt-label">If errors found</span>
+        <div class="seq-alt-body">
+          <div class="seq-handoff">
+            <span class="seq-left"></span>
+            <span class="seq-mid" style="color:#7ed4a0;">←</span>
+            <span class="seq-right">Report affected pages</span>
+          </div>
+          <div class="seq-self-pm">Create new issues for affected pages</div>
+          <div class="seq-note">↑ Returns to Epic 3 &amp; 4 workflow</div>
+        </div>
+      </div>
+      <div class="seq-alt">
+        <span class="seq-alt-label">If no errors found</span>
+        <div class="seq-alt-body">
+          <div class="seq-handoff">
+            <span class="seq-left"></span>
+            <span class="seq-mid" style="color:#7ed4a0;">←</span>
+            <span class="seq-right">All clear — ready for sign-off</span>
+          </div>
+          <div class="seq-self-pm">Epic 5 = Final audit &amp; sign-off ✓</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  .flow-title {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #7a8599;
-    margin-bottom: 32px;
-    padding-bottom: 16px;
-    border-bottom: 1.5px solid #dde2ea;
-  }
+  <div style="text-align:center;margin-top:16px;font-size:13px;font-weight:600;color:#2a7a50;letter-spacing:0.04em;padding:10px;background:#e6f7ed;border-radius:6px;">✓ Initiative Complete</div>
+</div>
 
-  .connector {
-    width: 2px;
-    height: 28px;
-    background: #d0d5e0;
-    margin: 0 auto;
-  }
+<hr style="border:none;border-top:1.5px solid #eaecf0;margin:40px 0;">
 
-  .node-pill {
-    display: block;
-    margin: 0 auto;
-    width: fit-content;
-    padding: 10px 32px;
-    border-radius: 999px;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    text-align: center;
-  }
+<!-- ══════════════════════════════════════
+     4. PROCESS FLOWCHART
+══════════════════════════════════════ -->
 
-  .node-pill.start { background: #ffffff; color: #1a1f2e; border: 2px solid #1a1f2e; }
-  .node-pill.end   { background: #2a7a50; color: #fff; }
-
-  .epic {
-    border-radius: 10px;
-    overflow: hidden;
-    border: 1.5px solid transparent;
-  }
-
-  .epic-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 14px 18px;
-    cursor: pointer;
-    user-select: none;
-    gap: 12px;
-  }
-
-  .epic-header:hover { filter: brightness(0.97); }
-
-  .epic-header-left {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .epic-badge {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 3px 8px;
-    border-radius: 4px;
-    white-space: nowrap;
-  }
-
-  .epic-title {
-    font-size: 13.5px;
-    font-weight: 600;
-  }
-
-  .epic-chevron {
-    font-size: 12px;
-    transition: transform 0.25s ease;
-    flex-shrink: 0;
-    opacity: 0.6;
-  }
-
-  .epic.open .epic-chevron { transform: rotate(180deg); }
-
-  .epic-body {
-    display: none;
-    padding: 0 18px 18px;
-    border-top: 1px solid rgba(0,0,0,0.06);
-  }
-
-  .epic.open .epic-body { display: block; }
-
-  .step {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    padding: 10px 12px;
-    border-radius: 6px;
-    margin-top: 10px;
-    font-size: 12.5px;
-    line-height: 1.5;
-    color: #2a2f3e;
-  }
-
-  .step-icon {
-    font-size: 14px;
-    flex-shrink: 0;
-    margin-top: 1px;
-  }
-
-  .decision-wrap {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .decision {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 56px;
-    background: #fff;
-    border: 2px solid #d0d5e0;
-    font-size: 12px;
-    font-weight: 600;
-    color: #2a2f3e;
-    text-align: center;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    padding: 0 28px;
-  }
-
-  .decision-branches {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    width: 100%;
-    margin-top: 8px;
-  }
-
-  .branch {
-    border-radius: 6px;
-    padding: 10px 12px;
-    font-size: 12px;
-    line-height: 1.5;
-    color: #2a2f3e;
-  }
-
-  .branch-label {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    margin-bottom: 6px;
-    display: block;
-  }
-
-  .loop-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px;
-    font-weight: 500;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    padding: 3px 9px;
-    border-radius: 4px;
-    margin-top: 10px;
-    background: rgba(0,0,0,0.06);
-    color: #5a6478;
-  }
-
-  /* Initiative — Red */
-  .epic.e0 { border-color: #f5b8b8; }
-  .epic.e0 .epic-header { background: #fde8e8; color: #8a1a1a; }
-  .epic.e0 .epic-badge  { background: #f5b8b8; color: #8a1a1a; }
-  .epic.e0 .epic-body   { background: #fff5f5; }
-  .epic.e0 .step        { background: #fde8e8; border: 1px solid #f5b8b8; }
-  .epic.e0 .decision    { border-color: #f5b8b8; }
-  .epic.e0 .branch      { background: #fde8e8; border: 1px solid #f5b8b8; }
-  .epic.e0 .branch-label { color: #8a1a1a; }
-
-  /* Epic 1 — Orange */
-  .epic.e1 { border-color: #f5c89a; }
-  .epic.e1 .epic-header { background: #fff0e0; color: #8a3d00; }
-  .epic.e1 .epic-badge  { background: #f5c89a; color: #8a3d00; }
-  .epic.e1 .epic-body   { background: #fff8f2; }
-  .epic.e1 .step        { background: #fff0e0; border: 1px solid #f5c89a; }
-  .epic.e1 .decision    { border-color: #f5c89a; }
-  .epic.e1 .branch      { background: #fff0e0; border: 1px solid #f5c89a; }
-  .epic.e1 .branch-label { color: #8a3d00; }
-
-  /* Epic 2 — Yellow */
-  .epic.e2 { border-color: #e8d870; }
-  .epic.e2 .epic-header { background: #fff8d6; color: #7a6000; }
-  .epic.e2 .epic-badge  { background: #e8d870; color: #7a6000; }
-  .epic.e2 .epic-body   { background: #fffde8; }
-  .epic.e2 .step        { background: #fff8d6; border: 1px solid #e8d870; }
-  .epic.e2 .decision    { border-color: #e8d870; }
-  .epic.e2 .branch      { background: #fff8d6; border: 1px solid #e8d870; }
-  .epic.e2 .branch-label { color: #7a6000; }
-
-  /* Epic 3 — Cyan */
-  .epic.e3 { border-color: #7ed4e0; }
-  .epic.e3 .epic-header { background: #e0f7fa; color: #0e6b7a; }
-  .epic.e3 .epic-badge  { background: #7ed4e0; color: #0e6b7a; }
-  .epic.e3 .epic-body   { background: #f0fcff; }
-  .epic.e3 .step        { background: #e0f7fa; border: 1px solid #7ed4e0; }
-  .epic.e3 .decision    { border-color: #7ed4e0; }
-  .epic.e3 .branch      { background: #e0f7fa; border: 1px solid #7ed4e0; }
-  .epic.e3 .branch-label { color: #0e6b7a; }
-
-  /* Epic 4 — Blue */
-  .epic.e4 { border-color: #94b8f0; }
-  .epic.e4 .epic-header { background: #e8f0ff; color: #1a4a9a; }
-  .epic.e4 .epic-badge  { background: #94b8f0; color: #1a4a9a; }
-  .epic.e4 .epic-body   { background: #f4f8ff; }
-  .epic.e4 .step        { background: #e8f0ff; border: 1px solid #94b8f0; }
-  .epic.e4 .decision    { border-color: #94b8f0; }
-  .epic.e4 .branch      { background: #e8f0ff; border: 1px solid #94b8f0; }
-  .epic.e4 .branch-label { color: #1a4a9a; }
-
-  /* Epic 5 — Green */
-  .epic.e5 { border-color: #7ed4a0; }
-  .epic.e5 .epic-header { background: #e6f7ed; color: #1a6e3c; }
-  .epic.e5 .epic-badge  { background: #7ed4a0; color: #1a6e3c; }
-  .epic.e5 .epic-body   { background: #f2fdf6; }
-  .epic.e5 .step        { background: #e6f7ed; border: 1px solid #7ed4a0; }
-  .epic.e5 .decision    { border-color: #7ed4a0; }
-  .epic.e5 .branch      { background: #e6f7ed; border: 1px solid #7ed4a0; }
-  .epic.e5 .branch-label { color: #1a6e3c; }
-
-  .toggle-all {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 16px;
-  }
-
-  .toggle-all button {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    background: #fff;
-    border: 1.5px solid #dde2ea;
-    border-radius: 6px;
-    padding: 6px 14px;
-    cursor: pointer;
-    color: #5a6478;
-    transition: background 0.15s;
-  }
-
-  .toggle-all button:hover { background: #f0f2f6; }
-</style>
+<span class="section-number">Diagram 4 of 4</span>
+<h2 style="font-size:20px;font-weight:700;color:#1a1f2e;margin:0 0 8px 0;">Process Flowchart</h2>
+<p class="section-intro"><strong>The full step-by-step logic.</strong> Use this as a working reference when actively running the process. Each phase is collapsible — expand only what you need. Decision points show both branches, and loop indicators mark where the process repeats.</p>
 
 <div class="flow-wrap">
-
   <div class="toggle-all">
     <button onclick="toggleAll()">Expand All</button>
   </div>
@@ -820,7 +1142,6 @@ sequenceDiagram
 
   <div class="connector"></div>
   <span class="node-pill end">✓ Initiative Complete — Final Sign-Off</span>
-
 </div>
 
 <script>
