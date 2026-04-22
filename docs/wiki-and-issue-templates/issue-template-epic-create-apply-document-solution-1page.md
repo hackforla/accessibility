@@ -1,19 +1,21 @@
-# Issue Template: Epic 4 Sub-Template — Apply Existing Solution (1 or More Pages)
+# Issue Template: Epic 4 Sub-Template — Create, Apply & Document Solution (1 Page)
 
 ## What does this template do?
 
-Creates a child fix-epic inside Epic 4 for errors and alerts that already have
-a documented solution in the Known Issues Index. The scope of work is to apply
-the existing solution to every affected page, one child issue per page.
+Creates a child fix-epic inside Epic 4. The scope of work is to research and
+develop a new solution for one specific WAVE error or alert, apply it to the
+single affected page, and document the solution in the Known Issues Index for
+future reuse. After the fix is merged, the developer checks for any other
+affected pages across the site.
 
 ## When should this template be used?
 
 Use this template inside Epic 4 when:
 
-- A solution **already exists** in the [Known Issues and Solutions Index](https://hackforla.github.io/accessibility/known-issues-and-solutions/solutions-index/).
+- There is **no solution** in the [Known Issues and Solutions Index](https://hackforla.github.io/accessibility/known-issues-and-solutions/solutions-index/), **and**
+- Only **1 page** is currently known to be affected.
 
-The solution may apply to 1 page or many. If this is not the correct template,
-see the [Wiki and Issue Templates page](https://hackforla.github.io/accessibility/wiki-and-issue-templates/) for all available templates.
+If this is not the correct template, see the [Wiki and Issue Templates page](https://hackforla.github.io/accessibility/wiki-and-issue-templates/) for all available templates.
 
 ---
 
@@ -24,7 +26,7 @@ feature: Accessibility
 ```
 
 ```
-p-feature: [REPLACE WITH PAGE NAME(S)]
+p-feature: [REPLACE WITH PAGE NAME]
 ```
 
 ## Title
@@ -40,28 +42,31 @@ Epic: WAVE: [REPLACE WITH ONE OF: Alert / Contrast Error / Error]: [REPLACE WITH
 
 ### Overview
 
-We need to apply the existing solution for
+We need to research, create, and document a solution for
 [REPLACE WITH ONE OF: Alert / Contrast Error / Error]:
-[REPLACE WITH NAME OF Alert/Contrast Error/Error]
-across all affected pages so the site can be WCAG compliant.
+[REPLACE WITH NAME OF Alert/Contrast Error/Error] and apply it to the
+affected page so the site can be WCAG compliant and so the solution is
+available for future teams.
 
 ### Details
 Category: [REPLACE WITH ONE OF: Alert / Contrast Error / Error]
 Name: [REPLACE WITH NAME OF Alert/Contrast Error/Error]
-(A solution already exists in the Known Issues Index — it just needs to be
-applied to each affected page)
+(The Known Issues Index has no solution yet for this issue)
 
-Known pages (there might be others):
-1. [REPLACE WITH PAGE NAME 1]
-1. [REPLACE WITH PAGE NAME N]
-(add or remove rows as needed)
+Known page (there might be others):
+1. [REPLACE WITH PAGE NAME]
+
+This epic will:
+- Create a child issue to research, apply, and document a fix on the one
+  known page
+- After the fix is merged, verify whether the issue exists on any other pages
 
 ### Action Items
-- [ ] Go to the Known Issues Solutions Index (resource 1.02) and confirm the
-      solution link for this issue; record it as resource 1.02.01
-- [ ] Copy the child issue template (resource 1.04) and create one issue per
-      page listed above
-   - [ ] Add the following labels to each new child issue:
+- [ ] Go to the Known Issues Solutions Index (resource 1.02) and add the link
+      to the specific solutions page for this issue as resource 1.02.01
+- [ ] Copy the child issue template (resource 1.04) and create a new issue
+      for the `[REPLACE WITH PAGE NAME]` page
+   - [ ] Add the following labels to the new child issue:
       - `role: front-end`
       - `size: missing`
       - `p-feature: [REPLACE WITH PAGE NAME]`
@@ -70,22 +75,25 @@ Known pages (there might be others):
       - `ready for dev lead`
       - `priority: MUST HAVE`
    - [ ] Add milestone: [REPLACE WITH MILESTONE NAME, if applicable]
-   - Customize each child issue's resources:
-      - [ ] Update resource 1.02.01 and 1.02.02 with the application details
-            for the page
+   - Customize the child issue resources:
+      - [ ] Update the child issue's resource 1.02.01 and 1.02.02 using
+            the application details for this page
       - [ ] Find the spreadsheet row for this page and error, and update
-            resource 1.03 with the correct link and row number(s)
-- [ ] Add each new issue as a sub-issue of this epic
-- [ ] Once all sub-issues are closed, run WAVE on all other pages for this
-      [REPLACE WITH ONE OF: Alert / Contrast Error / Error] only — ignore all
+            the child issue's resource 1.03 with the correct link and
+            row number(s)
+- [ ] Add the new issue as a sub-issue of this epic
+- [ ] Once the child issue is merged and closed, run WAVE on all other pages
+      for this [REPLACE WITH ONE OF: Alert / Contrast Error / Error]:
+      [REPLACE WITH NAME OF Alert/Contrast Error/Error] only — ignore all
       other errors and alerts. Check user interaction states as well.
    - [ ] No additional instances found — close this epic
-   - [ ] Additional instances found — create new fix issues and add as
-         sub-issues
+   - [ ] Additional instances found — create a new epic using the
+         [Epic: Apply code solution for 1 or more pages](https://hackforla.github.io/accessibility/wiki-and-issue-templates/issue-template-epic-apply-solution/)
+         template and link it here
 
 ### Sub-Issues
 
-<!-- Add one child issue per page once created -->
+<!-- Add child fix issue once created -->
 
 ### Resources
 - 1.01 WAVE Accessibility Audit Spreadsheet, tab: Audit Log:
@@ -99,23 +107,24 @@ Known pages (there might be others):
    - 1.03.01 Documentation for [REPLACE WITH PAGE NAME] page:
              [REPLACE WITH LINK OR LEAVE BLANK]
 
-#### 1.04 Child Issue Template (one per page)
+#### 1.04 Child Issue Template
 
 Title
 ```
-Dev: fix [REPLACE WITH ONE OF: Alert / Contrast Error / Error]: [REPLACE WITH NAME OF Alert/Contrast Error/Error] on [REPLACE WITH PAGE NAME] page
+Dev: fix [REPLACE WITH Alert/Contrast Error/Error] on [REPLACE WITH PAGE NAME] page
 ```
 Body
 ```
 ### Overview
 We need to fix the [REPLACE WITH ONE OF: Alert / Contrast Error / Error]:
 [REPLACE WITH NAME OF Alert/Contrast Error/Error] on [REPLACE WITH PAGE NAME]
-so that the page is WCAG compliant.
+so that the page is WCAG compliant, and to document the solution in the Known
+Issues Index for future reuse.
 
 #### Details
 Category: [REPLACE WITH ONE OF: Alert / Contrast Error / Error]
 Name: [REPLACE WITH NAME OF Alert/Contrast Error/Error]
-(A solution already exists in the Known Issues Index — see resource 1.05.01)
+(No solution exists in the Known Issues Index yet — this issue will create one)
 
 Page to fix:
 [REPLACE WITH PAGE NAME]
@@ -128,20 +137,27 @@ Page to fix:
 - [ ] Open the audit spreadsheet and find the row for this page and error
       (resource 1.03)
 - [ ] Run WAVE with no elements focused or clicked (resource 1.04)
-- [ ] Locate the [REPLACE WITH ONE OF: Alert / Contrast Error / Error]
-      in the WAVE output
-- [ ] Review the `Project Team Solution` section in the Known Issues Index
-      (resource 1.05.01.01) and apply the solution
-- [ ] Submit a PR
+- [ ] Locate the [REPLACE WITH ONE OF: Alert / Contrast Error / Error] in the
+      WAVE output
+- [ ] Research a solution; if related issues have been solved on other pages,
+      review those PRs for guidance (resource 1.05.01)
+- [ ] Apply the solution
+- [ ] Document the solution in the Known Issues Index wiki page for this error
+      (resource 1.05.01) — add it to the `Project Team Solution` section
+- [ ] Submit a PR and include the link to the `Project Team Solution` section
+      (resource 1.05.01.01) in the PR description
 - [ ] Add the PR link to the audit spreadsheet in the PR column for this row
       (resource 1.03)
-- [ ] On this issue, add label: `ready for accessibility lead`
+- [ ] On this issue, add labels:
+   - `ready for accessibility lead`
+   - `ready for product`
 - [ ] Change status to: `Technical Review`
-- [ ] On the parent epic, add label `ready for product` and add the comment:
-      ```
-      - #[REPLACE WITH THIS ISSUE NUMBER] is closed. Please review to confirm
-        no remaining instances of this error exist.
-      ```
+- [ ] Get sign-off on the wiki solution page from:
+   - [ ] Accessibility lead
+   - [ ] Product lead
+- [ ] Release dependencies on:
+   - [INSERT LINK TO NEXT ISSUE(S)]
+   - [INSERT LINK TO EPIC]
 
 ### Resources
 - 1.01 [How to run the WAVE browser extension](https://hackforla.github.io/accessibility/getting-started/wave-browser-extension/)
