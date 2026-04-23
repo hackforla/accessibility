@@ -88,13 +88,10 @@ This error occurred on the Create Project page where form labels were present bu
 Add the `id` and `name` attributes to the input element with values matching the `for` attribute of the associated label.
 
 #### Step-By-Step Guide
-<!-- Author Instructions: Replace details dropdown with N/A if this does not apply -->
-
-- n/a
+- N/A
 
 #### Other Technical Details
-<!-- Author Instructions: Write N/A if this does not apply -->
-- n/a
+- N/A
 
 #### Code Snippet With Solution
 ??? Info "Click to see code snippets"
