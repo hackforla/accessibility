@@ -121,11 +121,9 @@ Add the `id` and `name` attributes to the input element with values matching the
         </div>
       );
     };
-
     ```
 
 #### Why the Fix Works
-<!-- Author Instruction: Add an explanation of how the code changes resolve the accessibility issue and why this approach was chosen -->
 By adding the `id` and `name` attributes to the input element with values matching the `for` attribute of the associated label (using `props.code` which would be "APN" for Assessor Parcel Number), screen readers can now correctly identify and announce the label when users navigate to the form control. This creates the proper programmatic association required by WCAG standards, ensuring assistive technology can communicate the input's purpose to users.
 
 #### Where this solution is applicable 
