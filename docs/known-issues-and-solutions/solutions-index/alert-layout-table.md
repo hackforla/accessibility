@@ -5,12 +5,12 @@
 
 ## Page Content Status
 - [X] WAVE Error guidance text
-- [ ] Example of a DOM Snippet Generated From WAVE Tool
+- [X] Example of a DOM Snippet Generated From WAVE Tool
 - Project Team Error guidance
-    - [ ] Project Team Page Details
-    - [ ] Project Team Issue and PR details
-    - [ ] Project Team Solution
-- [ ] Credits/Authors
+    - [X] Project Team Page Details
+    - [X] Project Team Issue and PR details
+    - [X] Project Team Solution
+- [X] Credits/Authors
 
 ## WAVE Error guidance
 
@@ -42,7 +42,13 @@ WAVE Tool's Reference material on Layout table may not specifically address your
 ## Example of a DOM Snippet Generated From WAVE Tool
 
 > ```html
-> [HTML snippet showing the problematic code structure that WAVE detected]
+> <table>
+>   <thead>
+>     <tr>
+>       <td>Should be a "th" tag</td>
+>     </tr>
+>   </thead>
+> </table>
 > ```
 
 
@@ -51,37 +57,38 @@ WAVE Tool's Reference material on Layout table may not specifically address your
 The following material covers how the Project Team has provided a solution to the layout table WAVE alert.
 
 ### Project Page Details
-- Project Page name: [INSERT PAGE NAME or "ALL"]
-- Project Staging URL: [INSERT URL or "N/A"]
-- Requires sign in: [TRUE OR FALSE]
-    - Required User Role: [INSERT ONE OF: Visitor, Logged in user, Admin, Security Admin]
-    - Can access page directly from URL: [TRUE OR FALSE]
-    - Accepts URL parameters: [TRUE OR FALSE]
+- Project Page name: Archived Projects
+- Project Staging URL: https://tdm-dev.azurewebsites.net/archivedprojects
+- Requires sign in: TRUE
+    - Required User Role: Security Admin
+    - Can access page directly from URL: FALSE
+    - Accepts URL parameters: FALSE
 
 ### Project Team Issue and PR details
 - Related GitHub Issue(s):
-    - [INSERT ISSUE URL]
+    - https://github.com/hackforla/tdm-calculator/issues/2837
 - Related Pull Request(s):
-    - [INSERT PR URL]
+    - https://github.com/hackforla/tdm-calculator/pull/3068
 - React Component(s)
-    - [INSERT PATH: e.g. path/to/Component.jsx]
+    - client\src\components\ArchiveDelete\ProjectsArchive.jsx
 
 ### Project Team Solution
 
 #### What is the specific problem that was occurring?
 <!-- Author Instructions: Add a detailed explanation of the specific accessibility problem, including context about when/where it occurs, what elements are involved, and why it's problematic for assistive technology users -->
-[INSERT CONTENT]
+This alert occurred on the Archived Projects page, caused by a table using td elements in the header, instead of the expected th elements. In this case, the table is really a data table, and the error was triggered since the wrong tag was used.
+If the table is used to set the layout of content on the page, it is recommended to use other CSS features such as Grid or Flexbox to achieve this.
 
 #### What is the proposed solution to this problem?
 <!-- Author Instructions: Add a few sentences describing the fix. "Why the Fix Works" comes later (see below). If there are lots of instructions required to explain the solution, include them in Developer Resources below -->
-[INSERT CONTENT]
+Ensure that the table contains a header and `<th>` elements.
 
 #### Step-By-Step Guide
 <!-- Author Instructions: Replace details dropdown with N/A if this does not apply -->
 
 ??? Info "Click to see step-by-step guide"
 
-    [ADD DETAILED INSTRUCTIONS HERE]
+  - n/a
 
 
 #### Other Technical Details
@@ -89,26 +96,39 @@ The following material covers how the Project Team has provided a solution to th
 
 ??? Info "Click to see other technical details"
 
-    [INSERT OTHER DETAILS e.g. Prop References, Return Value]
- 
+  - n/a
+
 #### Code Snippet With Solution
 ??? Info "Click to see code snippets"
 
-    [INSERT PATH file/path/to/Snippet.jsx]
-
     ```jsx
-    [Code example showing the fix/solution]
+    // client\src\components\ArchiveDelete\ProjectsArchive.jsx
+
+    const ProjectsArchive = () => {
+    // ...
+        return (
+            // ...
+                <table className={classes.table}>
+                <thead className={classes.thead}>
+                    <tr className={classes.tr}>
+                        <th className={classes.td}>Name</th> // ensure that the table has a header and th elements
+                    // ...
+                    </tr>
+                </thead>
+                <tbody className={classes.tbody}>
+                    // ...
+                </tbody>
+            // ...
+        );
     ```
 
 #### Why the Fix Works
 <!-- Author Instruction: Add an explanation of how the code changes resolve the accessibility issue and why this approach was chosen -->
-[INSERT CONTENT]
+Adding a header and th elements to the table fixes the error by making sure the table is interpreted as a data table.
 
 #### Where this solution is applicable 
 <!-- Author Instruction: Add a bullet point list of scenarios that might trigger this error and would be fixed by applying the provided solution, e.g. particular groupings of html elements, user interactivity, code-specific edge cases -->
-- [INSERT SCENARIO 1]
-- [INSERT SCENARIO 2]
-- [INSERT SCENARIO N]
+- tables
 
 #### Screenshots of WAVE Error
 
@@ -133,5 +153,4 @@ The following material covers how the Project Team has provided a solution to th
 ## Credits/Authors
 <!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
 - @Rabia2219
-- [INCLUDE Contributor 2]
-- [INCLUDE Contributor N]
+- @Philc90
