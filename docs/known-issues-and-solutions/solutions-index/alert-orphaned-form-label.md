@@ -2,7 +2,7 @@
 - WAVE Category: Alert
 - WAVE Alert: Orphaned form label
 
-# Page Content Status
+## Page Content Status
 - [x] WAVE Error guidance text
 - [x] Example of a DOM Snippet Generated From WAVE Tool
 - Project Team Error guidance
