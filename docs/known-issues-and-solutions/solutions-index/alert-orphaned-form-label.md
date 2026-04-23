@@ -127,7 +127,6 @@ Add the `id` and `name` attributes to the input element with values matching the
 By adding the `id` and `name` attributes to the input element with values matching the `for` attribute of the associated label (using `props.code` which would be "APN" for Assessor Parcel Number), screen readers can now correctly identify and announce the label when users navigate to the form control. This creates the proper programmatic association required by WCAG standards, ensuring assistive technology can communicate the input's purpose to users.
 
 #### Where this solution is applicable 
-<!-- Author Instruction: Add a bullet point list of scenarios that might trigger this error and would be fixed by applying the provided solution, e.g. particular groupings of html elements, user interactivity, code-specific edge cases -->
 - Form inputs with separate `<label>` elements that need explicit association
 - Multi-input components where labels and inputs are rendered separately
 - Any form control (input, select, textarea, checkbox, radio) requiring a descriptive label
@@ -135,8 +134,6 @@ By adding the `id` and `name` attributes to the input element with values matchi
 - Create Project wizard forms and similar multi-step form interfaces
 
 #### Screenshots of WAVE Error
-
-<!-- Author Instructions: when including markdown images, ensure they are responsive by specifying EITHER width OR height. Do not provide both. -->
 
 ??? Info "1. Descriptive Title for Screenshot Set 1"
 
@@ -155,7 +152,8 @@ By adding the `id` and `name` attributes to the input element with values matchi
     [INSERT IMAGE HERE] 
 
 ## Credits/Authors
-<!-- Author Instructions: Add bullet points with GitHub handles of all HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page -->
+All HfLA members who contributed to this wiki page and/or contributed to Pull Requests that provided solutions for this page.
+
 - @heejung-hong 
 - @eburdekin 
 - @geolunalg
