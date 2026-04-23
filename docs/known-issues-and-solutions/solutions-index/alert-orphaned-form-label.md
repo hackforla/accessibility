@@ -85,7 +85,6 @@ The following material covers how the TDM team has provided a solution to the Or
 This error occurred on the Create Project page where form labels were present but not properly associated with their corresponding form controls. The `<label>` element's `for` attribute did not match the `id` value of the input element, meaning screen readers could not communicate the purpose or function of the form field to users relying on assistive technology. The input element within the `MultiInput` component was missing both `id` and `name` attributes that would connect it to its paired label (e.g., a label with `for="APN"` but no input with `id="APN"`).
 
 #### What is the proposed solution to this problem?
-<!-- Author Instructions: Add a few sentences describing the fix. "Why the Fix Works" comes later (see below). If there are lots of instructions required to explain the solution, include them in Developer Resources below -->
 Add the `id` and `name` attributes to the input element with values matching the `for` attribute of the associated label.
 
 #### Step-By-Step Guide
