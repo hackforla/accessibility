@@ -56,9 +56,9 @@ To see where this issue fits in the overall Accessibility workflow see resource 
    ```
    Accessibility Project
    ```
-- [ ] Create the **[PROJECT NAME] WAVE Accessibility Audit Spreadsheet** from the shared template and save it in the Accessibility Project folder (resource 2.01.01); update resource 2.02.01 with the spreadsheet link
+- [ ] Create the **[PROJECT NAME] WAVE Accessibility Audit Spreadsheet** from resource 1.02.01 and save it in the Accessibility Project folder (resource 2.01.01); update the resource section below for resource 2.02.01 with the spreadsheet link
       - Columns are pre-named with data validation already set up; no content needs to be added yet
-- [ ] Create the **Page Access by Role** spreadsheet from the shared template and save it in the Accessibility Project folder (resource 2.01.01); update resource 2.02.02 with the spreadsheet link
+- [ ] Create the **Page Access by Role** spreadsheet from from resource 1.02.02 and save it in the Accessibility Project folder (resource 2.01.01); update the resource section below for resource 2.02.02 with the spreadsheet link
       - List all pages and global features with the user roles required to access each one
 
 #### GitHub Setup
