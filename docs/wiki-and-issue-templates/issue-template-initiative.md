@@ -18,9 +18,17 @@ for a project, before any auditing or fixing work begins.
 ```
 feature: Accessibility
 ```
-
 ```
 role: pm
+```
+```
+size: 0.25pt
+```
+```
+priority: MUST HAVE
+```
+```
+milestone: missing
 ```
 
 ## Title
