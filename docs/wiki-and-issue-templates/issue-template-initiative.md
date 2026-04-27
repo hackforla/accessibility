@@ -2,14 +2,11 @@
 
 ## What does this template do?
 
-Creates the top-level Initiative issue that kicks off the entire WCAG compliance
-workflow for a project. The PM uses this issue to track the creation of Google
-Drive assets and the five child Epics that make up the full workflow.
+Creates the top-level Initiative issue that kicks off the entire WCAG compliance workflow for a project. The PM uses this issue to track the creation of Google Drive assets and the five child Epics that make up the full workflow.
 
 ## When should this template be used?
 
-Use this template once, at the very start of the accessibility remediation effort
-for a project, before any auditing or fixing work begins.
+Use this template once, at the very start of the accessibility remediation effort for a project, before any auditing or fixing work begins.
 
 ---
 
