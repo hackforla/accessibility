@@ -44,25 +44,22 @@ Initiative: WCAG Compliance — [REPLACE WITH PROJECT NAME]
 
 ### Overview
 
-We need to set up the WCAG compliance workflow for [REPLACE WITH PROJECT NAME]
-so that the team can systematically audit and fix accessibility issues across
-the site and bring it into WCAG compliance.
+We need to set up the WCAG compliance workflow for [REPLACE WITH PROJECT NAME] so that the team can systematically audit and fix accessibility issues across the site and bring it into WCAG compliance.
+
+#### Details
+To see where this issue fits in the overall Accessibility workflow see resource 1.01
 
 ### Action Items
 
 #### Google Drive Setup
-- [ ] Open the team's Google Drive (resource 1.01) and create a new folder
-      called "Accessibility Project"; update resource 1.01.01 with the folder link
-- [ ] Create the **[PROJECT NAME] WAVE Accessibility Audit Spreadsheet**
-      from the shared template and save it in the Accessibility Project folder
-      (resource 1.01.01); update resource 1.02.01 with the spreadsheet link
-      - Columns are pre-named with data validation already set up;
-        no content needs to be added yet
-- [ ] Create the **Page Access by Role** spreadsheet from the shared template
-      and save it in the Accessibility Project folder (resource 1.01.01); update
-      resource 1.02.02 with the spreadsheet link
-      - List all pages and global features with the user roles required
-        to access each one
+- [ ] Open the team's Google Drive (resource 2.01) and create a new folder called "Accessibility Project"; update resource 2.01.01 with the folder link
+   ```
+   Accessibility Project
+   ```
+- [ ] Create the **[PROJECT NAME] WAVE Accessibility Audit Spreadsheet** from the shared template and save it in the Accessibility Project folder (resource 2.01.01); update resource 2.02.01 with the spreadsheet link
+      - Columns are pre-named with data validation already set up; no content needs to be added yet
+- [ ] Create the **Page Access by Role** spreadsheet from the shared template and save it in the Accessibility Project folder (resource 2.01.01); update resource 2.02.02 with the spreadsheet link
+      - List all pages and global features with the user roles required to access each one
 
 #### GitHub Setup
 - [ ] Create Epic 1 — Initial Audit (resource 1.03.01) and add as a sub-issue
@@ -78,24 +75,31 @@ the site and bring it into WCAG compliance.
 
 
 ### Resources
-- 1.01 [REPLACE WITH LINK TO TEAM'S GOOGLE DRIVE]
-   - 1.01.01 Accessibility Project folder:
+
+#### Links provided to work on this issue
+- 1.01 [WCAG Compliance Workflow Overview](https://hackforla.github.io/accessibility/getting-started/hackforla-wcag-compliance-workflow-system-overview/)
+- 1.02 spreadsheet templates
+   - 1.02.01 [WAVE Accessibility Audit Spreadsheet TEMPLATE]()
+   - 1.02.02 [Page Access by Role spreadsheet TEMPLATE]()
+
+#### Links created while working on this issue
+- 2.01 [REPLACE WITH LINK TO TEAM'S GOOGLE DRIVE]
+   - 2.01.01 Accessibility Project folder:
              [REPLACE WITH LINK TO FOLDER ONCE CREATED]
-- 1.02 Spreadsheets
-   - 1.02.01 [[PROJECT NAME] WAVE Accessibility Audit Spreadsheet](REPLACE WITH LINK TO SPREADSHEET ONCE CREATED)
-   - 1.02.02 [[PROJECT NAME] Page Access by Role spreadsheet](REPLACE WITH LINK TO SPREADSHEET ONCE CREATED)
-- 1.03 Epic issue templates
-   - 1.03.01 Epic 1 — Initial Audit:
+- 2.02 Spreadsheets
+   - 2.02.01 [[PROJECT NAME] WAVE Accessibility Audit Spreadsheet](REPLACE WITH LINK TO SPREADSHEET ONCE CREATED)
+   - 2.02.02 [[PROJECT NAME] Page Access by Role spreadsheet](REPLACE WITH LINK TO SPREADSHEET ONCE CREATED)
+- 2.03 Epic issue templates
+   - 2.03.01 Epic 1 — Initial Audit:
              [REPLACE WITH LINK TO EPIC 1 ISSUE ONCE CREATED]
-   - 1.03.02 Epic 2 — Recurring Element Remediation:
+   - 2.03.02 Epic 2 — Recurring Element Remediation:
              [REPLACE WITH LINK TO EPIC 2 ISSUE ONCE CREATED]
-   - 1.03.03 Epic 3 — Page Audits:
+   - 2.03.03 Epic 3 — Page Audits:
              [REPLACE WITH LINK TO EPIC 3 ISSUE ONCE CREATED]
-   - 1.03.04 Epic 4 — Error & Alert Fixes:
+   - 2.03.04 Epic 4 — Error & Alert Fixes:
              [REPLACE WITH LINK TO EPIC 4 ISSUE ONCE CREATED]
-   - 1.03.05 Epic 5 — Ongoing Audit Cycle:
+   - 2.03.05 Epic 5 — Ongoing Audit Cycle:
              [REPLACE WITH LINK TO EPIC 5 ISSUE ONCE CREATED]
-- 1.04 [WCAG Compliance Workflow Overview](https://hackforla.github.io/accessibility/getting-started/hackforla-wcag-compliance-workflow-system-overview/)
 ```
 
 ---
