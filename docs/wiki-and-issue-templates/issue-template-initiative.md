@@ -30,6 +30,9 @@ priority: MUST HAVE
 ```
 milestone: missing
 ```
+```
+level: easy
+```
 
 ## Title
 
