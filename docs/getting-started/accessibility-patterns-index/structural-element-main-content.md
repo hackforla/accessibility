@@ -13,7 +13,7 @@
 
 ??? Info "Click to see WAVE Tool Reference"
 
-This content added 2026-04-27. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#main" target="_blank">https://wave.webaim.org/api/docs?format=html#main</a>
+    This content added 2026-04-27. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#main" target="_blank">https://wave.webaim.org/api/docs?format=html#main</a>
 
     > ### WAVE Category
     > Structural Elements
