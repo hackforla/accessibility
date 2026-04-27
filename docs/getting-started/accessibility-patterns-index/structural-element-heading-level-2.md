@@ -13,20 +13,20 @@
 
 ??? Info "Click to see WAVE Tool Reference"
 
-    This content added 2026-04-27. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#h3" target="_blank">https://wave.webaim.org/api/docs?format=html#h3</a>
+    This content added 2026-04-27. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#h2" target="_blank">https://wave.webaim.org/api/docs?format=html#h2</a>
 
     > ### WAVE Category
     > Structural Elements
     > ### WAVE Error
-    > Heading level 3
+    > Heading level 2
     > ### What It Means
-    > A third level heading (`<h3>` element) is present.
+    > A second level heading (`<h2>` element) is present.
     > ### Why It Matters
     > Headings facilitate page navigation for users of assistive technologies. They also provide semantic and visual meaning and structure to the document.
     > ### What To Do
     > Ensure that the text in question is truly a heading and that it is structured correctly in the page outline.
     > ### The Algorithm... in English
-    > An `<h3>` element is present.
+    > An `<h2>` element is present.
     > ### Standards and Guidelines
     > - [1.3.1 Info and Relationships (Level A)](https://webaim.org/standards/wcag/checklist#sc1.3.1)
     > - [2.4.1 Bypass Blocks (Level A)](https://webaim.org/standards/wcag/checklist#sc2.4.1)
