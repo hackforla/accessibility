@@ -62,15 +62,15 @@ To see where this issue fits in the overall Accessibility workflow see resource 
       - List all pages and global features with the user roles required to access each one
 
 #### GitHub Setup
-- [ ] Create Epic 1 — Initial Audit (resource 1.03.01) and add as a sub-issue
+- [ ] Create Epic 1 — Initial Audit using resource (resource 2.03.01) and add as a sub-issue
       to this Initiative
-- [ ] Create Epic 2 — Recurring Element Remediation (resource 1.03.02) and add
+- [ ] Create Epic 2 — Recurring Element Remediation (resource 2.03.02) and add
       as a sub-issue to this Initiative
-- [ ] Create Epic 3 — Page Audits (resource 1.03.03) and add as a sub-issue
+- [ ] Create Epic 3 — Page Audits (resource 2.03.03) and add as a sub-issue
       to this Initiative
-- [ ] Create Epic 4 — Error & Alert Fixes (resource 1.03.04) and add as a
+- [ ] Create Epic 4 — Error & Alert Fixes (resource 2.03.04) and add as a
       sub-issue to this Initiative
-- [ ] Create Epic 5 — Ongoing Audit Cycle (resource 1.03.05) and add as a
+- [ ] Create Epic 5 — Ongoing Audit Cycle (resource 2.03.05) and add as a
       sub-issue to this Initiative
 
 
@@ -81,6 +81,12 @@ To see where this issue fits in the overall Accessibility workflow see resource 
 - 1.02 spreadsheet templates
    - 1.02.01 [WAVE Accessibility Audit Spreadsheet TEMPLATE]()
    - 1.02.02 [Page Access by Role spreadsheet TEMPLATE]()
+- 1.03 Epic Templates
+   - [Epic 1: Initial Audit](https://hackforla.github.io/accessibility/wiki-and-issue-templates/issue-template-epic-1-initial-audit/)
+   - [Epic 2: Recurring Element Remediation](https://hackforla.github.io/accessibility/wiki-and-issue-templates/issue-template-epic-2-recurring-element-remediation/)
+   - [Epic 3: Page Audits](https://hackforla.github.io/accessibility/wiki-and-issue-templates/issue-template-epic-3-page-audits/)
+   - [Epic 4: Error & Alert Fixes (Epic of Epics)](https://hackforla.github.io/accessibility/wiki-and-issue-templates/issue-template-epic-4-error-alert-fixes/)
+   - [Epic 5: Ongoing Audit Cycle](https://hackforla.github.io/accessibility/wiki-and-issue-templates/issue-template-epic-5-ongoing-audit-cycle/)
 
 #### Links created while working on this issue
 - 2.01 [REPLACE WITH LINK TO TEAM'S GOOGLE DRIVE]
