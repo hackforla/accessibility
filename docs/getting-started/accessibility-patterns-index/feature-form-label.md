@@ -13,7 +13,7 @@
 
 ??? Info "Click to see WAVE Tool Reference"
 
-This content added 2026-04-27. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#fieldset" target="_blank">https://wave.webaim.org/api/docs?format=html#fieldset</a>
+    This content added 2026-04-27. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#fieldset" target="_blank">https://wave.webaim.org/api/docs?format=html#fieldset</a>
 
     > ### WAVE Category
     > Features
