@@ -68,9 +68,6 @@ the site and bring it into WCAG compliance.
 - [ ] Create Epic 5 — Ongoing Audit Cycle (resource 1.03.05) and add as a
       sub-issue to this Initiative
 
-### Sub-Issues
-
-<!-- Add each Epic as a sub-issue once created -->
 
 ### Resources
 - 1.01 [REPLACE WITH LINK TO TEAM'S GOOGLE DRIVE]
@@ -92,3 +89,10 @@ the site and bring it into WCAG compliance.
              [REPLACE WITH LINK TO EPIC 5 ISSUE ONCE CREATED]
 - 1.04 [WCAG Compliance Workflow Overview](https://hackforla.github.io/accessibility/getting-started/hackforla-wcag-compliance-workflow-system-overview/)
 ```
+
+---
+
+- Page Status: Complete
+- Authors: 
+    - Bonnie Wolfe
+    - Rabia Shaikh
