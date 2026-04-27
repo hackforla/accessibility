@@ -52,7 +52,7 @@ To see where this issue fits in the overall Accessibility workflow see resource 
 ### Action Items
 
 #### Google Drive Setup
-- [ ] Open the team's Google Drive (resource 2.01) and create a new folder called "Accessibility Project"; update resource 2.01.01 with the folder link
+- [ ] Open the team's Google Drive (resource 2.01) and create a new folder called "Accessibility Project"; update the resource section below for resource 2.01.01 with the folder link
    ```
    Accessibility Project
    ```
