@@ -39,7 +39,7 @@ Initiative: WCAG Compliance — [REPLACE WITH PROJECT NAME]
 
 ## Body
 
-```
+````
 <!-- Customize this initiative issue by replacing all content in [ ] -->
 
 ### Overview
@@ -106,7 +106,7 @@ To see where this issue fits in the overall Accessibility workflow see resource 
              [REPLACE WITH LINK TO EPIC 4 ISSUE ONCE CREATED]
    - 2.03.05 Epic 5 — Ongoing Audit Cycle:
              [REPLACE WITH LINK TO EPIC 5 ISSUE ONCE CREATED]
-```
+````
 
 ---
 
