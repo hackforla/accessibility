@@ -42,12 +42,20 @@ WAVE Tool's Reference material on Layout table may not specifically address your
 ## Example of a DOM Snippet Generated From WAVE Tool
 
 > ```html
-> <table>
->   <thead>
->     <tr>
->       <td>Should be a "th" tag</td>
+> <table class="table-0-2-25">
+>   <thead class="thead-0-2-28">
+>     <tr class="tr-0-2-26">
+>       <td class="td-0-2-27">Name</td>
+>       <td class="td-0-2-27">Address</td>
+>       <td class="td-0-2-27">Created By</td>
+>       <td class="td-0-2-27">Created On</td>
+>       <td class="td-0-2-27">Last Saved</td>
+>       <td class="td-0-2-27">Archive Date</td>
 >     </tr>
 >   </thead>
+>   <tbody class="tbody-0-2-29">
+>     <!-- ... -->
+>   </tbody>
 > </table>
 > ```
 
