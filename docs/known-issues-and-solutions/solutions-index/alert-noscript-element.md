@@ -42,7 +42,7 @@ WAVE Tool's Reference material on Noscript element may not specifically address 
 > ```
 
 ## Hack for LA Guidnace
-1. Inspect the <noscript> element in DevTools.
+1. Inspect the `<noscript>` element in DevTools.
 2. Ask:
     - Does it contain meaningful user-facing content?
     - Would a no-JS user miss something important?
