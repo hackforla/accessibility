@@ -41,7 +41,7 @@ WAVE Tool's Reference material on Noscript element may not specifically address 
 > <noscript>You need to enable JavaScript to run this app.</noscript>
 > ```
 
-## Hack for LA Guidnace
+## Hack for LA Guidance
 1. Inspect the `<noscript>` element in DevTools.
 2. Ask:
     - Does it contain meaningful user-facing content?
