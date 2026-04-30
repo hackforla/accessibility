@@ -33,8 +33,12 @@ WAVE Tool's Reference material on Noscript element may not specifically address 
     > ### Standards and Guidelines
     > None
     
-??? Info "Example of a DOM Snippet Generated From WAVE Tool"
-    > <noscript>You need to enable JavaScript to run this app.</noscript>
+## Example of a DOM Snippet Generated From WAVE Tool
+
+> ```html
+> [HTML snippet showing the problematic code structure that WAVE detected]
+> <noscript>You need to enable JavaScript to run this app.</noscript>
+> ```
 
 ## Project Team Error guidance
 
