@@ -5,6 +5,7 @@
 ## Page Content Status
 - [X] WAVE Error guidance text
 - [X] Example of a DOM Snippet Generated From WAVE Tool
+- [X] Hack for LA Guidance
 - Project Team Error guidance
     - [ ] Project Team Page Details
     - [ ] Project Team Issue and PR details
@@ -40,9 +41,13 @@ WAVE Tool's Reference material on Noscript element may not specifically address 
 > <noscript>You need to enable JavaScript to run this app.</noscript>
 > ```
 
-??? Info "Example of a DOM Snippet Generated From WAVE Tool"
-    > `[HTML snippet showing the problematic code structure that WAVE detected]`
-    > `<noscript>You need to enable JavaScript to run this app.</noscript>`
+## Hack for LA Guidnace
+1. Inspect the <noscript> element in DevTools.
+2. Ask:
+    - Does it contain meaningful user-facing content?
+    - Would a no-JS user miss something important?
+3. If the answer is no, then no fix is required.
+
 
 ## Project Team Error guidance
 
