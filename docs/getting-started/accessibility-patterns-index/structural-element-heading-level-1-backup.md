@@ -1,5 +1,5 @@
 
-# Structural Element - Heading level 1
+# Structural Element - Heading level 1-B1
 - WAVE Category: Structural Element
 - WAVE ACCESSIBILITY PATTERN: Heading level 1
 
