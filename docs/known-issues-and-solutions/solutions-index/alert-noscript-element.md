@@ -40,6 +40,10 @@ WAVE Tool's Reference material on Noscript element may not specifically address 
 > <noscript>You need to enable JavaScript to run this app.</noscript>
 > ```
 
+??? Info "Example of a DOM Snippet Generated From WAVE Tool"
+    > `[HTML snippet showing the problematic code structure that WAVE detected]`
+    > `<noscript>You need to enable JavaScript to run this app.</noscript>`
+
 ## Project Team Error guidance
 
 The following material covers how the Project Team has provided a solution to the Noscript element WAVE Alert.
