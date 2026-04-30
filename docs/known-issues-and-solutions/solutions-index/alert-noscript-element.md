@@ -4,7 +4,7 @@
 
 ## Page Content Status
 - [X] WAVE Error guidance text
-- [ ] Example of a DOM Snippet Generated From WAVE Tool
+- [X] Example of a DOM Snippet Generated From WAVE Tool
 - Project Team Error guidance
     - [ ] Project Team Page Details
     - [ ] Project Team Issue and PR details
@@ -33,9 +33,8 @@ WAVE Tool's Reference material on Noscript element may not specifically address 
     > ### Standards and Guidelines
     > None
     
-## Example of a DOM Snippet Generated From WAVE Tool
-
-> <noscript>You need to enable JavaScript to run this app.</noscript>
+??? Info "Example of a DOM Snippet Generated From WAVE Tool"
+    > <noscript>You need to enable JavaScript to run this app.</noscript>
 
 ## Project Team Error guidance
 
