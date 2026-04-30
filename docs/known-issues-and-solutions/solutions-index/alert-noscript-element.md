@@ -35,10 +35,7 @@ WAVE Tool's Reference material on Noscript element may not specifically address 
     
 ## Example of a DOM Snippet Generated From WAVE Tool
 
-> ```html
 > <noscript>You need to enable JavaScript to run this app.</noscript>
-> ```
-
 
 ## Project Team Error guidance
 
