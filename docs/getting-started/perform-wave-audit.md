@@ -2,7 +2,7 @@
 
 ## How to Perform WAVE Audits
 1. [Download the WAVE extension for your browser](https://wave.webaim.org/extension/)
-2. If you are checking desktop experience skip step step 3
+2. If you are checking desktop experience skip step 3
 3. Adjust screen size to mobile (use dev tools, or adjust browser size) 
 4. Navigate to the page you want to run the extension on
 5. Run the WAVE browser extension
