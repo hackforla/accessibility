@@ -12,12 +12,12 @@
 
 **Summary Pane**
 <br/>
-> <img width="400" alt="Summary pane" src="https://github.com/user-attachments/assets/e0eef2d2-6ae5-4c0f-87c9-7c6973398d86" />
+<img width="400" alt="Summary pane" src="https://github.com/user-attachments/assets/e0eef2d2-6ae5-4c0f-87c9-7c6973398d86" />
 
 <br/><br/>
 
 **Details Pane**
 <br/>
-> <img width="400" alt="Details pane" src="https://github.com/user-attachments/assets/3681e541-6459-484a-9de2-d458991ad98a" />
+<img width="400" alt="Details pane" src="https://github.com/user-attachments/assets/3681e541-6459-484a-9de2-d458991ad98a" />
 
 ---
