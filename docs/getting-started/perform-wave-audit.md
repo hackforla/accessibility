@@ -8,7 +8,9 @@
 5. Run the WAVE browser extension
    - "To run a WAVE report, simply click on the WAVE icon to the right of your browser address bar, or select "WAVE this page" from the context menu."
 6. See the results from the Summary page and Details pane
-   - see screenshots below
+   - see screenshots below (Summary and Details panes)
+7. Sometimes icons will show up in the left panel but not in the main panel that display your page because the element is hidden from the viewer. Turning Styles off will allow you to see where they appear.
+   - see screenshot below (Styles off)
 
 ### References
 
