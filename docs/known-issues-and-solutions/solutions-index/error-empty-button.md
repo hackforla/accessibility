@@ -1,4 +1,4 @@
-# Error - Empty Button
+# <img width="44" height="44" alt="image" src="https://github.com/user-attachments/assets/bb6e0b90-74a5-4fae-a08b-a495702c5e6d" /> Error - Empty Button
 - WAVE Category: Error
 - WAVE Error: Empty Button
 
