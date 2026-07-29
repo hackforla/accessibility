@@ -12,7 +12,7 @@ Follow these steps to get your computer setup and understand how to use the WAVE
 ## Learn about Accessibility Patterns
 Consult [Accessibility Pattern Index](accessibility-patterns-index) to understand different types of Accessibility Patterns (Structural Elements, Features, and ARIA labels) and how they work and when to use:
 
-- When to use `aria-label` or `aria-labelledby` or `aria-describedby`
+- [When to use `aria-label` or `aria-labelledby` or `aria-describedby`](accessibility-patterns-index/when-to-use/when-to-use-aria-label-or-aria-labelledby-or-aria-describedby/)
 
 ## See and use Known Issues and Solutions
 Consult [Known issues and solutions](../known-issues-and-solutions/index.md).  To see how to use and contribute to the Known Issues and Solutions Index.
