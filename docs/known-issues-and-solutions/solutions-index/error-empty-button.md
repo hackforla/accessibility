@@ -55,13 +55,12 @@ Key principle: every button needs an accessible name, and that name should clear
 
 When fixing an empty_button error, prioritize solutions in this order:
 
-<details><summary>1. ✅ Visible text on the button (preferred)</summary>
+??? Info "1. ✅ Visible text on the button (preferred)"
 
-Text on button (no ARIA required)
-- > HTML: `<button>`Save Project`</button>`
-- > Screen reader: Save Project, button
+    Text on button (no ARIA required)
+    - > HTML: `<button>`Save Project`</button>`
+    - > Screen reader: Save Project, button
 
-</details> 
 
 <details><summary>2. ✅ aria-labelledby (when existing visible text provides the button's accessible name)</summary>
 
