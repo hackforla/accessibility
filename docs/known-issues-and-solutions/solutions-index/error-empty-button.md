@@ -5,7 +5,8 @@
 ## Page Content Status
 - [x] WAVE Error guidance text
 - [x] Example of a DOM Snippet Generated From WAVE Tool
-- Project Team Error guidance
+- [x] Hack for LA Error Guidance 
+- Project Team Error Fix Example(s)
     - [x] Project Team Page Details
     - [x] Project Team Issue and PR details
     - [x] Project Team Solution
@@ -49,7 +50,7 @@ WAVE Tool's Reference material on Empty Button may not specifically address your
 > ```
 
 
-## TDM Error guidance
+## Hack for LA Error guidance
 Key principle: every button needs an accessible name, and that name should clearly describe what the button does.
 
 When fixing an empty_button error, prioritize solutions in this order:
