@@ -50,6 +50,81 @@ WAVE Tool's Reference material on Empty Button may not specifically address your
 
 
 ## TDM Error guidance
+When fixing an empty_button error, prioritize solutions in this order:
+
+<details><summary>1. ✅ Visible text inside the <button> (preferred)</summary>
+
+HTML:
+> `<button>`Save Project`</button>`
+
+Screen reader:
+> Save Project, button
+
+No ARIA required.
+</details> 
+
+<details><summary>2. ✅ aria-labelledby (when a visible label already exists)</summary>
+
+HTML:
+> `<span id="saveLabel">`Save Project`</span>`
+
+> `<button aria-labelledby="saveLabel">``<svg aria-hidden="true">``</svg>``</button>`
+
+Screen reader:
+> Save Project, button
+
+This keeps the visible and accessible labels synchronized.
+</details> 
+
+<details><summary>3. ✅ aria-label (for icon-only or unlabeled buttons)</summary>
+
+For icon-only buttons.
+
+HTML:
+> `<button aria-label="Save Project">``<svg aria-hidden="true">``</svg>``</button>`
+
+Screen reader:
+> Save Project, button
+</details> 
+
+
+<details><summary>4. ✅ An <img> with meaningful alt text (if the image conveys the button's purpose)</summary>
+
+The image's alternative text becomes the button's accessible name.
+
+HTML:
+> `<button>``<img src="save.svg" alt="Save Project">``</button>`
+
+Screen reader:
+> Save Project, button
+</details> 
+
+<details><summary>5. ✅? </summary>
+
+HTML:
+> `<button>``<svg aria-hidden="true">``</svg>`Save Project`</button>`
+
+No ARIA needed.
+</details> 
+
+<details><summary>6. ✅ Visually hidden text inside the button (e.g., a screen-reader-only <span>)</summary>
+
+HTML:
+> `<button>``<svg aria-hidden="true">``</svg>``<span class="sr-only">`Save Project`</span>``</button>`
+
+The visually hidden text becomes the accessible name.
+
+</details> 
+
+<details><summary>7. ⚠️ title (fallback only)</summary>
+
+HTML:
+> `<button title="Save Project">``<svg>``</svg>``</button>`
+</details> 
+
+The key principle is that every button needs an accessible name, and that name should clearly describe what the button does.
+
+## TDM Error Fix Example
 
 The following material covers how the TDM team has provided a solution to the Empty Button WAVE error.
 
