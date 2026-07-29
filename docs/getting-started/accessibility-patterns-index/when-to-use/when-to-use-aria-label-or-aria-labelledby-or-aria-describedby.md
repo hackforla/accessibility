@@ -314,3 +314,10 @@ You point to additional text that helps the user understand or complete a specif
 - Use **`aria-describedby`** only for instructions, help text, or validation messages that are relevant to a specific control.
 - Avoid using `aria-describedby` for general page information, such as privacy notices or explanatory text that applies to the entire page.
 - Keeping visible text and accessible names synchronized improves accessibility and maintainability.
+
+---
+
+- Page Status: Complete
+- Current Authors: 
+    - Bonnie Wolfe
+    - Rabia Shaikh
