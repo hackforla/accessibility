@@ -50,79 +50,69 @@ WAVE Tool's Reference material on Empty Button may not specifically address your
 
 
 ## TDM Error guidance
+Key principle: every button needs an accessible name, and that name should clearly describe what the button does.
+
 When fixing an empty_button error, prioritize solutions in this order:
 
-<details><summary>1. ✅ Visible text inside the <button> (preferred)</summary>
+<details><summary>1. ✅ Visible text on the button (preferred)</summary>
 
-HTML:
-> `<button>`Save Project`</button>`
-
-Screen reader:
-> Save Project, button
-
-No ARIA required.
-</details> 
-
-<details><summary>2. ✅ aria-labelledby (when a visible label already exists)</summary>
-
-HTML:
-> `<span id="saveLabel">`Save Project`</span>`
-
-> `<button aria-labelledby="saveLabel">``<svg aria-hidden="true">``</svg>``</button>`
-
-Screen reader:
-> Save Project, button
-
-This keeps the visible and accessible labels synchronized.
-</details> 
-
-<details><summary>3. ✅ aria-label (for icon-only or unlabeled buttons)</summary>
-
-For icon-only buttons.
-
-HTML:
-> `<button aria-label="Save Project">``<svg aria-hidden="true">``</svg>``</button>`
-
-Screen reader:
-> Save Project, button
-</details> 
-
-
-<details><summary>4. ✅ An <img> with meaningful alt text (if the image conveys the button's purpose)</summary>
-
-The image's alternative text becomes the button's accessible name.
-
-HTML:
-> `<button>``<img src="save.svg" alt="Save Project">``</button>`
-
-Screen reader:
-> Save Project, button
-</details> 
-
-<details><summary>5. ✅? </summary>
-
-HTML:
-> `<button>``<svg aria-hidden="true">``</svg>`Save Project`</button>`
-
-No ARIA needed.
-</details> 
-
-<details><summary>6. ✅ Visually hidden text inside the button (e.g., a screen-reader-only <span>)</summary>
-
-HTML:
-> `<button>``<svg aria-hidden="true">``</svg>``<span class="sr-only">`Save Project`</span>``</button>`
-
-The visually hidden text becomes the accessible name.
+Text on button (no ARIA required)
+- > HTML: `<button>`Save Project`</button>`
+- > Screen reader: Save Project, button
 
 </details> 
 
-<details><summary>7. ⚠️ title (fallback only)</summary>
+<details><summary>2. ✅ aria-labelledby (when existing visible text provides the button's accessible name)</summary>
 
-HTML:
-> `<button title="Save Project">``<svg>``</svg>``</button>`
+References existing visible page text as the button's accessible name.
+- > HTML: `<span id="saveLabel">`Save Project`</span>`
+- > HTML: `<button aria-labelledby="saveLabel">``<svg aria-hidden="true">``</svg>``</button>`
+- > Screen reader: Save Project, button
+
 </details> 
 
-The key principle is that every button needs an accessible name, and that name should clearly describe what the button does.
+<details><summary>3. ✅ aria-label (when a button has no visible text or other accessible name)</summary>
+
+The following buttons all have one thing in common: they lack an accessible name. aria-label supplies that missing name.
+
+ Button with no content
+- > HTML: `<button>``</button>` or `<button type="submit">``</button>`
+
+Button containing only a CSS background image
+- > HTML: `<button class="download-btn">``</button>`
+- > CSS: `.download-btn {background-image: url(download.svg);}`
+
+Empty button populated later with JavaScript
+- > HTML: `<button id="refresh">``</button>`
+- > JavaScript: `button.innerHTML = refreshSvg;`
+
+Framework component
+- > JavaScript: `<Button icon={<DownloadIcon />}/>`
+
+Icon button
+- > HTML: `<button aria-label="Save Project">``<svg aria-hidden="true">``</svg>``</button>`
+- > Screen reader: Save Project, button
+</details> 
+
+
+<details><summary>4. ✅ An image with meaningful alt text (if the image conveys the button's purpose)</summary>
+
+The image's alternative text becomes the button's accessible name
+- > HTML: `<button>``<img src="save.svg" alt="Save Project">``</button>`
+- > Screen reader: Save Project, button
+</details> 
+
+<details><summary>5. ✅ Visible text and icon on the button</summary>
+
+Text button with decorative icon (no ARIA needed)
+- > HTML: `<button>``<svg aria-hidden="true">``</svg>`Save Project`</button>`
+</details> 
+
+<details><summary>6. ✅ Visually hidden text inside the button (e.g., contains visually hidden text in an sr-only CSS class)</summary>
+
+Icon button with hidden text for a screen reader (The visually hidden text becomes the accessible name)
+- > HTML: `<button>``<svg aria-hidden="true">``</svg>``<span class="sr-only">`Save Project`</span>``</button>`
+</details> 
 
 ## TDM Error Fix Example
 
