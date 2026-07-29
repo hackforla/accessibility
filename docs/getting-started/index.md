@@ -11,6 +11,7 @@ Follow these steps to get your computer setup and understand how to use the WAVE
 
 ## Learn about Accessibility Patterns
 Consult [Accessibility Pattern Index](accessibility-patterns-index) to understand different types of Accessibility Patterns (Structural Elements, Features, and ARIA labels) and how they work and when to use:
+
 - When to use aria-label, aria-labelledby and aria-describedby
 
 ## See and use Known Issues and Solutions
