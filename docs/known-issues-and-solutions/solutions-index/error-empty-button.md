@@ -68,9 +68,10 @@ When fixing an empty_button error, prioritize solutions in this order:
 ??? Info "2. ✅ aria-labelledby (when existing visible text provides the button's accessible name)"
 
     References existing visible page text as the button's accessible name.
-        - HTML: `<span id="saveLabel">`Save Project`</span>`
-        - HTML: `<button aria-labelledby="saveLabel">``<svg aria-hidden="true">``</svg>``</button>`
-        - Screen reader: Save Project, button
+    
+    - HTML: `<span id="saveLabel">`Save Project`</span>`
+    - HTML: `<button aria-labelledby="saveLabel">``<svg aria-hidden="true">``</svg>``</button>`
+    - Screen reader: Save Project, button
 
 
 ??? Info "3. ✅ aria-label (when a button has no visible text or other accessible name)"
