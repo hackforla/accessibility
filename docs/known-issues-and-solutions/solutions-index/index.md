@@ -2,12 +2,12 @@
 
 ## Know Issues and Solutions COMPLETED
 - Errors
-  - 🟥 [Error Broken ARIA reference](error-broken-aria-reference.md)
-  - 🟥 [Error Empty Button](error-empty-button.md)
-  - 🟥 [Error Empty Table Header](error-empty-table-header.md)
+    - 🟥 [Error Broken ARIA reference](error-broken-aria-reference.md)
+    - 🟥 [Error Empty Button](error-empty-button.md)
+    - 🟥 [Error Empty Table Header](error-empty-table-header.md)
 
 - Alerts
-  - ⚠️ [Alert Orphaned form label](alert-orphaned-form-label.md)
+    - ⚠️ [Alert Orphaned form label](alert-orphaned-form-label.md)
 
 
 ## Known Issues and Solutions DRAFTS 
