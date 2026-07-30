@@ -61,7 +61,7 @@ When fixing an empty_button error, prioritize solutions in this order:
     ``` HTML title="HTML"
     `<button>`Save Project`</button>`
     ```
-    ``` Screen reader title="Screen reader"
+    ``` Text title="Screen reader"
     Save Project, button
     ```
 
@@ -149,8 +149,10 @@ The fix adds an `aria-label` attribute to each icon-only navigation button. This
     2. Ensure the component accepts an `ariaLabel` prop and applies it to the underlying `<button>` element.  
     3. Open `client/src/components/Button/NavButton.jsx`.  
     4. Pass a descriptive `aria-label` value based on navigation direction:
+    
        - `"project creation previous page"` for the left/previous button  
        - `"project creation next page"` for the right/next button  
+       
     5. Confirm through WAVE and screen readers (NVDA/VoiceOver) that each button is now announced correctly.
 
 #### Other Technical Details
