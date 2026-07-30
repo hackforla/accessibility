@@ -66,8 +66,8 @@ When fixing an empty_button error, prioritize solutions in this order:
 
     References existing visible page text as the button's accessible name.
     - HTML: `<span id="saveLabel">`Save Project`</span>`
-    HTML: `<button aria-labelledby="saveLabel">``<svg aria-hidden="true">``</svg>``</button>`
-    Screen reader: Save Project, button
+    - HTML: `<button aria-labelledby="saveLabel">``<svg aria-hidden="true">``</svg>``</button>`
+    - Screen reader: Save Project, button
 
 
 ??? Info "3. ✅ aria-label (when a button has no visible text or other accessible name)"
@@ -75,39 +75,39 @@ When fixing an empty_button error, prioritize solutions in this order:
     The following buttons all have one thing in common: they lack an accessible name. aria-label supplies that missing name.
 
     Button with no content
-    HTML: `<button>``</button>` or `<button type="submit">``</button>`
+    - HTML: `<button>``</button>` or `<button type="submit">``</button>`
 
     Button containing only a CSS background image
-    HTML: `<button class="download-btn">``</button>`
-    CSS: `.download-btn {background-image: url(download.svg);}`
+    - HTML: `<button class="download-btn">``</button>`
+    - CSS: `.download-btn {background-image: url(download.svg);}`
 
     Empty button populated later with JavaScript
-    HTML: `<button id="refresh">``</button>`
-    JavaScript: `button.innerHTML = refreshSvg;`
+    - HTML: `<button id="refresh">``</button>`
+    - JavaScript: `button.innerHTML = refreshSvg;`
 
     Framework component
-    JavaScript: `<Button icon={<DownloadIcon />}/>`
+    - JavaScript: `<Button icon={<DownloadIcon />}/>`
 
     Icon button
-    HTML: `<button aria-label="Save Project">``<svg aria-hidden="true">``</svg>``</button>`
-    Screen reader: Save Project, button
+    - HTML: `<button aria-label="Save Project">``<svg aria-hidden="true">``</svg>``</button>`
+    - Screen reader: Save Project, button
 
 ??? Info "4. ✅ An image with meaningful alt text (if the image conveys the button's purpose)"
 
     The image's alternative text becomes the button's accessible name
-    HTML: `<button>``<img src="save.svg" alt="Save Project">``</button>`
-    Screen reader: Save Project, button
+    - HTML: `<button>``<img src="save.svg" alt="Save Project">``</button>`
+    - Screen reader: Save Project, button
 
 ??? Info "5. ✅ Visible text and icon on the button</summary>"
 
     Text button with decorative icon (no ARIA needed)
-    HTML: `<button>``<svg aria-hidden="true">``</svg>`Save Project`</button>`
+    - HTML: `<button>``<svg aria-hidden="true">``</svg>`Save Project`</button>`
  
 
 ??? Info "6. ✅ Visually hidden text inside the button (e.g., contains visually hidden text in an sr-only CSS class)"
 
     Icon button with hidden text for a screen reader (The visually hidden text becomes the accessible name)
-    HTML: `<button>``<svg aria-hidden="true">``</svg>``<span class="sr-only">`Save Project`</span>``</button>`
+    - HTML: `<button>``<svg aria-hidden="true">``</svg>``<span class="sr-only">`Save Project`</span>``</button>`
 
 ## TDM Error Fix Example
 
