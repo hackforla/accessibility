@@ -151,8 +151,8 @@ The fix adds an `aria-label` attribute to each icon-only navigation button. This
     3. Open `client/src/components/Button/NavButton.jsx`.  
     4. Pass a descriptive `aria-label` value based on navigation direction:
     
-       - `"project creation previous page"` for the left/previous button  
-       - `"project creation next page"` for the right/next button  
+        - `"project creation previous page"` for the left/previous button  
+        - `"project creation next page"` for the right/next button  
        
     5. Confirm through WAVE and screen readers (NVDA/VoiceOver) that each button is now announced correctly.
 
