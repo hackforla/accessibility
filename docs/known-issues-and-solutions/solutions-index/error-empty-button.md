@@ -6,7 +6,7 @@
 - [x] WAVE Error guidance text
 - [x] Example of a DOM Snippet Generated From WAVE Tool
 - [x] Hack for LA Error Guidance 
-- Project Team Error Fix Example(s)
+- Error Fix Example(s) from Project Teams
     - [x] Project Team Page Details
     - [x] Project Team Issue and PR details
     - [x] Project Team Solution
