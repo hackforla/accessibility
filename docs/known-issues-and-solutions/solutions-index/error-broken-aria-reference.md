@@ -144,7 +144,7 @@ This hook-based approach exists specifically because `reactjs-popup` may clone t
     - Ad-hoc DOM manipulation can be subject to timing/race issues if you do it in many components.
     - A hook centralizes the workaround so components don’t each reinvent their own “removeAttribute” logic.
 
-    Reference (discussion): https://github.com/hackforla/tdm-calculator/issues/2410#issuecomment-3561030939
+    Reference (discussion): <a href="https://github.com/hackforla/tdm-calculator/issues/2410#issuecomment-3561030939">https://github.com/hackforla/tdm-calculator/issues/2410#issuecomment-3561030939</a>
 
 
 #### Code Snippet With Solution
