@@ -1,4 +1,4 @@
-# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/longdesc_invalid.svg" /> Error - Multiple form labels
+# Error - Multiple form labels
 - WAVE Category: Error
 - WAVE Error: Multiple form labels
 
