@@ -1,4 +1,4 @@
-# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/label_multiple.svg" /> Error - Multiple form labels
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/longdesc_invalid.svg" /> Error - Multiple form labels
 - WAVE Category: Error
 - WAVE Error: Multiple form labels
 
@@ -17,7 +17,7 @@ WAVE Tool's Reference material on Multiple form labels may not specifically addr
 
 ??? Info "Click to see WAVE Tool Reference"
 
-    This content added 2026-04-09. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#label_multiple" target="_blank">https://wave.webaim.org/api/docs?format=html#label_multiple</a>
+    This content added 2026-04-09. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#longdesc_invalid" target="_blank">https://wave.webaim.org/api/docs?format=html#longdesc_invalid</a>
 
     > ### WAVE Category
     > Errors
