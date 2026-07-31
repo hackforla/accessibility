@@ -1,4 +1,4 @@
-# Error - Multiple form labels
+# <img width="44" height="44" alt="image" src="https://github.com/user-attachments/assets/8292c825-c8fd-465f-9191-a36d251eadc7" /> Error - Multiple form labels
 - WAVE Category: Error
 - WAVE Error: Multiple form labels
 
@@ -17,7 +17,7 @@ WAVE Tool's Reference material on Multiple form labels may not specifically addr
 
 ??? Info "Click to see WAVE Tool Reference"
 
-    This content added 2026-04-09. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#longdesc_invalid" target="_blank">https://wave.webaim.org/api/docs?format=html#longdesc_invalid</a>
+    This content added 2026-04-09. Check for updated guidance at: <a href="https://wave.webaim.org/api/docs?format=html#label_multiple" target="_blank">https://wave.webaim.org/api/docs?format=html#label_multiple</a>
 
     > ### WAVE Category
     > Errors
