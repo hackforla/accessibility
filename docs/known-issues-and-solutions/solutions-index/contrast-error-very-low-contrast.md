@@ -1,4 +1,4 @@
-# Contrast Error - Very low contrast
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/contrast.svg" /> Contrast Error - Very low contrast
 - WAVE Category: Contrast Error
 - WAVE Contrast Error: Very low contrast
 

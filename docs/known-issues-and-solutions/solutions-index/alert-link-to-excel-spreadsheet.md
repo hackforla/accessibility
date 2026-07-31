@@ -1,4 +1,4 @@
-# Alert - Link to Excel spreadsheet
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/link_excel.svg" /> Alert - Link to Excel spreadsheet
 - WAVE Category: Alert
 - WAVE Alert: Link to Excel spreadsheet
 

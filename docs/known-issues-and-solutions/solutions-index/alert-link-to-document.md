@@ -1,4 +1,4 @@
-# Alert - Link to document
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/link_document.svg" /> Alert - Link to document
 - WAVE Category: Alert
 - WAVE Alert: Link to document
 

@@ -1,4 +1,4 @@
-# Error - Empty Table Header
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/th_empty.svg" /> Error - Empty Table Header
 - WAVE Category: Error
 - WAVE Error: Empty Table Header
 

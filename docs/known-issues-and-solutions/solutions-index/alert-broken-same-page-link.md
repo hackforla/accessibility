@@ -1,4 +1,4 @@
-# Alert - Broken same-page link
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/link_internal_broken.svg" /> Alert - Broken same-page link
 - WAVE Category: Alert
 - WAVE Alert: Broken same-page link
 

@@ -1,4 +1,4 @@
-# Alert - Suspicious alternative text
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/alt_suspicious.svg" /> Alert - Suspicious alternative text
 - WAVE Category: Alert
 - WAVE Alert: Suspicious alternative text
 

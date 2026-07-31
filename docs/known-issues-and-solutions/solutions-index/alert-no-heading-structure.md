@@ -1,4 +1,4 @@
-# Alert - No heading structure
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/heading_missing.svg" /> Alert - No heading structure
 - WAVE Category: Alert
 - WAVE Alert: No heading structure
 

@@ -1,4 +1,4 @@
-# Error - Empty link
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/link_empty.svg" /> Error - Empty link
 - WAVE Category: Error
 - WAVE Error: Empty link
 

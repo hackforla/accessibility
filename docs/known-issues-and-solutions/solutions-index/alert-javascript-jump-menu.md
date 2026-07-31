@@ -1,4 +1,4 @@
-# Alert - JavaScript jump menu
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/javascript_jumpmenu.svg" /> Alert - JavaScript jump menu
 - WAVE Category: Alert
 - WAVE Alert: JavaScript jump menu
 

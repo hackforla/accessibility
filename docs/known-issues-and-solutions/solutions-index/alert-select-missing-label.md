@@ -1,4 +1,4 @@
-# Alert - Select missing label
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/select_missing_label.svg" /> Alert - Select missing label
 - WAVE Category: Alert
 - WAVE Alert: Select missing label
 

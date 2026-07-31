@@ -1,4 +1,4 @@
-# Error - Broken skip link
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/link_skip_broken.svg" /> Error - Broken skip link
 - WAVE Category: Error
 - WAVE Error: Broken skip link
 

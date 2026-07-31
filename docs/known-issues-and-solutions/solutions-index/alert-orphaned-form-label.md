@@ -1,4 +1,4 @@
-# Alert - Orphaned form label
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/label_orphaned.svg" /> Alert - Orphaned form label
 - WAVE Category: Alert
 - WAVE Alert: Orphaned form label
 

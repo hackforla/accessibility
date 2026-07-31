@@ -1,4 +1,4 @@
-# Alert - Audio/Video
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/audio_video.svg" /> Alert - Audio/Video
 - WAVE Category: Alert
 - WAVE Alert: Audio/Video
 

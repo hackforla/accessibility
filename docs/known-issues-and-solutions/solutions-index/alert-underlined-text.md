@@ -1,4 +1,4 @@
-# Alert - Underlined text
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/underline.svg" /> Alert - Underlined text
 - WAVE Category: Alert
 - WAVE Alert: Underlined text
 

@@ -1,4 +1,4 @@
-# Error - Missing Form Label
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/label_missing.svg" /> Error - Missing Form Label
 - WAVE Category: Error
 - WAVE Error: Missing Form Label
 

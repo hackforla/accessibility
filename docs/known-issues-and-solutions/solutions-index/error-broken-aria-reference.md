@@ -1,4 +1,4 @@
-# Error - Broken ARIA reference
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/aria_reference_broken.svg" /> Error - Broken ARIA reference
 - WAVE Category: Error
 - WAVE Error: Broken ARIA reference
 

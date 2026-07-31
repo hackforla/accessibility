@@ -1,4 +1,4 @@
-# Alert - Missing fieldset
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/fieldset_missing.svg" /> Alert - Missing fieldset
 - WAVE Category: Alert
 - WAVE Alert: Missing fieldset
 

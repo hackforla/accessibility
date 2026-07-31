@@ -1,4 +1,4 @@
-# Alert - Skipped heading level
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/heading_skipped.svg" /> Alert - Skipped heading level
 - WAVE Category: Alert
 - WAVE Alert: Skipped heading level
 

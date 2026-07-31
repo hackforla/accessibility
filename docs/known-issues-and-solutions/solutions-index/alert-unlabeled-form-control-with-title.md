@@ -1,4 +1,4 @@
-# Alert - Unlabeled form control with title
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/label_title.svg" /> Alert - Unlabeled form control with title
 - WAVE Category: Alert
 - WAVE Alert: Unlabeled form control with title
 

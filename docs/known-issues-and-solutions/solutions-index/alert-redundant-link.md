@@ -1,4 +1,4 @@
-# Alert - Redundant link
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/link_redundant.svg" /> Alert - Redundant link
 - WAVE Category: Alert
 - WAVE Alert: Redundant link
 

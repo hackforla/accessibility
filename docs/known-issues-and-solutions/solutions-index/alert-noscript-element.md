@@ -1,4 +1,4 @@
-# Alert - Noscript element
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/noscript.svg" /> Alert - Noscript element
 - WAVE Category: Alert
 - WAVE Alert: Noscript element
 

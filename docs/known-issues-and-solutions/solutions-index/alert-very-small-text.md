@@ -1,4 +1,4 @@
-# Alert - Very small text
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/text_small.svg" /> Alert - Very small text
 - WAVE Category: Alert
 - WAVE Alert: Very small text
 

@@ -1,4 +1,4 @@
-# Error - Marquee
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/marquee.svg" /> Error - Marquee
 - WAVE Category: Error
 - WAVE Error: Marquee
 

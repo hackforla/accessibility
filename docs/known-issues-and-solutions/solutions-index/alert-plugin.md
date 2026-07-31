@@ -1,4 +1,4 @@
-# Alert - Plugin
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/plugin.svg" /> Alert - Plugin
 - WAVE Category: Alert
 - WAVE Alert: Plugin
 

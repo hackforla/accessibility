@@ -1,4 +1,4 @@
-# Error - Language missing or invalid
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/language_missing.svg" /> Error - Language missing or invalid
 - WAVE Category: Error
 - WAVE Error: Language missing or invalid
 

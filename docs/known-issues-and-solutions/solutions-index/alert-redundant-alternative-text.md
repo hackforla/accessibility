@@ -1,4 +1,4 @@
-# Alert - Redundant alternative text
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/alt_redundant.svg" /> Alert - Redundant alternative text
 - WAVE Category: Alert
 - WAVE Alert: Redundant alternative text
 

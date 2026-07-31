@@ -1,4 +1,4 @@
-# Error - Blinking content
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/blink.svg" /> Error - Blinking content
 - WAVE Category: Error
 - WAVE Error: Blinking content
 
