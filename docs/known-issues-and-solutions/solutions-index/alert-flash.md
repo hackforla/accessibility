@@ -1,4 +1,4 @@
-# Alert - Flash
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/flash.svg" /> Alert - Flash
 - WAVE Category: Alert
 - WAVE Alert: Flash
 

@@ -1,4 +1,4 @@
-# Alert - Accesskey
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/accesskey.svg" /> Alert - Accesskey
 - WAVE Category: Alert
 - WAVE Alert: Accesskey
 

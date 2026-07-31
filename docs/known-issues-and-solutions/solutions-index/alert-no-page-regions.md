@@ -1,4 +1,4 @@
-# Alert - No page regions
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/region_missing.svg" /> Alert - No page regions
 - WAVE Category: Alert
 - WAVE Alert: No page regions
 

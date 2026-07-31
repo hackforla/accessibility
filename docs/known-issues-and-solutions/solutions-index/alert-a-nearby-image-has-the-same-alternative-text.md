@@ -1,4 +1,4 @@
-# Alert - A nearby image has the same alternative text
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/alt_duplicate.svg" /> Alert - A nearby image has the same alternative text
 - WAVE Category: Alert
 - WAVE Alert: A nearby image has the same alternative text
 

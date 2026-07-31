@@ -1,4 +1,4 @@
-# Alert - Possible heading
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/heading_possible.svg" /> Alert - Possible heading
 - WAVE Category: Alert
 - WAVE Alert: Possible heading
 

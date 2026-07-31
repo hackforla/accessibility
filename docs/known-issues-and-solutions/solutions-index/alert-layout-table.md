@@ -1,4 +1,4 @@
-# Alert - Layout table
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/table_layout.svg" /> Alert - Layout table
 
 - WAVE Category: Alert
 - WAVE Alert: Layout table

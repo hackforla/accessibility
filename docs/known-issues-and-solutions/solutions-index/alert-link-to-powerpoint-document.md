@@ -1,4 +1,4 @@
-# Alert - Link to PowerPoint document
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/link_powerpoint.svg" /> Alert - Link to PowerPoint document
 - WAVE Category: Alert
 - WAVE Alert: Link to PowerPoint document
 

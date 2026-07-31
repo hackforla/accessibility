@@ -1,4 +1,4 @@
-# Alert - Possible list
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/list_possible.svg" /> Alert - Possible list
 - WAVE Category: Alert
 - WAVE Alert: Possible list
 

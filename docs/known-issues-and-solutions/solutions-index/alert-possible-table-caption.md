@@ -1,4 +1,4 @@
-# Alert - Possible table caption
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/table_caption_possible.svg" /> Alert - Possible table caption
 - WAVE Category: Alert
 - WAVE Alert: Possible table caption
 

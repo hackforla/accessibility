@@ -1,4 +1,4 @@
-# Alert - Justified text
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/text_justified.svg" /> Alert - Justified text
 - WAVE Category: Alert
 - WAVE Alert: Justified text
 

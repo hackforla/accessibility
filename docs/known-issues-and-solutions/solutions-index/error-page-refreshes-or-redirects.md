@@ -1,4 +1,4 @@
-# Error - Page refreshes or redirects
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/meta_refresh.svg" /> Error - Page refreshes or redirects
 - WAVE Category: Error
 - WAVE Error: Page refreshes or redirects
 

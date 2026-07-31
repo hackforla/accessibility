@@ -1,4 +1,4 @@
-# Alert - Fieldset missing legend
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/legend_missing.svg" /> Alert - Fieldset missing legend
 - WAVE Category: Alert
 - WAVE Alert: Fieldset missing legend
 

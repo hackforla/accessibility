@@ -1,4 +1,4 @@
-# Alert - Device dependent event handler
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/event_handler.svg" /> Alert - Device dependent event handler
 - WAVE Category: Alert
 - WAVE Alert: Device dependent event handler
 

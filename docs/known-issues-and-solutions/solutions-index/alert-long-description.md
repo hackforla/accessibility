@@ -1,4 +1,4 @@
-# Alert - Long description
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/longdesc.svg" /> Alert - Long description
 - WAVE Category: Alert
 - WAVE Alert: Long description
 

@@ -1,4 +1,4 @@
-# Alert - Missing first level heading
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/h1_missing.svg" /> Alert - Missing first level heading
 - WAVE Category: Alert
 - WAVE Alert: Missing first level heading
 

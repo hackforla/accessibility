@@ -1,4 +1,4 @@
-# Alert - Redundant title text
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/title_redundant.svg" /> Alert - Redundant title text
 - WAVE Category: Alert
 - WAVE Alert: Redundant title text
 

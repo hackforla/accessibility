@@ -1,4 +1,4 @@
-# Error - Image map missing alternative text
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/alt_map_missing.svg" /> Error - Image map missing alternative text
 - WAVE Category: Error
 - WAVE Error: Image map missing alternative text
 

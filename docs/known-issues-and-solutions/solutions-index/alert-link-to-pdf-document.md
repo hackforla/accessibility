@@ -1,4 +1,4 @@
-# Alert - Link to PDF document
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/link_pdf.svg" /> Alert - Link to PDF document
 - WAVE Category: Alert
 - WAVE Alert: Link to PDF document
 

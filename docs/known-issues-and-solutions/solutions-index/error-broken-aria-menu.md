@@ -1,4 +1,4 @@
-# Error - Broken ARIA menu
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/aria_menu_broken.svg" /> Error - Broken ARIA menu
 - WAVE Category: Error
 - WAVE Error: Broken ARIA menu
 

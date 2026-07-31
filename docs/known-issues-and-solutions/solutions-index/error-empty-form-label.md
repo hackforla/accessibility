@@ -1,4 +1,4 @@
-# Error - Empty form label
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/label_empty.svg" /> Error - Empty form label
 - WAVE Category: Error
 - WAVE Error: Empty form label
 

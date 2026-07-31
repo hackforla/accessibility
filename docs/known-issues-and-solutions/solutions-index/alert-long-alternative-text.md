@@ -1,4 +1,4 @@
-# Alert - Long alternative text
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/alt_long.svg" /> Alert - Long alternative text
 - WAVE Category: Alert
 - WAVE Alert: Long alternative text
 

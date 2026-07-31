@@ -1,4 +1,4 @@
-# Alert- Image with title
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/image_title.svg" /> Alert- Image with title
 - WAVE Category: Alert
 - WAVE Alert: Image with title
 

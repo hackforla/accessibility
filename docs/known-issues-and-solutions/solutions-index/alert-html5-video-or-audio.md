@@ -1,4 +1,4 @@
-# Alert - HTML5 video or audio
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/html5_video_audio.svg" /> Alert - HTML5 video or audio
 - WAVE Category: Alert
 - WAVE Alert: HTML5 video or audio
 

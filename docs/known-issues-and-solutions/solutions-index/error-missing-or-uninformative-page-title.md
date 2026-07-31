@@ -1,4 +1,4 @@
-# Error - Missing or uninformative page title
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/title_invalid.svg" /> Error - Missing or uninformative page title
 - WAVE Category: Error
 - WAVE Error: Missing or uninformative page title
 

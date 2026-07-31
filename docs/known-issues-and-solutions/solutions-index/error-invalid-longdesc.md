@@ -1,4 +1,4 @@
-# Error - Invalid longdesc
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/longdesc_invalid.svg" /> Error - Invalid longdesc
 - WAVE Category: Error
 - WAVE Error: Invalid longdesc
 

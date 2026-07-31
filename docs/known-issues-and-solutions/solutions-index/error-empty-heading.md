@@ -1,4 +1,4 @@
-# Error - Empty heading
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/heading_empty.svg" /> Error - Empty heading
 - WAVE Category: Error
 - WAVE Error: Empty heading
 

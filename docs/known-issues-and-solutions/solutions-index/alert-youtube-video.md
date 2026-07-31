@@ -1,4 +1,4 @@
-# Alert - YouTube video
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/youtube_video.svg" /> Alert - YouTube video
 - WAVE Category: Alert
 - WAVE Alert: YouTube video
 

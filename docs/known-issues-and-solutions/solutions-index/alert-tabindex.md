@@ -1,4 +1,4 @@
-# Alert - Tabindex
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/tabindex.svg" /> Alert - Tabindex
 - WAVE Category: Alert
 - WAVE Alert: Tabindex
 

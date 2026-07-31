@@ -1,4 +1,4 @@
-# Alert - Java applet
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/applet.svg" /> Alert - Java applet
 - WAVE Category: Alert
 - WAVE Alert: Java applet
 

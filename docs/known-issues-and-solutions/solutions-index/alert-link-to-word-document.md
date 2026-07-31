@@ -1,4 +1,4 @@
-# Alert - Link to Word document
+# <img width="44" height="44" alt="" src="https://wave.webaim.org/img/icons/link_word.svg" /> Alert - Link to Word document
 - WAVE Category: Alert
 - WAVE Alert: Link to Word document
 
