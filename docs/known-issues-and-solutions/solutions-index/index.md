@@ -63,9 +63,9 @@ Error | [Broken skip link](error-broken-skip-link.md) | missing | missing | miss
 Error | [Empty form label](error-empty-form-label.md) | missing | missing | missing | missing | missing
 Error | [Empty heading](error-empty-heading.md) | missing | missing | missing | missing | missing
 Error | [Empty link](error-empty-link.md) | missing | missing | missing | missing | missing
-Error | [Error Broken ARIA reference](error-error-broken-aria-reference.md) | TRUE | TRUE | TRUE | TRUE | TRUE
-Error | [Error Empty Button](error-error-empty-button.md) | TRUE | TRUE | TRUE | TRUE | TRUE
-Error | [Error Empty Table Header](error-error-empty-table-header.md) | TRUE | TRUE | TRUE | TRUE | TRUE
+Error | [Error Broken ARIA reference](error-broken-aria-reference.md) | TRUE | TRUE | TRUE | TRUE | TRUE
+Error | [Error Empty Button](error-empty-button.md) | TRUE | TRUE | TRUE | TRUE | TRUE
+Error | [Error Empty Table Header](error-empty-table-header.md) | TRUE | TRUE | TRUE | TRUE | TRUE
 Error | [Image button missing alternative text](error-image-button-missing-alternative-text.md) | missing | missing | missing | missing | missing
 Error | [Image map area missing alternative text](error-image-map-area-missing-alternative-text.md) | missing | missing | missing | missing | missing
 Error | [Image map missing alternative text](error-image-map-missing-alternative-text).md | missing | missing | missing | missing | missing
